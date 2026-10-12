@@ -30,11 +30,26 @@ class LazadaError(RuntimeError):
         super().__init__(f"{path}: code={self.code} type={self.type} message={self.message} request_id={self.request_id}")
 
 
+def _bundle():
+    """Parse the optional GREATDEALS secret: KEY=VALUE lines (like a .env file)."""
+    raw = os.environ.get("GREATDEALS_BUNDLE", "")
+    values = {}
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, val = line.split("=", 1)
+        values[key.strip().removeprefix("export ").strip()] = val.strip().strip('"').strip("'")
+    return values
+
+
 def _env(name, *fallbacks):
+    bundle = _bundle()
     for key in (name, *fallbacks):
-        val = os.environ.get(key)
+        val = os.environ.get(key) or bundle.get(key)
         if val:
             return val.strip()
+    print(f"::error title=Missing secret::{name} not found (checked separate secrets and the GREATDEALS secret)")
     raise SystemExit(f"Missing environment variable {name}")
 
 

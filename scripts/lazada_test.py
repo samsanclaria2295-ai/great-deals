@@ -1,8 +1,8 @@
 """One-off connection test for the Lazada PH affiliate API.
 
 Prints only non-secret facts (counts, field names, error codes) because
-Actions logs on a public repo are public. Writes a short summary to the
-GitHub Actions job summary when available.
+Actions logs on a public repo are public. Key results are also emitted as
+workflow annotations so they show on the run page.
 """
 import json
 import os
@@ -11,7 +11,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 import lazada_api as lz  # noqa: E402
 
-lines = []
+lines, notices = [], []
 
 
 def out(msg=""):
@@ -19,12 +19,12 @@ def out(msg=""):
     lines.append(msg)
 
 
-def section(title):
-    out("")
-    out(f"## {title}")
+def note(msg):
+    out(msg)
+    notices.append(msg)
 
 
-def first_items(data):
+def items_of(data):
     result = data.get("result") or data.get("data") or {}
     if isinstance(result, dict):
         items = result.get("data") or result.get("products") or []
@@ -35,65 +35,56 @@ def first_items(data):
 
 ok = True
 
-# 1. Category tree (public; helps pick categoryL1 IDs)
-section("1. Category tree")
+# 1. Category tree (helps pick categoryL1 IDs)
 try:
-    tree = lz.category_tree()
-    cats = tree.get("data") or []
-    out(f"OK: {len(cats)} top-level categories")
-    for c in cats:
-        name = c.get("name", "")
-        if any(w in name.lower() for w in ("home", "kitchen", "appliance", "living")):
-            out(f"- {name}: {c.get('category_id')}")
+    cats = lz.category_tree().get("data") or []
+    picks = [f"{c.get('name')}={c.get('category_id')}" for c in cats
+             if any(w in str(c.get("name", "")).lower() for w in ("home", "kitchen", "appliance", "living"))]
+    note(f"Categories OK: {len(cats)} top-level. Home/kitchen: {'; '.join(picks) or 'none matched'}")
 except Exception as e:  # noqa: BLE001
-    out(f"FAILED: {e}")
+    note(f"Categories FAILED: {e}")
 
 # 2. Product feed at several page sizes
-section("2. Product feed (/marketing/product/feed)")
 sample_ids = []
 for limit in (20, 50, 100):
     try:
-        data = lz.product_feed(page=1, limit=limit)
-        items = first_items(data)
-        out(f"limit={limit}: OK, {len(items)} items")
+        items = items_of(lz.product_feed(page=1, limit=limit))
+        note(f"Feed limit={limit}: OK, {len(items)} items")
         if items and not sample_ids:
-            first = items[0]
-            out(f"fields: {', '.join(sorted(first.keys()))}")
-            for it in items[:3]:
-                out(
-                    f"- {str(it.get('productName', ''))[:60]} | price {it.get('discountPrice')} {it.get('currency', '')}"
-                    f" | commission {it.get('totalCommissionRate')} | sales7d {it.get('sales7d')}"
-                )
+            note("Feed fields: " + ", ".join(sorted(items[0].keys()))[:900])
+            sample = " | ".join(
+                f"{str(it.get('productName', ''))[:40]} P{it.get('discountPrice')} comm {it.get('totalCommissionRate')} 7d {it.get('sales7d')}"
+                for it in items[:3])
+            note("Feed sample: " + sample)
             sample_ids = [it.get("productId") for it in items[:2] if it.get("productId")]
     except Exception as e:  # noqa: BLE001
         ok = False
-        out(f"limit={limit}: FAILED: {e}")
+        note(f"Feed limit={limit} FAILED: {e}")
         break
 
 # 3. Affiliate links with a sub ID
-section("3. Affiliate links (/marketing/getlink)")
 if sample_ids:
     try:
-        data = lz.get_links(sample_ids, sub_id1="test")
-        result = (data.get("result") or {}).get("data") or {}
+        result = (lz.get_links(sample_ids, sub_id1="test").get("result") or {}).get("data") or {}
         links = result.get("product_batch_get_link_info_list") or []
         errors = result.get("error_info_list") or []
-        out(f"OK: {len(links)} links, {len(errors)} errors")
-        for l in links:
-            link = l.get("regular_promotion_link") or ""
-            out(f"- product {l.get('product_id')}: link {'present' if link else 'missing'} ({link[:30]}...)")
-        for e in errors:
-            out(f"- error {e.get('error_code')}: {e.get('error_msg')}")
+        have = sum(1 for l in links if l.get("regular_promotion_link"))
+        prefix = (links[0].get("regular_promotion_link") or "")[:28] if links else ""
+        note(f"Links OK: {have}/{len(sample_ids)} links (format {prefix}...), {len(errors)} errors "
+             + "; ".join(f"{e.get('error_code')} {e.get('error_msg')}" for e in errors))
     except Exception as e:  # noqa: BLE001
         ok = False
-        out(f"FAILED: {e}")
+        note(f"Links FAILED: {e}")
 else:
-    out("Skipped (no products from feed)")
+    note("Links skipped: no products from feed")
+
+for msg in notices[:10]:
+    print(f"::notice title=Lazada test::{msg}")
 
 summary = os.environ.get("GITHUB_STEP_SUMMARY")
 if summary:
     with open(summary, "a", encoding="utf-8") as f:
-        f.write("# Lazada API connection test\n" + "\n".join(lines) + "\n")
+        f.write("# Lazada API connection test\n\n" + "\n\n".join(lines) + "\n")
 
 os.makedirs("test-output", exist_ok=True)
 with open("test-output/lazada_test.json", "w", encoding="utf-8") as f:

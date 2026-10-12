@@ -9,7 +9,6 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-    environment: GreatFinds
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -18,7 +17,10 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run connection test
         env:
+          # Either three separate secrets...
           LAZADA_APP_KEY: ${{ secrets.LAZADA_APP_KEY }}
           LAZADA_APP_SECRET: ${{ secrets.LAZADA_APP_SECRET }}
           LAZADA_USER_TOKEN: ${{ secrets.LAZADA_USER_TOKEN }}
+          # ...or one GREATDEALS secret containing KEY=VALUE lines.
+          GREATDEALS_BUNDLE: ${{ secrets.GREATDEALS }}
         run: python scripts/lazada_test.py
