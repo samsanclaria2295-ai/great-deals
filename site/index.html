@@ -1,54 +1,197 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Great Finds | Sulit finds for Filipino shoppers</title>
-<meta name="description" content="Great Finds curates worth-it finds and buying guides for Filipino shoppers: home, kitchen and everyday essentials, with honest pros and cons.">
+<title>Great Finds | Researched product finds for Filipino shoppers</title>
+<meta name="description" content="Great Finds shares researched product finds and buying guides for Filipino shoppers: tech, home and decor, beauty and seasonal picks, with honest pros, cons and sources.">
+<link rel="canonical" href="https://samsanclaria2295-ai.github.io/great-deals/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Great Finds">
+<meta property="og:title" content="Great Finds | Researched product finds for Filipino shoppers">
+<meta property="og:description" content="Great Finds shares researched product finds and buying guides for Filipino shoppers: tech, home and decor, beauty and seasonal picks, with honest pros, cons and sources.">
+<meta property="og:url" content="https://samsanclaria2295-ai.github.io/great-deals/">
+<meta property="og:image" content="https://samsanclaria2295-ai.github.io/great-deals/assets/img/og-home.jpg">
+<meta property="og:locale" content="en_PH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f5ebdd">
 <link rel="icon" type="image/png" href="great-finds-icon-150.png">
-<style>
-  :root { --red:#E8482C; --ink:#1d1d1f; --muted:#5f6368; --bg:#fffaf7; --card:#ffffff; --line:#f0e3dc; }
-  * { box-sizing:border-box; }
-  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
-  header { background:var(--red); color:#fff; }
-  .wrap { max-width:880px; margin:0 auto; padding:0 16px; }
-  .top { display:flex; align-items:center; gap:12px; padding:18px 0; }
-  .top img { width:44px; height:44px; border-radius:10px; }
-  .top b { font-size:1.25rem; letter-spacing:.2px; }
-  .hero { padding:36px 0 44px; }
-  .hero h1 { margin:0 0 10px; font-size:clamp(1.8rem,5vw,2.6rem); line-height:1.15; }
-  .hero p { margin:0; max-width:620px; font-size:1.08rem; opacity:.95; }
-  main.wrap { padding:32px 16px 8px; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:16px; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; }
-  .card h3 { margin:0 0 6px; font-size:1.05rem; }
-  .card p { margin:0; color:var(--muted); font-size:.97rem; }
-  .note { margin:28px 0; padding:16px 18px; border-left:4px solid var(--red); background:#fff; border-radius:8px; color:var(--muted); font-size:.95rem; }
-  footer { border-top:1px solid var(--line); padding:20px 0 32px; color:var(--muted); font-size:.9rem; }
-  footer a { color:var(--ink); }
-</style>
+<link rel="apple-touch-icon" href="assets/img/icon-512.png">
+<link rel="preload" href="assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <div class="top"><img src="great-finds-icon-150.png" alt="Great Finds logo"><b>Great Finds</b></div>
-    <div class="hero">
-      <h1>Sulit finds, honestly reviewed.</h1>
-      <p>We look through thousands of online listings so you don't have to, and share the ones actually worth your peso, with the pros <em>and</em> the cons.</p>
-    </div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <nav class="nav" aria-label="Main">
+      <a href="guides/">Guides</a>
+      <a href="guides/#tech">Tech</a>
+      <a href="guides/#home">Home</a>
+      <a href="guides/#beauty">Beauty</a>
+      <a href="guides/#seasonal">Seasonal</a>
+    </nav>
+    <a class="logo" href="index.html" aria-label="Great Finds, home"><span class="word">Great<br>Finds<span class="dots" aria-hidden="true"><i></i><i></i></span></span><span class="tag">Honest finds · PH</span></a>
+    <nav class="nav right" aria-label="Secondary">
+      <a href="about.html">How we pick</a>
+      <a class="pin" href="https://www.pinterest.com/samsanclaria2295/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.64 19.31c-.09-.79-.17-2 .03-2.86l1.17-4.97s-.3-.6-.3-1.48c0-1.39.81-2.43 1.81-2.43.85 0 1.27.64 1.27 1.41 0 .86-.55 2.14-.83 3.33-.24 1 .5 1.81 1.48 1.81 1.78 0 3.14-1.87 3.14-4.58 0-2.39-1.72-4.07-4.18-4.07-2.85 0-4.52 2.14-4.52 4.35 0 .86.33 1.78.74 2.28.08.1.09.19.07.29l-.28 1.13c-.04.18-.15.22-.33.13-1.25-.58-2.03-2.41-2.03-3.88 0-3.16 2.3-6.06 6.62-6.06 3.48 0 6.18 2.48 6.18 5.79 0 3.45-2.18 6.23-5.2 6.23-1.02 0-1.97-.53-2.3-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62A10 10 0 1 0 12 2z"/></svg>Pinterest</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span><span></span></button>
   </div>
 </header>
-<main class="wrap">
-  <div class="grid">
-    <div class="card"><h3>Daily picks</h3><p>A handful of worth-it deals each day, checked for stock, price and recent sales.</p></div>
-    <div class="card"><h3>Buying guides</h3><p>"Best ___ under P___" guides for home, kitchen and everyday essentials, refreshed regularly.</p></div>
-    <div class="card"><h3>Sale-day roundups</h3><p>Payday and double-day sale highlights, so you don't miss what matters.</p></div>
+<nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="guides/">All guides</a>
+    <a href="about.html">How we pick</a>
+    <div class="group">
+      <a class="sub" href="guides/#tech">Tech &amp; Gadgets</a>
+      <a class="sub" href="guides/#home">Home &amp; Decor</a>
+      <a class="sub" href="guides/#beauty">Beauty &amp; Skin Care</a>
+      <a class="sub" href="guides/#seasonal">Seasonal Finds</a>
+      <a class="sub" href="https://www.pinterest.com/samsanclaria2295/" target="_blank" rel="noopener">Pinterest</a>
+    </div>
+</nav>
+<main id="main">
+<section class="hero">
+  <div class="wrap grid">
+    <div>
+      <span class="kicker" data-reveal>Product finds for Filipino homes</span>
+      <h1><span class="line"><span>Good finds,</span></span><span class="line"><span>honestly</span></span><span class="line"><span>picked.</span></span></h1>
+      <svg class="squiggle " viewBox="0 0 132 14" aria-hidden="true"><path d="M2 8c8-7 14-7 22 0s14 7 22 0 14-7 22 0 14 7 22 0 14-7 22 0 12 6 18 2"/></svg>
+      <p class="lede" data-reveal>We read the listings, the spec sheets and the independent reviews so you don't have to, then share the finds that are worth your peso, with the pros <em>and</em> the cons.</p>
+      <div class="actions" data-reveal>
+        <a class="btn" href="guides/">Browse the guides <svg class="arr" viewBox="0 0 24 12" aria-hidden="true"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="link-arrow" href="about.html">How we pick <svg class="arr" viewBox="0 0 24 12" aria-hidden="true"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <div class="hero-art" data-reveal>
+      <div class="blob"><img src="assets/img/hero-560.webp" srcset="assets/img/hero-560.webp 560w, assets/img/hero-1000.webp 1000w" sizes="(max-width: 920px) 100vw, 560px" width="1000" height="1241" alt="AI sample render of a lilac ceramic stand in warm sunlight holding a small vase, a dropper bottle, wireless earbuds and a wrapped gift against terracotta tiles" fetchpriority="high"><span class="ai-chip">AI sample render</span></div>
+      <div class="badge"><svg class="ring" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="ring-hero" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#ring-hero" textLength="286" lengthAdjust="spacing">Checked · Compared · Chosen with care · </textPath></text></svg><span class="center"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15 15l5.5 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span></div>
+    </div>
   </div>
-  <p class="note"><strong>Affiliate disclosure:</strong> Some links on Great Finds are affiliate links. If you buy through them, we may earn a small commission at no extra cost to you. Prices and availability change often; always check the final price on the store before buying. Our picks are prepared with the help of AI tools and reviewed against the product data available at the time of posting.</p>
+</section>
+
+<section class="band" aria-label="What you can expect">
+  <div class="wrap row" data-stagger>
+    <div class="cell" data-reveal><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7.5" cy="8.5" r="1.6" fill="currentColor"/></svg></span><div><b>Real Lazada listings</b><span>Live products, prices dated</span></div></div>
+    <div class="cell" data-reveal><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 0 0 6 0L7 7zm10 0-3 7a3 3 0 0 0 6 0l-3-7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></span><div><b>Pros and cons</b><span>Always both sides</span></div></div>
+    <div class="cell" data-reveal><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 8h8M8 11.5h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span><div><b>Sources linked</b><span>Check the research yourself</span></div></div>
+    <div class="cell" data-reveal><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 20V4h5a4.5 4.5 0 0 1 0 9H8M5 7.5h14M5 10.5h14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><b>Budget-friendly</b><span>Mostly under ₱5,000</span></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="intro" data-reveal>
+      <span class="kicker">Latest guides</span>
+      <h2>Fresh finds, carefully picked.</h2>
+      <svg class="squiggle " viewBox="0 0 132 14" aria-hidden="true"><path d="M2 8c8-7 14-7 22 0s14 7 22 0 14-7 22 0 14 7 22 0 14-7 22 0 12 6 18 2"/></svg>
+      <p>Each guide starts with real listings and ends with an honest verdict: who a product suits, what to watch out for, and where the research came from.</p>
+      <p>New guides are added as our research turns up products worth recommending.</p>
+      <a class="link-arrow" href="guides/">See all guides <svg class="arr" viewBox="0 0 24 12" aria-hidden="true"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+    <div class="cards" data-stagger><a class="card" href="guides/home-style-finds.html" data-cat="home" data-reveal>
+      <div class="media bg-olive"><img src="assets/img/guide-home-800.webp" srcset="assets/img/guide-home-800.webp 800w, assets/img/guide-home-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 920px) 50vw, 400px" width="1600" height="1073" alt="" loading="lazy" decoding="async"><span class="ai-chip">AI sample render</span></div>
+      <div class="body">
+        <span class="cat">Home &amp; Decor</span>
+        <h3>Shop by home style</h3>
+        <p>Three calm, condo-friendly looks and the affordable finds that help you get there, from clear storage that tames clutter to a capiz lamp that glows like home.</p>
+        <div class="foot"><span>8 min read · Updated Oct 12, 2026</span><span class="plus"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></div>
+      </div>
+    </a>
+<a class="card" href="guides/must-have-phone-accessories.html" data-cat="tech" data-reveal>
+      <div class="media bg-mustard"><img src="assets/img/guide-phone-800.webp" srcset="assets/img/guide-phone-800.webp 800w, assets/img/guide-phone-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 920px) 50vw, 400px" width="1600" height="1073" alt="" loading="lazy" decoding="async"><span class="ai-chip">AI sample render</span></div>
+      <div class="body">
+        <span class="cat">Tech &amp; Gadgets</span>
+        <h3>Must-have phone accessories</h3>
+        <p>The small add-ons that make a phone easier to live with every day, from a flight-friendly power bank to a cable that won't give up on you. Picked from real Lazada listings and checked against independent reviews.</p>
+        <div class="foot"><span>8 min read · Updated Oct 12, 2026</span><span class="plus"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></div>
+      </div>
+    </a>
+<a class="card" href="guides/small-condo-christmas-decor.html" data-cat="seasonal home" data-reveal>
+      <div class="media bg-terracotta"><img src="assets/img/guide-xmas-800.webp" srcset="assets/img/guide-xmas-800.webp 800w, assets/img/guide-xmas-1600.webp 1600w" sizes="(max-width: 640px) 100vw, (max-width: 920px) 50vw, 400px" width="1600" height="1073" alt="" loading="lazy" decoding="async"><span class="ai-chip">AI sample render</span></div>
+      <div class="body">
+        <span class="cat">Seasonal Finds</span>
+        <h3>Small-condo Christmas decor</h3>
+        <p>No seven-foot tree required. Warm lights, a tabletop tree, stars in the window and a few cozy swaps can turn a compact sala into a Christmas home. Every pick starts under ₱500.</p>
+        <div class="foot"><span>8 min read · Updated Oct 12, 2026</span><span class="plus"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></div>
+      </div>
+    </a></div>
+  </div>
+</section>
+
+<section class="section tight" style="background:var(--cream-2)">
+  <div class="wrap">
+    <div data-reveal>
+      <span class="kicker">Shop by category</span>
+      <h2>What are you shopping for?</h2>
+      <svg class="squiggle " viewBox="0 0 132 14" aria-hidden="true"><path d="M2 8c8-7 14-7 22 0s14 7 22 0 14-7 22 0 14 7 22 0 14-7 22 0 12 6 18 2"/></svg>
+    </div>
+    <div class="cats" data-stagger><a class="cat-tile" href="guides/#tech" data-reveal><img src="assets/img/cat-tech-560.webp" srcset="assets/img/cat-tech-560.webp 560w, assets/img/cat-tech-1000.webp 1000w" sizes="(max-width: 640px) 50vw, (max-width: 1080px) 50vw, 300px" width="1000" height="1241" alt="" loading="lazy" decoding="async"><span class="count">1 guide</span><span class="label"><b>Tech &amp; Gadgets</b><span>Chargers, earbuds and the small gadgets that make everyday life smoother.</span></span></a>
+<a class="cat-tile" href="guides/#home" data-reveal><img src="assets/img/cat-home-560.webp" srcset="assets/img/cat-home-560.webp 560w, assets/img/cat-home-1000.webp 1000w" sizes="(max-width: 640px) 50vw, (max-width: 1080px) 50vw, 300px" width="1000" height="1241" alt="" loading="lazy" decoding="async"><span class="count">2 guides</span><span class="label"><b>Home &amp; Decor</b><span>Storage, lighting and decor that make a small space feel like home.</span></span></a>
+<a class="cat-tile" href="guides/#beauty" data-reveal><img src="assets/img/cat-beauty-560.webp" srcset="assets/img/cat-beauty-560.webp 560w, assets/img/cat-beauty-1000.webp 1000w" sizes="(max-width: 640px) 50vw, (max-width: 1080px) 50vw, 300px" width="1000" height="1241" alt="" loading="lazy" decoding="async"><span class="count soon">Coming soon</span><span class="label"><b>Beauty &amp; Skin Care</b><span>Skin care and beauty finds, with extra care to steer clear of fakes.</span></span></a>
+<a class="cat-tile" href="guides/#seasonal" data-reveal><img src="assets/img/cat-seasonal-560.webp" srcset="assets/img/cat-seasonal-560.webp 560w, assets/img/cat-seasonal-1000.webp 1000w" sizes="(max-width: 640px) 50vw, (max-width: 1080px) 50vw, 300px" width="1000" height="1241" alt="" loading="lazy" decoding="async"><span class="count">1 guide</span><span class="label"><b>Seasonal Finds</b><span>Christmas, sale seasons and the moments worth planning for.</span></span></a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div style="margin-bottom:28px;max-width:860px">
+      <div data-reveal>
+        <span class="kicker">How we pick</span>
+        <h2>Four checks before anything makes the list.</h2>
+        <svg class="squiggle " viewBox="0 0 132 14" aria-hidden="true"><path d="M2 8c8-7 14-7 22 0s14 7 22 0 14-7 22 0 14 7 22 0 14-7 22 0 12 6 18 2"/></svg>
+      </div>
+      <p class="lede" data-reveal>Being someone's go-to for recommendations means earning trust one guide at a time. This is the process every pick goes through, and we're open about where the evidence is strong and where it's thin.</p>
+    </div>
+    <div class="steps" data-stagger>
+      <div class="step" data-reveal><h3>Start with real listings</h3><p>We work from Lazada's own product data: current price, stock and how many people have bought recently.</p></div>
+      <div class="step" data-reveal><h3>Weed out the risky ones</h3><p>Odd prices, keyword-stuffed names, look-alike stores and recalled model numbers get dropped, even when they sell well.</p></div>
+      <div class="step" data-reveal><h3>Read the research</h3><p>Manufacturer specs, independent reviews and safety guidance, cross-checked with AI research assistants (Claude, Gemini and ChatGPT).</p></div>
+      <div class="step" data-reveal><h3>Write it straight</h3><p>Pros and cons, who it's for and the sources behind every claim. We never say we tested something we didn't.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="trio" aria-label="Everyday finds">
+  <div class="t-text" data-reveal>
+    <span class="kicker">Little upgrades</span>
+    <h2>Every day is a good find day.</h2>
+    <svg class="squiggle cream" viewBox="0 0 132 14" aria-hidden="true"><path d="M2 8c8-7 14-7 22 0s14 7 22 0 14-7 22 0 14 7 22 0 14-7 22 0 12 6 18 2"/></svg>
+    <p>The best finds aren't always big purchases. A cable that doesn't fray, a softer light for the evening, a basket that finally fits the corner: small things that make home life a little easier.</p>
+    <a class="link-arrow" href="guides/">Read the guides <svg class="arr" viewBox="0 0 24 12" aria-hidden="true"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  </div>
+  <div class="t-img"><img src="assets/img/everyday-800.webp" srcset="assets/img/everyday-800.webp 800w, assets/img/everyday-1600.webp 1600w" sizes="(max-width: 920px) 100vw, 45vw" width="1600" height="1195" alt="AI sample render of a sunlit condo kitchen counter with a rattan tray holding a phone on a stand, a cup of coffee and a small plant" loading="lazy" decoding="async"><span class="ai-chip">AI sample render</span></div>
+  <div class="t-follow" data-reveal>
+    <div class="badge"><svg class="ring" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="ring-follow" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text><textPath href="#ring-follow" textLength="286" lengthAdjust="spacing">Good finds · Good finds · Good finds · </textPath></text></svg><span class="center"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7.5" cy="8.5" r="1.6" fill="currentColor"/></svg></span></div>
+    <p style="margin:0;max-width:18em">New finds and room ideas, pinned as we publish them.</p>
+    <span class="handle">pinterest.com/samsanclaria2295</span>
+    <a class="link-arrow" href="https://www.pinterest.com/samsanclaria2295/" target="_blank" rel="noopener">Follow on Pinterest <svg class="arr" viewBox="0 0 24 12" aria-hidden="true"><path d="M0 6h22M17 1l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  </div>
+</section>
 </main>
-<footer>
-  <div class="wrap">© <span id="y"></span> Great Finds · Philippines · <a href="privacy.html">Privacy Policy</a></div>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="top">
+      <div class="about"><b>Great Finds</b><p>Researched product finds for Filipino shoppers: tech, home and decor, beauty and seasonal picks, always with the pros and the cons.</p></div>
+      <nav aria-label="Footer">
+        <a href="guides/">Guides</a>
+        <a href="about.html">How we pick</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="mailto:samsanclaria2295@gmail.com">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="https://www.pinterest.com/samsanclaria2295/" target="_blank" rel="noopener" aria-label="Great Finds on Pinterest"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.64 19.31c-.09-.79-.17-2 .03-2.86l1.17-4.97s-.3-.6-.3-1.48c0-1.39.81-2.43 1.81-2.43.85 0 1.27.64 1.27 1.41 0 .86-.55 2.14-.83 3.33-.24 1 .5 1.81 1.48 1.81 1.78 0 3.14-1.87 3.14-4.58 0-2.39-1.72-4.07-4.18-4.07-2.85 0-4.52 2.14-4.52 4.35 0 .86.33 1.78.74 2.28.08.1.09.19.07.29l-.28 1.13c-.04.18-.15.22-.33.13-1.25-.58-2.03-2.41-2.03-3.88 0-3.16 2.3-6.06 6.62-6.06 3.48 0 6.18 2.48 6.18 5.79 0 3.45-2.18 6.23-5.2 6.23-1.02 0-1.97-.53-2.3-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62A10 10 0 1 0 12 2z"/></svg></a>
+        <a href="mailto:samsanclaria2295@gmail.com" aria-label="Email Great Finds"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+    <div class="legal">
+      <p><strong>Affiliate disclosure:</strong> Some links on Great Finds are affiliate links. If you buy through them, we may earn a small commission at no extra cost to you. Prices and availability change often; always check the final price on the store before buying. Our picks are prepared with the help of AI tools and reviewed against the product data available at the time of posting. Images marked "AI sample render" are generated with AI for inspiration and are not photos of the actual products.</p>
+      <p>© <span id="y">2026</span> Great Finds · Philippines · An independent site, not operated by Lazada. · <a href="privacy.html">Privacy Policy</a></p>
+    </div>
+  </div>
 </footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<script src="assets/js/site.js" defer></script>
 </body>
 </html>

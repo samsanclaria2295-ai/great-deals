@@ -1,0 +1,247 @@
+{
+  "slug": "home-style-finds",
+  "category": "home",
+  "color": "olive",
+  "type": "styles",
+  "title": "Find your home style: MUJI-inspired, Japandi and Modern Filipino finds",
+  "shortTitle": "Shop by home style",
+  "kicker": "Home & Decor · Style guide",
+  "dek": "Three calm, condo-friendly looks and the affordable finds that help you get there, from clear storage that tames clutter to a capiz lamp that glows like home.",
+  "description": "Affordable Lazada finds for three home styles that suit Filipino condos: MUJI-inspired minimalism, Japandi and Modern Filipino, with styling tips and honest notes.",
+  "published": "2026-10-12",
+  "updated": "2026-10-12",
+  "readMinutes": 8,
+  "hero": {
+    "img": "guide-home",
+    "alt": "AI sample render of a sunlit condo corner with an olive wall and a light-wood shelf holding a clear storage bin, a reed diffuser, a wooden tray, a capiz petal lamp and a rattan basket, beside a paper lantern lamp",
+    "render": true
+  },
+  "intro": [
+    "Your home doesn't need a renovation to feel like you. Most of a style comes down to a handful of choices: the colours you repeat, the materials you can touch, and how much you leave out.",
+    "Below are three looks that work especially well in condos and small homes, each with a few affordable finds to get you started. Every style opens with an AI sample render of the overall look, followed by the actual products we picked, with their real photos from Lazada."
+  ],
+  "method": "Home decor rarely gets independent reviews, so we focused on what we can check: the product is available through Lazada's affiliate program, it's sold by a named brand, maker or established store, the price makes sense, and people are still buying it. Instead of inventing reviews, we share practical notes about each type of item. We haven't handled these products ourselves, and Lazada star ratings aren't part of the data we can access, so read the latest buyer reviews on each listing before you buy.",
+  "sections": [
+    {
+      "id": "muji-inspired",
+      "name": "MUJI-inspired minimalism",
+      "short": "MUJI-inspired",
+      "img": "style-muji",
+      "alt": "AI sample render of a bright condo bedroom corner with a slim white drawer tower, clear desk organizers, a small reed diffuser on a shelf and plain pale-blue bedding",
+      "definition": "MUJI is a Japanese retailer known for plain, practical basics with no visible branding. A MUJI-inspired home borrows that idea: storage first, quiet colours, and everyday things that look good because they're simple. It suits condo living well, because a tidy small room always feels bigger.",
+      "tips": [
+        "Hide clutter first. Matching drawers and clear bins do more for a small room than any decor piece.",
+        "Keep to two or three colours, like white, oat and light wood, and repeat them around the room.",
+        "Choose soft, clean scents and plain containers over decorative ones."
+      ],
+      "note": "These aren't MUJI products, and Great Finds isn't affiliated with MUJI. They're similar finds for the same calm look.",
+      "items": [
+        {
+          "id": "4052239525",
+          "name": "Orocan Natura Slim Drawer Cabinet (4 or 5 layers)",
+          "brand": "Orocan",
+          "summary": "A slim tower of matching drawers is the backbone of a storage-first room, and it slips into the narrow gaps beside a bed or desk that condo layouts are full of.",
+          "pros": [
+            "Slim footprint for tight spaces",
+            "Choose 4 or 5 layers in one listing",
+            "Branded, with plenty of stock"
+          ],
+          "cons": [
+            "Plastic, so it reads practical rather than premium",
+            "Colour options aren't clear from our data"
+          ],
+          "tip": "Measure the gap and your doorway before buying, and check the colour options for a white or neutral one."
+        },
+        {
+          "id": "3663051286",
+          "name": "Home Gallery Ultra Clear All-Purpose Organizer",
+          "brand": "Home Gallery",
+          "summary": "Clear bins let you see what you own at a glance, which is the whole point of this look. The listing pitches them for the fridge, pantry and kitchen cabinets, and they work just as well on a desk or under the sink.",
+          "pros": [
+            "Crystal clear, so contents stay visible",
+            "Made for fridge, pantry and cabinet use, per the listing",
+            "Sold by Home Gallery's own store"
+          ],
+          "cons": [
+            "Low stock when we checked",
+            "Sizes vary by variant, so check the dimensions"
+          ],
+          "tip": "Measure your shelf depth and pick one size you can repeat; a row of matching bins looks calmer than a mix.",
+          "alt": {
+            "id": "3662382948",
+            "name": "Home Gallery Ultra Clear Modular Drawer Organizer",
+            "note": "Small stackable trays from the same store, for desk and dresser drawers."
+          }
+        },
+        {
+          "id": "4689275643",
+          "name": "Mandaue Foam Reed Diffuser with 5 Sticks",
+          "brand": "Mandaue Foam",
+          "summary": "A reed diffuser gives a room a quiet scent with no cords, lights or noise, which suits a pared-back space better than a gadget. This one is from Mandaue Foam, the Philippine furniture and home store.",
+          "pros": [
+            "No electricity and no noise",
+            "From Mandaue Foam's own store",
+            "Popular with recent buyers"
+          ],
+          "cons": [
+            "Scent strength depends on room size and how many reeds you use",
+            "Scent options aren't listed in our data"
+          ],
+          "tip": "Flip the reeds every few days to refresh the scent, and keep the bottle away from direct sun and the edge of shelves.",
+          "alt": {
+            "id": "5298778188",
+            "name": "Doralia Reed Diffuser Set (50 mL)",
+            "note": "A cheaper, unbranded set with plenty of recent buyers, if you want to try a few scents first."
+          }
+        },
+        {
+          "id": "1127764703",
+          "name": "HOLA Plain Cotton Fitted Sheet Set with 2 Pillowcases",
+          "brand": "HOLA",
+          "summary": "Plain cotton bedding in a soft colour finishes the look. This set has a fitted sheet and two pillowcases from HOLA's own store. The listing name mentions blue colours, so pick the palest shade for a calm, airy room.",
+          "pros": [
+            "Plain cotton, per the listing name",
+            "Fitted sheet and two pillowcases in one set",
+            "Popular with recent buyers"
+          ],
+          "cons": [
+            "Colour choices may be limited to blues",
+            "Check the bed size options before ordering"
+          ],
+          "tip": "Check the size against your mattress, including its thickness, since fitted sheets need enough depth to stay on."
+        }
+      ]
+    },
+    {
+      "id": "japandi",
+      "name": "Japandi",
+      "short": "Japandi",
+      "img": "style-japandi",
+      "alt": "AI sample render of a Japandi-style condo living room with an oatmeal sofa, terracotta and beige pillows, a low wooden table with a round tray, and a paper lantern lamp",
+      "definition": "Japandi blends Japanese minimalism with Scandinavian comfort: low, simple furniture, natural wood, soft neutral colours and handmade-looking textures. It's as calm as a minimalist room, but warmer and more lived-in.",
+      "tips": [
+        "Pick one wood tone and repeat it, in a tray, a cabinet or a stool.",
+        "Use muted, earthy colours like oat, clay, sage and charcoal instead of bright accents.",
+        "Leave some walls and surfaces empty. The breathing room is part of the look.",
+        "A round paper lantern lamp is a classic finishing touch. We haven't found one that passes our checks yet, so it isn't linked here."
+      ],
+      "items": [
+        {
+          "id": "4978509575",
+          "name": "Mandaue Foam Throw Pillowcase (single)",
+          "brand": "Mandaue Foam",
+          "summary": "Changing pillow covers is the cheapest way to move a sofa toward Japandi's soft, earthy palette. These are sold as singles from Mandaue Foam's store, so you can buy exactly as many as you need and mix two colours.",
+          "pros": [
+            "Sold individually, so you can mix colours",
+            "From Mandaue Foam's own store",
+            "Very popular with recent buyers"
+          ],
+          "cons": [
+            "Fabric and colour options aren't clear from our data",
+            "Check the size against your inserts"
+          ],
+          "tip": "Choose muted colours like oat, clay or charcoal, and check the fabric and size on the listing before ordering."
+        },
+        {
+          "id": "4695086778",
+          "name": "Mandaue Foam Starki 3-Drawer Mobile Cabinet",
+          "brand": "Mandaue Foam",
+          "summary": "A low, plain cabinet on wheels gives you closed storage beside the sofa or under a desk without adding visual noise. In a wood-look finish, it ties straight into the rest of a Japandi room.",
+          "pros": [
+            "Closed storage keeps surfaces clear",
+            "Mobile, so it moves where you need it",
+            "From Mandaue Foam's own store"
+          ],
+          "cons": [
+            "The priciest pick in this guide",
+            "Only a few in stock when we checked",
+            "Finish options need checking on the listing"
+          ],
+          "tip": "Choose a light wood-look finish if it's offered, and measure the space under your desk first."
+        },
+        {
+          "id": "935964540",
+          "name": "KAHOY Acacia Wooden Tray",
+          "brand": "Kahoy Woodcrafts",
+          "summary": "A round wooden tray is a small thing that does a lot: it gathers the remote, a candle and a cup on the coffee table and adds warm wood grain to the room. This acacia tray is sold by Kahoy Woodcrafts.",
+          "pros": [
+            "Acacia wood, per the listing",
+            "Round, serving and wine-tray options in one listing",
+            "From a dedicated woodcraft seller"
+          ],
+          "cons": [
+            "Only a few recent buyers, so read the latest reviews",
+            "Wood needs to stay dry, so don't soak it"
+          ],
+          "tip": "Wipe it clean with a damp cloth and dry it right away. For a coffee table, the round option fits the Japandi look best."
+        }
+      ]
+    },
+    {
+      "id": "modern-filipino",
+      "name": "Modern Filipino",
+      "short": "Modern Filipino",
+      "img": "style-filipino",
+      "alt": "AI sample render of a bright condo dining nook with a glowing capiz petal lamp, a rattan and abaca basket of bread and mangoes, rattan chairs and a woven buri hamper in the corner",
+      "definition": "Modern Filipino style brings local natural materials like rattan, abaca, buri and capiz into a clean, modern room. Think woven textures, warm wood and soft, glowing light, without the clutter. It feels right at home in the tropics and celebrates materials many of us grew up with.",
+      "tips": [
+        "Mix one or two woven pieces with plain, modern furniture so the room feels fresh, not like a souvenir shop.",
+        "Keep rattan, abaca and buri in well-ventilated spots and wipe them with a dry cloth; natural fibres can grow mould in humid rooms.",
+        "Use LED bulbs in capiz lamps. They use less energy and give off less heat than old incandescent bulbs."
+      ],
+      "items": [
+        {
+          "id": "3581736538",
+          "name": "Capiz Shell Table Lamp, Petal Design (bulb included)",
+          "brand": "",
+          "summary": "Capiz is a classic Filipino material, and a small capiz lamp glows warm and soft in the evening. This petal-style lamp is an easy, affordable first step into the look, and the listing name says a bulb is included.",
+          "pros": [
+            "Capiz shell shade with a layered petal design",
+            "Bulb included, per the listing name",
+            "Budget-friendly"
+          ],
+          "cons": [
+            "Unbranded, and we couldn't confirm a warranty",
+            "Capiz is delicate, so handle it with care",
+            "Fewer recent buyers than our other picks"
+          ],
+          "tip": "Check the plug and bulb details on the listing, use an LED bulb, and keep it out of the bathroom."
+        },
+        {
+          "id": "4155026183",
+          "name": "Rattan and Abaca Bread Basket with Handles",
+          "brand": "",
+          "summary": "A woven basket on the dining table earns its place every day, for pandesal in the morning and fruit in the afternoon, and it brings two Filipino fibres, rattan and abaca, into the room.",
+          "pros": [
+            "Rattan and abaca, per the listing",
+            "Handles for easy serving",
+            "Inexpensive"
+          ],
+          "cons": [
+            "Only a few in stock when we checked",
+            "Natural fibres vary a little in colour from piece to piece"
+          ],
+          "tip": "Line it with a cloth napkin for bread, and let it air-dry fully if it gets damp."
+        },
+        {
+          "id": "1652250878",
+          "name": "Ilokana Handicrafts Buri Laundry Hamper with Cloth Lining",
+          "brand": "Ilokana Handicrafts",
+          "summary": "A woven buri hamper turns everyday laundry into something you don't mind seeing in the corner of the room. It comes with a cloth lining and is sold by a seller that specialises in native handicrafts.",
+          "pros": [
+            "Woven buri with a cloth lining, per the listing",
+            "From a native-handicrafts seller",
+            "Doubles as a decor piece"
+          ],
+          "cons": [
+            "Only a few recent buyers, so read the latest reviews",
+            "Natural fibres and damp laundry don't mix; let clothes dry first"
+          ],
+          "tip": "Check the size on the listing, and keep the hamper in a ventilated spot rather than a closed bathroom."
+        }
+      ]
+    }
+  ],
+  "sources": [],
+  "order": 3
+}
