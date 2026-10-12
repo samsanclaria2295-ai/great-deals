@@ -1,0 +1,11 @@
+# Never commit secrets
+.env
+*.env
+personal.env
+*.pem
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Local outputs
+test-output/

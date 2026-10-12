@@ -1,0 +1,23 @@
+name: Lazada API test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run connection test
+        env:
+          LAZADA_APP_KEY: ${{ secrets.LAZADA_APP_KEY }}
+          LAZADA_APP_SECRET: ${{ secrets.LAZADA_APP_SECRET }}
+          LAZADA_USER_TOKEN: ${{ secrets.LAZADA_USER_TOKEN }}
+        run: python scripts/lazada_test.py
