@@ -331,7 +331,7 @@ const sourcesBlock = g => g.sources?.length ? `<section class="block sources" id
 function related(g, r) {
   const others = guides.filter(x => x.slug !== g.slug).slice(0, 3);
   if (!others.length) return '';
-  return `<section class="section alt">
+  return `<section class="section tint">
   <div class="wrap">
     <div class="sec-head"><span class="kicker">Keep browsing</span><h2>More guides you might like</h2>${squiggle()}</div>
     ${cardGrid(others, r)}
@@ -476,7 +476,7 @@ function categoryPage(key) {
     ${gs.length ? topicBlocks : `<div class="empty" data-reveal><h3>Our first ${esc(c.short.toLowerCase())} guides are on the way</h3><p>We only publish a guide once we've found products we're comfortable recommending. Follow along on <a href="${PINTEREST}" target="_blank" rel="noopener">Pinterest</a> to see them first, or browse <a href="${r}guides/">all guides</a> in the meantime.</p></div>`}
   </div>
 </section>
-<section class="section alt">
+<section class="section tint">
   <div class="wrap">
     <div class="sec-head"><span class="kicker">Our standards</span><h2>${esc(c.lookForTitle)}</h2>${squiggle()}</div>
     <div class="grid-3" data-stagger>${c.lookFor.map(x => `<div class="box" data-reveal><h3>${esc(x.title)}</h3><p>${esc(x.body)}</p></div>`).join('')}</div>
@@ -534,7 +534,7 @@ function homePage() {
   </div>
 </section>
 
-<section class="section alt">
+<section class="section tint">
   <div class="wrap">
     <div class="sec-head" data-reveal><span class="kicker">Shop by category</span><h2>What are you shopping for?</h2>${squiggle()}</div>
     <div class="grid-4" data-stagger>${Object.entries(CATS).map(([k, c]) => catTile(k, c, r)).join('\n')}</div>
