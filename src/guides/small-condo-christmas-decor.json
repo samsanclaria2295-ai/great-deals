@@ -1,351 +1,550 @@
 {
   "slug": "small-condo-christmas-decor",
-  "category": "seasonal",
-  "color": "terracotta",
   "type": "ranked",
+  "order": 1,
+  "color": "terracotta",
+  "og": "og-guide-xmas.jpg",
+  "placements": [
+    {
+      "cat": "seasonal",
+      "topic": "christmas"
+    },
+    {
+      "cat": "home",
+      "topic": "holiday-decor"
+    }
+  ],
   "title": "Christmas in a small condo: 6 finds that do a lot with a little space",
   "shortTitle": "Small-condo Christmas decor",
   "kicker": "Seasonal · Christmas 2026",
-  "dek": "No seven-foot tree required. Warm lights, a tabletop tree, stars in the window and a few cozy swaps can turn a compact sala into a Christmas home. Every pick starts under ₱500.",
-  "description": "Budget-friendly Christmas decor for small Filipino condos and apartments: tabletop tree, USB fairy lights, window star lights, garland, pillow covers, ornaments and a Noche Buena table set, plus safety tips.",
+  "dek": "No seven-foot tree required. Six coordinated finds in warm white, deep green and red, from a window full of stars to a Noche Buena bowl, that make a compact sala feel like Christmas. Every pick starts under ₱500.",
+  "teaser": "Six coordinated finds in warm white, green and red that make a compact sala feel like Christmas.",
+  "description": "Budget Christmas decor for small Filipino condos, built from small-space design advice: USB fairy lights, window star lights, a 2 ft tree, garland, pillow covers and a Noche Buena centrepiece, plus safety tips.",
   "published": "2026-10-12",
   "updated": "2026-10-12",
-  "readMinutes": 8,
+  "readMinutes": 9,
   "hero": {
-    "img": "guide-xmas",
-    "alt": "AI sample render of a small condo living room at night with a tabletop Christmas tree on a console, red and green pillows, a holly garland on a shelf, star curtain lights in the window and a festive table for two",
-    "render": true
+    "img": "banner-xmas",
+    "alt": "AI sample render of a cozy condo living room at night with star curtain lights in the window, a small green tree with warm fairy lights on a console, a holly garland on a shelf, red pine-print pillows and a bowl of ornaments on a small table",
+    "caption": "AI sample render of all six picks in one room, drawn from written descriptions of each product. The real product photos from Lazada are below."
   },
   "intro": [
-    "The ber months are here, and in a lot of Pinoy homes that means Christmas has officially started. If you live in a condo or a small apartment, though, the usual playbook of a big tree, a crowded sala and lights on every surface doesn't really fit.",
-    "The trick is to decorate up and out instead of across the floor. Design editors suggest exactly this for small spaces: put a small tree on a console or raise it on a stand, build little festive corners on shelves and side tables, and use windows and walls for light. Warm-white LED lights do the most work for the least space and money, and the U.S. Department of Energy says LED holiday strands use about 70% less energy than old incandescent ones.",
-    "Every pick below starts under ₱500, stays inside your unit, and was chosen with safety in mind: low-voltage USB or battery lights where possible, and a clear note wherever something plugs into the wall."
+    "The ber months are here, and in a lot of Pinoy homes that means Christmas has officially started. If you live in a condo or a small apartment, though, the usual playbook of a big tree and lights on every surface doesn't really fit.",
+    "So we started with the people who decorate small spaces for a living. Five small-space and Manila condo guides agree on the same approach: decorate up and out instead of across the floor, and keep to a short list of colours. Everything below follows that plan, in one palette, so the six pieces look like they belong together."
   ],
-  "introSources": [
+  "curation": {
+    "title": "One plan, one palette, six pieces",
+    "summary": [
+      "Every small-space source we read says the same thing: decorate up and out, not across the floor. Put lights on windows, doorways and shelves; choose a smaller or tabletop tree that doesn't block the walkway; build small displays on surfaces you already have; and stick to a short colour list so a tiny room looks planned instead of busy. For a Pinoy condo, that means a glowing window as your parol, a 2 ft tree on the console, greenery on a shelf, and red-and-green textiles and trimmings, all in warm white, deep green, red and a little gold."
+    ],
+    "stepsTitle": "What we did",
+    "steps": [
+      "Read five small-space and Manila condo decorating guides and listed the ideas they share.",
+      "Chose one palette (warm white, deep green, red and a little gold) so all six pieces work together.",
+      "Ranked six item types by how many sources recommend them, floor space used, Christmas feel per peso and how much of the room they change.",
+      "Compared 2 to 4 Lazada listings per slot on size, power source, colour and seller, and checked every product photo.",
+      "Dropped off-palette designs, plug-in lights without a visible PS or ICC mark, and any photo with religious imagery."
+    ],
+    "sources": [
+      {
+        "name": "Livingetc: 6 Christmas Tree Alternatives for Small Spaces",
+        "url": "https://www.livingetc.com/advice/christmas-tree-alternatives-for-small-spaces"
+      },
+      {
+        "name": "Livingetc: These 10 foolproof rules will help you host Christmas in a small space",
+        "url": "https://www.livingetc.com/ideas/christmas-in-a-small-space"
+      },
+      {
+        "name": "Livingetc: How Can I Fit a Christmas Tree in a Small Living Room?",
+        "url": "https://www.livingetc.com/advice/how-to-fit-a-christmas-tree-in-a-small-living-room"
+      },
+      {
+        "name": "Torre Lorenzo: Space-saving Christmas decor ideas for Manila condos",
+        "url": "https://www.torrelorenzo.com/blogs-posts/space-saving-christmas-decor-ideas-manila-condos"
+      },
+      {
+        "name": "Federal Land Knowledge Hub: 11 Christmas Decoration Ideas for Condo Spaces",
+        "url": "https://federalland.ph/articles/christmas-decoration-ideas-condo/"
+      }
+    ]
+  },
+  "tipGroups": [
     {
-      "name": "Livingetc: Christmas tree alternatives for small spaces",
-      "url": "https://www.livingetc.com/advice/christmas-tree-alternatives-for-small-spaces"
+      "kicker": "Style it",
+      "title": "Three styling rules for a small space",
+      "tips": [
+        {
+          "title": "Pick one palette and repeat it",
+          "body": "In a small room, too many colours look like clutter. Choose a short list, warm white, deep green, red and a little gold, and repeat it on the window, the tree, the shelf, the sofa and the table. Everything then reads as one look, even if it cost very little.",
+          "source": "Torre Lorenzo: Space-saving Christmas decor ideas for Manila condos",
+          "url": "https://www.torrelorenzo.com/blogs-posts/space-saving-christmas-decor-ideas-manila-condos"
+        },
+        {
+          "title": "Decorate up, not across",
+          "body": "Use damage-free hooks to run lights or garland over windows and doorways, and use shelves for small trees and displays. Keep the floor and the walkway clear, which matters a lot in a studio or one-bedroom unit.",
+          "source": "Torre Lorenzo: Space-saving Christmas decor ideas for Manila condos",
+          "url": "https://www.torrelorenzo.com/blogs-posts/space-saving-christmas-decor-ideas-manila-condos"
+        },
+        {
+          "title": "Let the window be your parol",
+          "body": "Condo design guides suggest hanging decor on walls and windows instead of the floor, including lights along the window border. A curtain of warm-white stars gives you the parol glow without a 220V lantern or any floor space.",
+          "source": "Federal Land Knowledge Hub: 11 Christmas Decoration Ideas for Condo Spaces",
+          "url": "https://federalland.ph/articles/christmas-decoration-ideas-condo/"
+        }
+      ]
     },
     {
-      "name": "Livingetc: How to fit a Christmas tree in a small living room",
-      "url": "https://www.livingetc.com/advice/how-to-fit-a-christmas-tree-in-a-small-living-room"
-    },
-    {
-      "name": "U.S. Department of Energy: How do holiday lights work?",
-      "url": "https://www.energy.gov/articles/how-do-holiday-lights-work"
+      "kicker": "Stay safe",
+      "title": "Four safety habits for a condo Christmas",
+      "tips": [
+        {
+          "title": "Buy certified lights",
+          "body": "For anything that plugs into the wall (Christmas lights, LED parols), look for the PS mark (locally made) or ICC sticker (imported). DTI's Bureau of Philippine Standards says covered products must carry one before they are sold, and you can check ICC stickers with the ICC Verification Mobile App. Before checking out online, ask the seller for a photo of the mark or sticker on the actual product or box.",
+          "source": "DTI Bureau of Philippine Standards: PS and ICC Marks",
+          "url": "https://bps.dti.gov.ph/product-certification/ps-and-icc-marks"
+        },
+        {
+          "title": "No 'octopus' connections, and unplug before bed",
+          "body": "Even if your unit has only a few outlets, don't stack extension cords and adapters into one socket. Meralco's holiday reminders say to avoid octopus connections and to switch off and unplug Christmas lights and lanterns before going to bed or leaving home. USB and battery lights make this easier because they don't add 220V cords around the sala.",
+          "source": "Interaksyon",
+          "url": "https://interaksyon.philstar.com/trends-spotlights/2022/12/23/238238/safety-measures-what-to-do-to-avoid-electrical-accidents-this-holiday-season/"
+        },
+        {
+          "title": "Keep the corridor clear",
+          "body": "The Fire Code (RA 9514, Sec. 8a) prohibits blocking exit ways, including halls, stairs, balconies and passages that lead to exits. Keep trees, garlands and plugged-in decor inside your unit, and ask your PMO about house rules before decorating the outside of your door or the balcony.",
+          "source": "Republic Act No. 9514 (Fire Code of the Philippines), Section 8(a), via Lawphil",
+          "url": "https://lawphil.net/statutes/repacts/ra2008/ra_9514_2008.html"
+        },
+        {
+          "title": "Go LED, warm white",
+          "body": "The U.S. Department of Energy says LED holiday strands use about 70% less energy than incandescent strands, and are sturdier and less likely to burn out or break. If you still have an old incandescent set, this is a good year to retire it.",
+          "source": "U.S. Department of Energy: How Do Holiday Lights Work?",
+          "url": "https://www.energy.gov/articles/how-do-holiday-lights-work"
+        }
+      ]
     }
   ],
-  "method": "We started from products available through Lazada's affiliate program and kept items with steady recent sales, sensible prices and specific product names, favouring named brands and established stores. Decor like this rarely gets professional reviews, so instead of inventing them, each pick comes with buying and safety guidance about that type of item from design editors and safety agencies. We cross-checked our notes with AI research assistants (Claude, Gemini and ChatGPT). We haven't handled these products ourselves, and Lazada star ratings aren't part of the data we can access, so read the latest buyer reviews and check the variant before you check out.",
-  "tipsTitle": "Four safety habits for a condo Christmas",
-  "tips": [
-    {
-      "title": "Buy certified plug-in lights",
-      "body": "For anything that plugs into the wall, like Christmas lights or LED parols, look for the PS mark (locally made) or the ICC sticker (imported). DTI's Bureau of Philippine Standards says covered products must carry one before they're sold, and ICC stickers can be checked with the ICC Verification Mobile App. When shopping online, ask the seller for a photo of the mark on the actual product or box.",
-      "source": "DTI Bureau of Philippine Standards",
-      "url": "https://bps.dti.gov.ph/product-certification/ps-and-icc-marks"
-    },
-    {
-      "title": "No octopus connections, and unplug before bed",
-      "body": "Even if your unit only has a few outlets, don't stack extension cords and adapters into one socket. Meralco's holiday reminders say to avoid octopus connections and to unplug Christmas lights and lanterns before going to bed or leaving home. USB and battery lights make this easier.",
-      "source": "Interaksyon (Philstar), citing Meralco",
-      "url": "https://interaksyon.philstar.com/trends-spotlights/2022/12/23/238238/safety-measures-what-to-do-to-avoid-electrical-accidents-this-holiday-season/"
-    },
-    {
-      "title": "Keep decor inside your unit",
-      "body": "The Fire Code of the Philippines prohibits blocking exit ways such as hallways, corridors and stairways. Keep trees, garlands and plugged-in decor out of the corridor, and ask your property management office about house rules before decorating the outside of your door or your balcony.",
-      "source": "RA 9514 (Fire Code), Section 8(a)",
-      "url": "https://lawphil.net/statutes/repacts/ra2008/ra_9514_2008.html"
-    },
-    {
-      "title": "Go LED, in warm white",
-      "body": "The U.S. Department of Energy says LED holiday strands use about 70% less energy than incandescent strands and are sturdier and longer-lasting. If you still have an old incandescent set, this is a good year to retire it.",
-      "source": "U.S. Department of Energy",
-      "url": "https://www.energy.gov/articles/how-do-holiday-lights-work"
-    }
-  ],
-  "guidanceLabel": "Good to know about this kind of item",
   "items": [
     {
       "id": "3136642131",
       "rank": 1,
-      "slot": "Warm fairy lights",
-      "name": "OPPSHINE USB LED Fairy String Lights (1m, 5m or 10m)",
+      "slot": "Warm-white fairy lights (USB)",
+      "label": "Biggest impact",
+      "name": "OPPSHINE USB LED Fairy String Lights, Warm White (1 / 5 / 10 m)",
       "brand": "OPPSHINE",
-      "summary": "Nothing changes the feel of a small room faster than warm fairy lights. Wrap them around a tabletop tree, trace a shelf or line a curtain rod, and they take up no floor space at all. This set runs on USB, so it plugs into a phone charger or power bank instead of adding another 220V cord to the sala, and you can buy just the length one spot needs.",
+      "verdict": "The cheapest way to make a small sala glow, and it lights the tree, the garland and the table bowl too.",
+      "summary": "Fine wire with tiny LED dots gives the soft, twinkly glow design editors keep recommending for small spaces. It uses no floor space, bends around anything, and runs on USB, so it plugs into a charger you already own instead of adding another 220V cord. Buy a 5 m string for the tree and a 1 m string for the ornament bowl, and the whole set ties together.",
       "evidence": "guidance",
       "reviewers": [
         {
-          "point": "'Warm white' is a colour temperature, around 2,700K, and the difference from cooler whites is noticeable. If a listing doesn't state the Kelvin, expect some variation from the photos.",
-          "source": "U.S. Department of Energy",
+          "point": "'Warm white' is a colour temperature. Warm light is about 2,700 K and soft white about 3,000 K, while cool white is about 4,100 K. If a listing doesn't give a Kelvin number, the real glow may differ a little from the photos.",
+          "source": "U.S. Department of Energy (FEMP): Purchasing Energy-Efficient Light Bulbs",
           "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-light-bulbs"
         },
         {
-          "point": "Inspect holiday lights every year before putting them up, and throw away strands with frayed or pinched wires.",
-          "source": "U.S. Fire Administration",
-          "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/holiday/"
-        }
-      ],
-      "pros": [
-        "USB powered, so no extra 220V cord",
-        "1m, 5m and 10m lengths in one listing",
-        "Very budget-friendly",
-        "Named brand with very large stock"
-      ],
-      "cons": [
-        "The listing doesn't give a Kelvin number, so the warm white may differ slightly from the photos",
-        "Basic on/off only, no remote",
-        "The starting price is for the shortest length"
-      ],
-      "bestFor": "Tabletop trees, shelves, curtain rods and anywhere near a USB port.",
-      "tip": "Choose the warm white variant. About 5m wraps a 45 to 60 cm tabletop tree; 10m suits a window or curtain rod. Switch it off before bed.",
-      "alt": {
-        "id": "4896678415",
-        "name": "Nuvox Battery-Operated Copper Wire Fairy Lights, Warm White",
-        "note": "For spots with no USB port, like a wreath, a glass jar centrepiece or the Noche Buena table. Batteries aren't included; take them out before storing the lights after the season."
-      }
-    },
-    {
-      "id": "5200252031",
-      "rank": 2,
-      "slot": "Tabletop tree",
-      "name": "Mini Tabletop Christmas Tree with LED Lights (45 or 50 cm)",
-      "brand": "Great-King",
-      "summary": "A 45 to 50 cm tree sits on a console, TV cabinet or bookshelf, so your tree is at eye level and your floor stays clear. It's sold by an established Christmas tree store that also carries full-size trees, and the listing name mentions LED lights.",
-      "evidence": "guidance",
-      "reviewers": [
-        {
-          "point": "Expect to fluff an artificial tree. Shaping each branch is a necessary step, and it took their testers the most time of any setup step.",
-          "source": "Consumer Reports",
-          "url": "https://www.consumerreports.org/home-garden/holiday-planning-preparation/artificial-christmas-tree-assembly-tips-a2345777419/"
+          "point": "A USB light is only as safe as the charger it's plugged into. Use a charger from a reputable source, not a no-name one, and stop using any charger, plug or socket with scorch marks, sparks or an unusual smell.",
+          "source": "Electrical Safety First: USB chargers",
+          "url": "https://www.electricalsafetyfirst.org.uk/safety-advice/products-and-appliances/gadgets-entertainment/usb-chargers/"
         },
         {
-          "point": "In a small space, keep the tree in a corner away from heat sources, and raise a small one on a stand, a small table or an upturned basket so it adds height without blocking the walkway.",
-          "source": "Livingetc",
-          "url": "https://www.livingetc.com/ideas/christmas-in-a-small-space"
-        }
-      ],
-      "pros": [
-        "Takes up no floor space",
-        "LED lights mentioned in the listing name",
-        "From a store that specialises in Christmas trees",
-        "A complete small tree for under ₱500"
-      ],
-      "cons": [
-        "Small, about a foot and a half tall",
-        "Our data doesn't show how the lights are powered (battery, USB or plug)",
-        "Colour options vary; check that the one you want is offered"
-      ],
-      "bestFor": "Consoles, shelves and side tables in a compact sala.",
-      "tip": "Check the height, the colour and how the lights are powered before checking out. Fluff every branch outward when it arrives, and set it on a stool or upturned basket for extra height.",
-      "alt": {
-        "id": "4068859434",
-        "name": "Christmas Tree with Metal Stand (2ft to 8ft sizes)",
-        "note": "If you'd rather have a small floor tree. Very popular recently and comes with a metal stand, in green or white. The starting price is for the smallest size; 3ft or 4ft suits a condo corner."
-      }
-    },
-    {
-      "id": "267886528",
-      "rank": 3,
-      "slot": "Stars for the window",
-      "name": "Twinkle Star 12-Star LED Curtain Lights (MM0492)",
-      "brand": "Twinkle Star",
-      "summary": "Stars glowing in the window are the condo version of the parol: you get that Pinoy Christmas glow without using any floor or table space. This set has a specific model number and, from what we could see, runs on batteries, which is simpler and safer near curtains than a 220V plug-in lantern.",
-      "evidence": "guidance",
-      "reviewers": [
-        {
-          "point": "For small spaces, drape lights over windows and doorways, or hang string lights on a blank wall, as an alternative to a big tree.",
-          "source": "Livingetc",
-          "url": "https://www.livingetc.com/advice/christmas-tree-alternatives-for-small-spaces"
-        },
-        {
-          "point": "The Bureau of Fire Protection advises turning Christmas lights off in the wee hours, especially when everyone is asleep.",
-          "source": "GMA News, citing the BFP",
-          "url": "https://www.gmanetwork.com/news/topstories/nation/968503/are-your-istmas-lights-safe-bfp-shares-tips-for-a-fire-free-holiday/story/"
-        }
-      ],
-      "pros": [
-        "Uses only window space",
-        "Battery powered, from what we could see, so no 220V cord near the curtains",
-        "Specific model number and LED count (12 stars, 138 LEDs)"
-      ],
-      "cons": [
-        "Batteries aren't included and need changing",
-        "Fewer recent buyers than our other picks",
-        "The light colour isn't clear from our data"
-      ],
-      "bestFor": "Condo windows and sliding doors, and anyone who misses having a parol.",
-      "tip": "Confirm the power type and light colour on the listing. Hang it with adhesive hooks or curtain clips rather than nails, and switch it off at bedtime. If you would rather have a classic plug-in parol, choose one whose listing clearly shows a PS mark or ICC sticker, and unplug it before bed.",
-      "alt": null
-    },
-    {
-      "id": "5199122294",
-      "rank": 4,
-      "slot": "Garland",
-      "name": "2m Holly Leaf and Red Berry Vine Garland",
-      "brand": "",
-      "summary": "A slim two-metre vine of holly leaves and red berries adds classic Christmas colour to a floating shelf, TV console, mirror or window frame. It had by far the most recent buyers of any garland or wreath we checked.",
-      "evidence": "guidance",
-      "reviewers": [
-        {
-          "point": "When there's no mantel or staircase to decorate, build small festive displays on side tables, kitchen shelves and table centrepieces instead.",
-          "source": "Livingetc",
-          "url": "https://www.livingetc.com/advice/christmas-tree-alternatives-for-small-spaces"
-        },
-        {
-          "point": "Choose decorations that are flame resistant or flame retardant, and keep them away from heat sources; half of decoration fires happen because decorations are too close to heat.",
-          "source": "NFPA",
+          "point": "Turn off all light strings and decorations before leaving home or going to bed.",
+          "source": "NFPA: Winter Holiday Safety tip sheet",
           "url": "https://content.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/winterholidaysafetytips.pdf?rev=e33c6d4fbc9547acb2c4e43a29f590cc"
         }
       ],
       "pros": [
-        "Very popular with recent buyers",
-        "Two metres covers a shelf, a mirror or a window frame",
-        "Classic holly-and-berry look",
-        "Low price"
+        "USB power: no extra 220V cord in the sala",
+        "Buy only the length you need: 1, 5 or 10 m",
+        "From about ₱37, the cheapest big-impact upgrade"
       ],
       "cons": [
-        "A slim vine, lighter-looking than a full pine garland",
-        "The listing mentions a string light, but our data doesn't show which variants include it or how it's powered",
-        "Unbranded; real-life colour may differ from photos"
+        "Main photo shows multicolour; choose the warm-white variant",
+        "No Kelvin number stated, so the glow may vary slightly"
       ],
-      "bestFor": "Shelves, TV consoles, mirrors and window frames.",
-      "tip": "Check which variant includes the light. Keep the garland away from the rice cooker, stove and light bulbs.",
+      "bestFor": "Wrapping the tree, tracing a shelf or mirror, and tucking a short strand into the ornament bowl",
+      "tip": "Choose 'warm white', not 'white'. About 5 m wraps a 2 ft tree. Switch it off at bedtime.",
+      "facts": [
+        {
+          "k": "Power",
+          "v": "USB (per listing title)"
+        },
+        {
+          "k": "Lengths",
+          "v": "1 m, 5 m or 10 m (per listing title)"
+        },
+        {
+          "k": "Colour options",
+          "v": "Warm white, white, multicolour, red, blue, green (shown in the main photo)"
+        }
+      ],
       "alt": {
-        "id": "3452916186",
-        "name": "Artificial Christmas Wreath with Red Bow",
-        "note": "If you would rather have a wreath. Hang it on the inside of your door or on a wall, and ask your property management office before hanging anything on the corridor side."
+        "id": "1089118066",
+        "name": "Fuji Bright 100-LED Warm White String Lights (plug-in, certified)",
+        "note": "For a bigger tree or a long window run, if you prefer a plug-in. The product photo says it was 'Tested by DTI accredited Philippine Testing Laboratory', and the listing mention ICC and PS certification. Fuji Bright sells it from its official store. It's 220V, about 8.5 m long, and 10 of its bulbs are white strobes that twinkle. ₱599. Check the ICC sticker when it arrives, use one socket (no octopus), and unplug it before bed."
+      }
+    },
+    {
+      "id": "267886528",
+      "rank": 2,
+      "slot": "Window star lights (the condo parol)",
+      "label": "Best for no floor space",
+      "name": "Twinkle Star 12-Star LED Curtain Lights (138 LEDs, battery)",
+      "brand": "No Brand",
+      "verdict": "A curtain of warm-white stars turns your window into the condo version of a parol, using no floor or table space at all.",
+      "summary": "Twelve star strands hang from the top of the window: six big outline stars at the bottom and six smaller stars higher up, with tiny warm-white LEDs along each wire. You see the glow from the sofa and from the street, which is exactly the Pinoy Christmas feeling a small unit can miss. The listing says it runs on 3 AA batteries, so you don't need an outlet near the curtains.",
+      "evidence": "guidance",
+      "reviewers": [
+        {
+          "point": "NFPA's holiday tip sheet says to keep decorations away from windows and doors, and to hang lights with clips, not nails, so cords don't get damaged. In a condo, hang the strands so they never stop a window or door from opening, and use adhesive hooks or curtain clips.",
+          "source": "NFPA: Winter Holiday Safety tip sheet",
+          "url": "https://content.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/winterholidaysafetytips.pdf?rev=e33c6d4fbc9547acb2c4e43a29f590cc"
+        },
+        {
+          "point": "Don't mix old and new batteries, or different brands or types, because that can cause leakage or rupture. Take the batteries out when you pack the lights away after the season.",
+          "source": "Energizer: Battery care",
+          "url": "https://energizer.com/about-batteries/battery-care/"
+        },
+        {
+          "point": "The BFP advises turning Christmas lights off in the wee hours, especially when everyone is asleep, and giving them a rest so wires don't overheat.",
+          "source": "GMA News: Are your Christmas lights safe? BFP shares tips for a fire-free holiday (4 Dec 2025)",
+          "url": "https://www.gmanetwork.com/news/topstories/nation/968503/are-your-istmas-lights-safe-bfp-shares-tips-for-a-fire-free-holiday/story/"
+        }
+      ],
+      "pros": [
+        "Uses window space only: zero floor or table space",
+        "Battery power (3 AA) per the listing, so no cord near the curtains",
+        "12 stars give a parol-style glow seen from inside and outside"
+      ],
+      "cons": [
+        "Batteries not included, and AAs need replacing",
+        "Listing also mentions linking sets, so confirm you're buying the battery version"
+      ],
+      "bestFor": "The main window or sliding door of a studio or one-bedroom unit",
+      "tip": "Hang it on the room side of the glass with adhesive hooks, not nails. Use fresh AA batteries of one brand, and switch it off at bedtime.",
+      "facts": [
+        {
+          "k": "Stars",
+          "v": "12 (6 big + 6 small), per listing title and summary"
+        },
+        {
+          "k": "LEDs",
+          "v": "138 (per listing title)"
+        },
+        {
+          "k": "Model",
+          "v": "MM0492"
+        }
+      ],
+      "alt": null
+    },
+    {
+      "id": "4068859434",
+      "rank": 3,
+      "slot": "Small tree (2 ft, for a console or cabinet)",
+      "label": "Best size for a console",
+      "name": "2 ft Green Pine Christmas Tree with Metal Stand",
+      "brand": "No Brand",
+      "verdict": "A plain green 2 ft tree is the blank canvas this set needs. Wrap it in the warm-white string and add a few red and gold balls.",
+      "summary": "Design editors agree: in a small room, don't let the tree eat the walkway. Put a smaller tree in a corner or raise it on a console or cabinet. This one comes in sizes from 2 ft up, in green or white, on a metal stand. Choose 2 ft green and it fits on a TV console or shoe cabinet. It was the most popular small tree we checked.",
+      "evidence": "guidance",
+      "reviewers": [
+        {
+          "point": "Look for a 'Fire Resistant' label on an artificial tree. It doesn't mean the tree can't catch fire, only that it resists burning better.",
+          "source": "U.S. CPSC: Ten Tips to Keep Your Holiday Home Fire and Injury Free (Dec 2009)",
+          "url": "https://www.cpsc.gov/Newsroom/News-Releases/2010/Ten-Tips-to-Keep-Your-Holiday-Home-Fire-and-Injury-FreeFires-Lead-the-List-of-Hazards-Related-to-Holiday-Decorating"
+        },
+        {
+          "point": "Plan time to 'fluff' it. Consumer Reports found shaping the branches took the most time of any setup step, and you can be fairly rough pulling each branch tip out.",
+          "source": "Consumer Reports: We Assembled 6 Artificial Christmas Trees (Nov 2021)",
+          "url": "https://www.consumerreports.org/home-garden/holiday-planning-preparation/artificial-christmas-tree-assembly-tips-a2345777419/"
+        },
+        {
+          "point": "Keep the tree at least 3 feet (about 1 m) from heat sources and make sure it doesn't block an exit. In a condo, that means away from the stove, oven and space heater, and out of the path to the door.",
+          "source": "U.S. Fire Administration: Holiday fire safety",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/holiday/"
+        }
+      ],
+      "pros": [
+        "2 ft (60 cm) fits a console, cabinet or side table",
+        "Plain green, so the palette lights and ornaments do the styling",
+        "Popular with recent buyers"
+      ],
+      "cons": [
+        "₱418 is likely the smallest size; bigger sizes cost more",
+        "No Brand; we couldn't see a flame-resistance claim in our data"
+      ],
+      "bestFor": "A console, TV cabinet or bookshelf top in a studio or one-bedroom unit",
+      "tip": "Choose 2 ft and green. Wrap it bottom to top with a 5 m warm-white string, add a few red and gold balls, and set it on a console or a sturdy upturned basket for height.",
+      "facts": [
+        {
+          "k": "Sizes",
+          "v": "2 ft to 8 ft (pick 2 ft / about 60 cm)"
+        },
+        {
+          "k": "Colours",
+          "v": "Green or white (pick green)"
+        },
+        {
+          "k": "Stand",
+          "v": "Metal (per listing title)"
+        }
+      ],
+      "alt": {
+        "id": "1374844819",
+        "name": "HISENPARK 2 ft (60 cm) Mini Christmas Tree",
+        "note": "Budget pick at about ₱139. It comes with a free string of mini lights, but the photo shows a plug-in set with a controller box and no PS/ICC mark we could see. Use the USB warm-white string from rank 1 instead, unless the box shows an ICC sticker."
+      }
+    },
+    {
+      "id": "5199122294",
+      "rank": 4,
+      "slot": "Greenery garland for a shelf, mirror or window frame",
+      "label": "Best value",
+      "name": "2 m Holly & Red Berry Garland",
+      "brand": "No Brand",
+      "verdict": "Holly leaves and red berries in one slim vine: the classic Christmas colours on a shelf or mirror for about ₱124.",
+      "summary": "Most condos have no mantel, but they do have a floating shelf, a mirror, a TV console or a window frame. Design editors suggest a garland of greenery there instead. This 2 m vine adds deep green and red in one piece, and the lit version in the photo has its own small battery box with a timer. It was the clear favourite among the garlands we checked.",
+      "evidence": "guidance",
+      "reviewers": [
+        {
+          "point": "Choose decorations that are flame resistant or flame retardant. Half of home decoration fires happen because decorations are too close to a heat source, so keep the garland away from the stove, rice cooker, oven and lamps.",
+          "source": "NFPA: Winter Holiday Safety tip sheet",
+          "url": "https://content.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/winterholidaysafetytips.pdf?rev=e33c6d4fbc9547acb2c4e43a29f590cc"
+        },
+        {
+          "point": "If small children visit, keep trimmings that look like candy or food, and anything with small removable parts, out of reach. Shiny red berries count, so hang the garland high.",
+          "source": "U.S. CPSC: Ten Tips to Keep Your Holiday Home Fire and Injury Free (Dec 2009)",
+          "url": "https://www.cpsc.gov/Newsroom/News-Releases/2010/Ten-Tips-to-Keep-Your-Holiday-Home-Fire-and-Injury-FreeFires-Lead-the-List-of-Hazards-Related-to-Holiday-Decorating"
+        },
+        {
+          "point": "Livingetc suggests a garland of greenery, pinecones and ornaments along a mantel, because it dresses a plain surface without using floor space, plus small festive displays on side tables and kitchen shelves. In a condo, a floating shelf or mirror frame does the mantel's job.",
+          "source": "Livingetc: 6 Christmas Tree Alternatives for Small Spaces (Dec 2023)",
+          "url": "https://www.livingetc.com/advice/christmas-tree-alternatives-for-small-spaces"
+        }
+      ],
+      "pros": [
+        "Green leaves and red berries match the palette",
+        "2 m covers a shelf, mirror or window frame",
+        "Popular with recent buyers"
+      ],
+      "cons": [
+        "Leaves are variegated with cream edges, not solid dark green",
+        "Check which variant includes the light string"
+      ],
+      "bestFor": "A floating shelf, a mirror frame or the top of a window",
+      "tip": "Choose the variant with the light string if you want it lit, and confirm the power type before checking out. Drape it with adhesive hooks, keep it high if kids visit, and keep it away from the kitchen.",
+      "facts": [
+        {
+          "k": "Length",
+          "v": "2 m (per listing title)"
+        },
+        {
+          "k": "Look",
+          "v": "Holly leaves with clusters of red berries"
+        },
+        {
+          "k": "Lights",
+          "v": "With or without a light string, per the listing; the photo shows a small battery box with ON / TIMER / OFF"
+        }
+      ],
+      "alt": {
+        "id": "1288306682",
+        "name": "210 cm Plain Green Pine Garland",
+        "note": "For a fuller, all-green look, about ₱119. It's plain bristle pine with no berries or lights, so add the warm-white USB string and a few red balls. No Brand."
       }
     },
     {
       "id": "2295936120",
       "rank": 5,
       "slot": "Throw pillow covers",
-      "name": "Sheleep Christmas Throw Pillow Covers, Set of 2 (45 x 45 cm)",
+      "label": "Easiest swap",
+      "name": "Sheleep Christmas Pillow Covers, Set of 2 (45 x 45 cm)",
       "brand": "Sheleep",
-      "summary": "Swapping pillow covers is the cheapest way to make the sofa feel like Christmas, and they fold flat for storage in January. You get two covers in the common 45 x 45 cm size, so they'll likely fit the pillows you already have.",
+      "verdict": "Two zip-on covers turn your everyday sofa pillows into Christmas ones in a minute, and they fold flat when the season ends.",
+      "summary": "Small-space guides suggest swapping pillow covers instead of adding more things, and condo guides list festive pillow cases as an easy win. This listing has many prints. For this set, choose the deep red design with green pine sprigs: it matches the garland and the tree. You get two covers in the standard 45 x 45 cm size for about ₱157.",
       "evidence": "guidance",
       "reviewers": [
         {
-          "point": "Printed fabric often looks different from the colours on your screen, because screens emit light while fabric reflects ink.",
-          "source": "TextileDesign Tools",
-          "url": "https://textiledesigntools.com/blog/print-colour-different-from-screen/"
+          "point": "Choose an insert the same size as the cover, or one size larger if you want a firm, plump look.",
+          "source": "Sewing & Craft Alliance: SEW-lutions Guidelines, Pillows",
+          "url": "https://www.sewing.org/files/guidelines/8_120_pillows.pdf"
         },
         {
-          "point": "Choose an insert the same size as the cover, or one size larger for a fuller, plumper look.",
-          "source": "Sewing & Craft Alliance",
-          "url": "https://www.sewing.org/files/guidelines/8_120_pillows.pdf"
+          "point": "Printed fabric often looks different from the photo, because a screen makes colour from light while fabric holds ink. Expect the red to be a little deeper or duller in person.",
+          "source": "TextileDesign Tools: Printed colour different from screen?",
+          "url": "https://textiledesigntools.com/blog/print-colour-different-from-screen/"
         }
       ],
       "pros": [
-        "Two covers per pack",
-        "Standard 45 x 45 cm size fits most sofa pillows",
-        "Folds flat for storage after the holidays",
-        "Named brand with very large stock"
+        "Two covers for about ₱157",
+        "Standard 45 x 45 cm fits most sofa pillows",
+        "Zipper and machine washable, per the listing"
       ],
       "cons": [
-        "Printed fabric, not plush or textured",
-        "Prints may look different in person",
-        "Covers only; use your existing inserts"
+        "Printed stretch polyester, not plush or textured",
+        "The listing mixes Christmas and everyday prints; pick carefully"
       ],
-      "bestFor": "A quick sofa refresh that's easy to undo after the season.",
-      "tip": "Pick a design you love (trees, snowflakes, plaid) and use your current 45 cm inserts, or a 50 cm insert for a fuller look.",
+      "bestFor": "A two-seater sofa or a daybed in a studio unit",
+      "tip": "Pick the red pine-sprig print (or the red 'Merry Christmas' pine print) and skip the grey and floral designs, which are not Christmas. Use your current 45 cm inserts, or 50 cm ones for a fuller look.",
+      "facts": [
+        {
+          "k": "Size",
+          "v": "45 x 45 cm (about 18 x 18 in)"
+        },
+        {
+          "k": "Quantity",
+          "v": "2 covers (per listing title)"
+        },
+        {
+          "k": "Fabric",
+          "v": "Polyester-spandex blend, per the listing"
+        }
+      ],
       "alt": {
         "id": "2715533967",
-        "name": "Plain Velvet Throw Pillow Cover, 45 cm",
-        "note": "A grown-up option you can keep using after the holidays: a solid velvet cover. Check the colour options for a Christmas red or green. Priced per cover."
+        "name": "Plain Plush Pillow Cover, 45 cm (choose red or dark green)",
+        "note": "For a grown-up look you can keep after the holidays. About ₱69 per cover. The listing photo shows grey; The listing mentions red and green options, so confirm the colour before checking out. No Brand."
       }
     },
     {
-      "id": "1342348395",
+      "id": "4095709924",
       "rank": 6,
-      "slot": "Noche Buena table",
-      "name": "Red Table Christmas Placemat and Table Runner Set",
-      "brand": "Red Table",
-      "summary": "In a condo, the dining table is often the only 'mantel' you have. A festive runner and placemats turn it into the Noche Buena centrepiece in minutes, then fold away afterwards. The set comes in several playful prints and runner sizes.",
+      "slot": "Noche Buena table centrepiece (ornament bowl)",
+      "label": "Budget-friendly",
+      "name": "6 cm Christmas Ball Ornaments, 6-Pack (red, gold & white designs)",
+      "brand": "No Brand",
+      "verdict": "Pile a pack or two into a clear bowl with a short strand of fairy lights, and the dining table is ready for Noche Buena.",
+      "summary": "In a condo, the dining table is often the only spot left to decorate, and condo design guides suggest a bowl of ornaments and a few lights as the centrepiece. This pack has six 6 cm balls in coordinated designs. The gold glitter, white-with-gold-leaf and red snowflake packs fit the palette best, and a few extras can go on the tree.",
       "evidence": "guidance",
       "reviewers": [
         {
-          "point": "Small spaces without traditional spots to decorate can use small festive vignettes, including table centrepieces.",
-          "source": "Livingetc",
-          "url": "https://www.livingetc.com/advice/christmas-tree-alternatives-for-small-spaces"
+          "point": "Glass ornaments break easily, and children under 6 make up most calls to Poison Control about them. If little ones visit, use plastic balls and keep them attached or out of reach.",
+          "source": "Poison Control (poison.org): Christmas ornament hazards",
+          "url": "https://www.poison.org/articles/christmas-ornament-hazards-204"
+        },
+        {
+          "point": "In homes with small children, avoid sharp, weighted or breakable decorations, and keep trimmings with small removable parts, like ornament caps and hooks, out of reach.",
+          "source": "U.S. CPSC: Ten Tips to Keep Your Holiday Home Fire and Injury Free (Dec 2009)",
+          "url": "https://www.cpsc.gov/Newsroom/News-Releases/2010/Ten-Tips-to-Keep-Your-Holiday-Home-Fire-and-Injury-FreeFires-Lead-the-List-of-Hazards-Related-to-Holiday-Decorating"
+        },
+        {
+          "point": "Condo design guides suggest a dining centrepiece of a bowl of ornaments, pine cones and a few lights. It's low, cheap and easy to clear when the food arrives.",
+          "source": "Torre Lorenzo: Space-saving Christmas decor ideas for Manila condos (Nov 2025)",
+          "url": "https://www.torrelorenzo.com/blogs-posts/space-saving-christmas-decor-ideas-manila-condos"
         }
       ],
       "pros": [
-        "Runner and placemats with a matching utensil holder",
-        "Several prints to match your other decor",
-        "Named brand",
-        "Low starting price"
+        "Coordinated red, gold and white designs",
+        "Plastic (PVC), per the listing, not glass",
+        "Small buy: about ₱119 for six"
       ],
       "cons": [
-        "The starting price is for the cheapest variant; a full set costs more",
-        "Fabric and care details aren't in our data",
-        "Fewer recent buyers than our top picks"
+        "Only 6 per pack; a big bowl needs 2-3 packs",
+        "Glitter finishes may shed a little"
       ],
-      "bestFor": "Noche Buena and holiday get-togethers around a small table.",
-      "tip": "For a two- to four-seater table, choose the smallest runner and fold the extra under, or just use the placemats. Match the print to your pillow covers.",
-      "alt": null
+      "bestFor": "A small dining or coffee table, plus a few extras for the 2 ft tree",
+      "tip": "Mix one gold glitter pack with one white-and-gold pack in a clear glass bowl you already own, and tuck in a 1 m warm-white USB string. Keep the bowl low so it doesn't block the food or the view across the table.",
+      "facts": [
+        {
+          "k": "Quantity",
+          "v": "6 balls per pack (per listing title)"
+        },
+        {
+          "k": "Size",
+          "v": "6 cm diameter (per listing title)"
+        },
+        {
+          "k": "Material",
+          "v": "PVC plastic, per the listing"
+        }
+      ],
+      "alt": {
+        "id": "1342348395",
+        "name": "Red Table Christmas Placemat & Table Runner Set",
+        "note": "If you'd rather dress the whole table: a branded placemat and runner set from about ₱85. The listing photo shows a navy-and-white tree print with a teal runner, which is off-palette. The listing mentions other prints, so choose a red or green one if it's offered. ₱85 is likely the cheapest variant."
+      }
     }
   ],
   "sources": [
     {
-      "name": "Livingetc: Christmas tree alternatives for small spaces",
+      "name": "Livingetc: 6 Christmas Tree Alternatives for Small Spaces (Dec 2023)",
       "url": "https://www.livingetc.com/advice/christmas-tree-alternatives-for-small-spaces"
     },
     {
-      "name": "Livingetc: Hosting Christmas in a small space",
+      "name": "Livingetc: 10 foolproof rules to host Christmas in a small space (Dec 2022)",
       "url": "https://www.livingetc.com/ideas/christmas-in-a-small-space"
     },
     {
-      "name": "Livingetc: Fitting a tree in a small living room",
+      "name": "Livingetc: How Can I Fit a Christmas Tree in a Small Living Room? (Dec 2024)",
       "url": "https://www.livingetc.com/advice/how-to-fit-a-christmas-tree-in-a-small-living-room"
     },
     {
-      "name": "U.S. Department of Energy: How do holiday lights work?",
-      "url": "https://www.energy.gov/articles/how-do-holiday-lights-work"
+      "name": "Torre Lorenzo: Space-saving Christmas decor ideas for Manila condos (Nov 2025)",
+      "url": "https://www.torrelorenzo.com/blogs-posts/space-saving-christmas-decor-ideas-manila-condos"
     },
     {
-      "name": "U.S. Department of Energy: Purchasing energy-efficient light bulbs",
-      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-light-bulbs"
+      "name": "Federal Land Knowledge Hub: 11 Christmas Decoration Ideas for Condo Spaces (Dec 2021)",
+      "url": "https://federalland.ph/articles/christmas-decoration-ideas-condo/"
     },
     {
-      "name": "DTI Bureau of Philippine Standards: PS and ICC marks",
+      "name": "DTI Bureau of Philippine Standards: PS and ICC Marks",
       "url": "https://bps.dti.gov.ph/product-certification/ps-and-icc-marks"
     },
     {
-      "name": "Interaksyon: Holiday electrical safety (Meralco)",
+      "name": "Interaksyon (Philstar): Meralco holiday electrical safety tips (Dec 2022)",
       "url": "https://interaksyon.philstar.com/trends-spotlights/2022/12/23/238238/safety-measures-what-to-do-to-avoid-electrical-accidents-this-holiday-season/"
     },
     {
-      "name": "GMA News: BFP Christmas light safety tips",
+      "name": "GMA News: BFP tips for a fire-free holiday (Dec 2025)",
       "url": "https://www.gmanetwork.com/news/topstories/nation/968503/are-your-istmas-lights-safe-bfp-shares-tips-for-a-fire-free-holiday/story/"
     },
     {
-      "name": "Fire Code of the Philippines (RA 9514)",
+      "name": "RA 9514 Fire Code of the Philippines, via Lawphil",
       "url": "https://lawphil.net/statutes/repacts/ra2008/ra_9514_2008.html"
+    },
+    {
+      "name": "U.S. Department of Energy: How Do Holiday Lights Work?",
+      "url": "https://www.energy.gov/articles/how-do-holiday-lights-work"
+    },
+    {
+      "name": "U.S. DOE FEMP: Purchasing Energy-Efficient Light Bulbs",
+      "url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-light-bulbs"
+    },
+    {
+      "name": "NFPA: Winter Holiday Safety tip sheet",
+      "url": "https://content.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/winterholidaysafetytips.pdf?rev=e33c6d4fbc9547acb2c4e43a29f590cc"
     },
     {
       "name": "U.S. Fire Administration: Holiday fire safety",
       "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/holiday/"
     },
     {
-      "name": "NFPA: Winter holiday safety tips",
-      "url": "https://content.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/winterholidaysafetytips.pdf?rev=e33c6d4fbc9547acb2c4e43a29f590cc"
+      "name": "U.S. CPSC: Ten Tips to Keep Your Holiday Home Fire and Injury Free",
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2010/Ten-Tips-to-Keep-Your-Holiday-Home-Fire-and-Injury-FreeFires-Lead-the-List-of-Hazards-Related-to-Holiday-Decorating"
     },
     {
-      "name": "Consumer Reports: Artificial Christmas tree assembly tips",
+      "name": "Electrical Safety First: USB chargers",
+      "url": "https://www.electricalsafetyfirst.org.uk/safety-advice/products-and-appliances/gadgets-entertainment/usb-chargers/"
+    },
+    {
+      "name": "Energizer: Battery care",
+      "url": "https://energizer.com/about-batteries/battery-care/"
+    },
+    {
+      "name": "Consumer Reports: We Assembled 6 Artificial Christmas Trees (Nov 2021)",
       "url": "https://www.consumerreports.org/home-garden/holiday-planning-preparation/artificial-christmas-tree-assembly-tips-a2345777419/"
     },
     {
-      "name": "TextileDesign Tools: Why printed colours differ from screens",
-      "url": "https://textiledesigntools.com/blog/print-colour-different-from-screen/"
+      "name": "Poison Control: Christmas ornament hazards",
+      "url": "https://www.poison.org/articles/christmas-ornament-hazards-204"
     },
     {
-      "name": "Sewing & Craft Alliance: Pillow guidelines",
+      "name": "Sewing & Craft Alliance: SEW-lutions Guidelines, Pillows",
       "url": "https://www.sewing.org/files/guidelines/8_120_pillows.pdf"
+    },
+    {
+      "name": "TextileDesign Tools: Printed colour different from screen?",
+      "url": "https://textiledesigntools.com/blog/print-colour-different-from-screen/"
     }
-  ],
-  "alsoIn": [
-    "home"
-  ],
-  "order": 1
+  ]
 }

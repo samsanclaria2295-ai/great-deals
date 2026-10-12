@@ -1,30 +1,78 @@
 {
   "slug": "must-have-phone-accessories",
-  "category": "tech",
-  "color": "mustard",
   "type": "ranked",
-  "title": "6 phone accessories worth owning, ranked",
+  "order": 2,
+  "color": "mustard",
+  "og": "og-guide-phone.jpg",
+  "placements": [
+    {
+      "cat": "tech",
+      "topic": "phone-accessories"
+    }
+  ],
+  "title": "The 5 phone accessories worth owning, ranked",
   "shortTitle": "Must-have phone accessories",
   "kicker": "Tech · Ranked buying guide",
-  "dek": "The small add-ons that make a phone easier to live with every day, from a flight-friendly power bank to a cable that won't give up on you. Picked from real Lazada listings and checked against independent reviews.",
-  "description": "A ranked guide to the phone accessories worth owning in the Philippines: power bank, fast charger, USB-C cable, earbuds, case, car mount and tripod, with pros, cons and sources.",
+  "dek": "Built from six expert lists, then matched to real Lazada listings: a flight-friendly power bank, a fast charger, a cable that lasts, commute-ready earbuds and a tripod for trips.",
+  "teaser": "Six expert lists, five picks: the accessories that make a phone easier to live with, ranked.",
+  "description": "The phone accessories worth owning in the Philippines, ranked from six expert lists: power bank, fast charger, USB-C cable, noise-cancelling earbuds and a tripod, with pros, cons and sources.",
   "published": "2026-10-12",
   "updated": "2026-10-12",
-  "readMinutes": 8,
+  "readMinutes": 9,
   "hero": {
-    "img": "guide-phone",
-    "alt": "AI sample render of a sunny condo desk with a phone on a small tripod, a white wall charger, a braided cable, a magnetic power bank, earbuds and a clear phone case",
-    "render": true
+    "img": "banner-phone",
+    "alt": "AI sample render of a sunny condo desk with a sky-blue magnetic power bank on a phone, a pale blue cube charger, braided USB-C cables, black earbuds with their case and a black tripod holding a phone",
+    "caption": "AI sample render of our five picks, drawn from written descriptions of each product. The real product photos from Lazada are below."
   },
   "intro": [
-    "Your phone carries a lot of your day: e-wallet payments, ride bookings, work chats, the family group chat, maps, and every photo from the last out-of-town trip. The accessories around it don't need to be fancy. They need to keep it charged, protected and steady, and they need to be genuine, because a fake charger or power bank isn't just money wasted. It can overheat.",
-    "So we kept this list short and practical. Every pick is available through Lazada, comes from a well-known brand sold by an established store with steady recent sales, and was checked against manufacturer spec pages and independent reviews. Where the evidence is thinner, we tell you, so you can decide how much weight to give it."
+    "Your phone carries a lot of your day: payments, rides, work chats, the family group chat, maps and every photo from the last out-of-town trip. The accessories around it don't need to be fancy. They need to keep it charged, steady and easy to use, and they need to be genuine, because a fake charger or power bank isn't just money wasted. It can overheat.",
+    "So instead of starting from whatever sells, we started from the experts. We read six editorial accessory lists, counted what they agree on, set clear criteria for each item, and only then compared real listings against them."
   ],
-  "method": "We started from products available through Lazada's affiliate program, kept only well-known brands from established stores with steady recent sales, then read manufacturer pages and independent reviews for each model and cross-checked our notes with AI research assistants (Claude, Gemini and ChatGPT). We haven't tested these products ourselves. We also looked at car phone mounts, but none we found had enough independent evidence behind it to recommend yet. Lazada star ratings aren't part of the data we can access, so read the latest buyer reviews on each listing before you check out.",
+  "curation": {
+    "title": "Six expert lists, one shortlist",
+    "summary": [
+      "We read six editorial lists: Engadget, 9to5Google, SamMobile, CNET, How-To Geek and Unbox PH. The power bank is the only accessory all six include. Next come a case and a spare charging cable (five of six), then a wall charger and a stand, grip or mount (four of six).",
+      "We ranked the slots by how many lists include them, how often you would use them, and how much they matter here: long commutes, brownouts, flights and heat. Cases and car mounts are covered in the notes below instead of as picks."
+    ],
+    "stepsTitle": "What we did",
+    "steps": [
+      "Read six editorial accessory lists and counted which accessory types they share.",
+      "Ranked the types by agreement, daily use and Philippine relevance, then set 3 to 4 checkable criteria per slot.",
+      "Compared 2 to 4 Lazada listings per slot on those criteria, price, seller and recent buyers.",
+      "Checked every product photo against its listing, and every power bank model code against Anker's 2025 recall list.",
+      "Dropped look-alike stores (we found fake \"Anker\" shops spelled with Greek and Cyrillic letters) and listings whose photos didn't match."
+    ],
+    "sources": [
+      {
+        "name": "Engadget: The best iPhone accessories for 2026",
+        "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
+      },
+      {
+        "name": "9to5Google: These are the first accessories you should get for your new Google Pixel phone",
+        "url": "https://9to5google.com/2025/12/26/google-pixel-accessories-new-phone/"
+      },
+      {
+        "name": "SamMobile: What phone accessories do I really need?",
+        "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
+      },
+      {
+        "name": "CNET via Yahoo Tech: Bought an iPhone 15 or 16? Try These USB-C Accessories First",
+        "url": "https://tech.yahoo.com/phones/articles/bought-iphone-15-16-try-194800589.html"
+      },
+      {
+        "name": "How-To Geek: Which Smartphone Accessories Are Worth Buying?",
+        "url": "https://www.howtogeek.com/821736/which-smartphone-accessories-are-worth-buying/"
+      },
+      {
+        "name": "Unbox PH: What's In My Personal Vacation Tech Bag?",
+        "url": "https://unbox.ph/gadget/whats-in-my-personal-vacation-tech-bag/"
+      }
+    ]
+  },
   "callouts": [
     {
       "title": "Flying soon? Know the power bank rules",
-      "body": "CAAP bans power banks over 160Wh on flights, and up to 100Wh is allowed on board. Philippine Airlines and Cebu Pacific allow a maximum of two power banks of 100Wh or less. They must travel with you, not in checked bags, and both airlines say to keep them out of the overhead bin and not to charge with them during the flight. A 10,000mAh power bank is about 37Wh. Keep the capacity label readable, and check your airline's latest rules before you fly.",
+      "body": "CAAP bans power banks over 160Wh on flights, and up to 100Wh is allowed on board. Philippine Airlines and Cebu Pacific allow a maximum of two power banks of 100Wh or less. They must travel with you, not in checked bags, and both airlines say to keep them out of the overhead bin and not to charge with them during the flight. A 10,000mAh power bank is about 37Wh. Check your airline's latest rules before you fly.",
       "sources": [
         {
           "name": "Unbox PH",
@@ -42,325 +90,429 @@
     },
     {
       "title": "Always check the model number",
-      "body": "In June 2025, Anker recalled five power bank models (A1257, A1647, A1652, A1681 and A1689) because of battery cells from one supplier. Our pick, the A1685, is not one of them, and while researching we skipped a listing whose name included a recalled model code. Whatever power bank you buy, make sure the model on the box matches the listing.",
+      "body": "In June 2025, Anker recalled five power bank models (A1257, A1647, A1652, A1681 and A1689) because of battery cells from one supplier. Our pick, the A1685, is not one of them, and while researching we skipped a listing whose name still carries a recalled code. Whatever power bank you buy, make sure the model on the box matches the listing.",
       "sources": [
         {
           "name": "9to5Mac",
           "url": "https://9to5mac.com/2025/06/27/anker-issues-new-global-recall-for-five-power-bank-models-over-fire-hazard/"
         }
       ]
+    },
+    {
+      "title": "Protect it first: case and screen protector",
+      "body": "Cases and screen protectors are on most expert lists, but they have to match your exact phone model, so there is no single pick for everyone. Some phones sold here come with a basic clear case and a pre-applied screen film, so check the box first. If you buy one, choose the listing made for your model, ideally from the brand's own store.",
+      "sources": [
+        {
+          "name": "SamMobile",
+          "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
+        },
+        {
+          "name": "9to5Google",
+          "url": "https://9to5google.com/2025/12/26/google-pixel-accessories-new-phone/"
+        }
+      ]
+    },
+    {
+      "title": "Why there is no car mount (yet)",
+      "body": "Car mounts appear on three of the six lists, but none of the mounts we checked had an independent review we could verify, so we are holding off rather than guessing. If you use one, mount it low on the dashboard or an aircon vent, never in the middle of the windshield: the Anti-Distracted Driving Act (RA 10913) bans placements that block your view of the road.",
+      "sources": [
+        {
+          "name": "DriveSafe PH",
+          "url": "https://drivesafe.ph/understanding-the-anti-distracted-driving-act-adda/"
+        }
+      ]
     }
   ],
+  "sellerNote": "Picks 1 to 4 are sold by the Anker Global store on Lazada. Anker Philippines' 18-month local warranty covers its official Philippine channels, so check the warranty and where the item ships from on the listing before you buy.",
   "items": [
     {
       "id": "4738702087",
       "rank": 1,
       "slot": "Power bank",
+      "label": "Best overall",
       "name": "Anker Zolo Magnetic Power Bank 10K (A1685)",
       "brand": "Anker",
-      "summary": "Running out of battery away from an outlet is the most common phone problem there is, which is why a good power bank tops this list. This is the best-reviewed 10,000mAh bank we found through Lazada: it has a USB-C cable built right in, so there's nothing to forget at home, and at about 37Wh it sits comfortably under airline limits.",
+      "verdict": "Our top pick for keeping any USB-C phone going through a long commute or a full day out, plus magnetic charging for iPhones.",
+      "summary": "If you buy only one accessory, make it a power bank. This Anker Zolo has its own USB-C cable built in, so you can top up on the bus, at the mall or during a brownout without hunting for a cord. iPhone owners get two extras: it snaps on magnetically, and it has a little stand for watching videos while it charges.",
       "evidence": "strong",
       "reviewers": [
         {
-          "point": "Gave it an Editors' Choice. In their battery test it recharged an iPhone 16 Pro to 191%, the best result among the iPhone power banks they had tested at the time.",
+          "point": "Gave it an Editors' Choice. In their battery test it recharged an iPhone 16 Pro to 191%, the highest result they had recorded at the time.",
+          "source": "Macworld (Simon Jary, Nov 16, 2024)",
+          "url": "https://www.macworld.com/article/2508728/anker-zolo-magnetic-10k-power-bank-review.html"
+        },
+        {
+          "point": "The main catch: the built-in cable is USB-C, so it suits iPhone 15 and newer and USB-C Android phones, not older Lightning iPhones.",
           "source": "Macworld",
           "url": "https://www.macworld.com/article/2508728/anker-zolo-magnetic-10k-power-bank-review.html"
         },
         {
-          "point": "Their main reservation: the built-in USB-C cable suits USB-C phones best, so on iPhones that means the iPhone 15 generation and newer.",
-          "source": "Macworld",
-          "url": "https://www.macworld.com/article/2508728/anker-zolo-magnetic-10k-power-bank-review.html"
-        },
-        {
-          "point": "Lists 10,000mAh capacity, 30W wired charging, 7.5W magnetic wireless charging, a built-in USB-C cable and a fold-out stand.",
-          "source": "Anker (manufacturer)",
-          "url": "https://www.anker.com/products/a1685"
+          "point": "A1685 is not one of the five Anker power banks recalled in June 2025 (A1257, A1647, A1652, A1681, A1689).",
+          "source": "9to5Mac (Jun 27, 2025)",
+          "url": "https://9to5mac.com/2025/06/27/anker-issues-new-global-recall-for-five-power-bank-models-over-fire-hazard/"
         }
       ],
       "pros": [
-        "Editors' Choice from Macworld, with the top recharge result in their test",
-        "Built-in USB-C cable plus a spare USB-C port, up to 30W wired",
-        "Snaps onto MagSafe iPhones and has a kickstand for videos",
-        "About 37Wh, well under the 100Wh airline limit"
+        "Built-in USB-C cable plus a spare USB-C port",
+        "Up to 30W wired, fast enough for iPhone 15+ and Android",
+        "Snaps onto MagSafe iPhones and has a kickstand"
       ],
       "cons": [
-        "Wireless charging is only 7.5W",
-        "The magnet only helps MagSafe iPhones or phones in a magnetic case; Android users will mostly use the cable",
-        "Total output drops to 15W when charging two devices",
-        "Costs more than a basic 10,000mAh bank"
+        "Costs more than a basic 10,000mAh bank",
+        "Wireless charging is a slow 7.5W"
       ],
-      "bestFor": "iPhone users with MagSafe, and anyone who wants a power bank with its own cable for commutes and flights.",
-      "tip": "Choose your colour, then check that the box says A1685. When flying, keep it with you (seat pocket or under the seat), never in checked luggage or the overhead bin.",
+      "bestFor": "Commuters and travelers who want one grab-and-go battery, especially iPhone 15 and newer owners",
+      "tip": "Check that the box says A1685 and pick your colour in the variant list. When flying, keep it with you in the cabin, never in checked bags, and don't use it on board.",
+      "facts": [
+        {
+          "k": "Capacity",
+          "v": "10,000mAh"
+        },
+        {
+          "k": "Wired output",
+          "v": "Up to 30W via built-in USB-C cable"
+        },
+        {
+          "k": "Wireless",
+          "v": "7.5W magnetic, with stand"
+        }
+      ],
       "alt": {
-        "id": "3796402311",
-        "name": "Baseus Magnetic Mini Power Bank 10,000mAh (20W)",
-        "note": "A cheaper magnetic option from the Baseus store. We couldn't find an independent review we could verify, and the listing name doesn't give a model number, so treat it as a budget backup."
+        "id": "4264261380",
+        "name": "UGREEN 10000mAh Magnetic Wireless Power Bank",
+        "label": "Budget pick",
+        "note": "About ₱1,100 from UGREEN Official Store. The listing photo shows 20W wired charging, 7.5W to 15W magnetic wireless charging and a free USB-C cable. The listing doesn't name a model code, and the title also mentions a 5,000mAh size, so make sure you select the 10,000mAh option."
       }
     },
     {
       "id": "4644812363",
       "rank": 2,
       "slot": "Fast charger",
+      "label": "Best value",
       "name": "Anker Zolo 30W GaN USB-C Charger (A2698)",
       "brand": "Anker",
-      "summary": "A tiny charger that fast-charges both iPhones (USB Power Delivery) and Samsung and other Android phones (PPS). It ranks second only because some Android phones sold here still include a fast charger in the box, so check yours first. If your phone came without one, start here.",
+      "verdict": "A tiny, low-cost 30W charger that fast-charges both iPhones and Samsung phones and is designed to stay cool.",
+      "summary": "Not every phone comes with a charger in the box anymore, so check yours first. If you need one, this pocket-size Anker Zolo is an easy choice. 30W covers full-speed charging on most phones, and it speaks both Apple's and Samsung's fast-charging standards. Anker also built in a temperature sensor, which is reassuring on hot Philippine afternoons.",
       "evidence": "moderate",
       "reviewers": [
         {
-          "point": "Lists one USB-C port, 30W max, PD 3.0 and PPS, 100 to 240V input, about 3.1 x 3.2 x 3.6 cm and 49 g. Anker says it charges an iPhone 15 to 50% in about 26 minutes; that's the maker's claim, not an independent test.",
-          "source": "Anker (manufacturer)",
+          "point": "Covered the local launch: the Zolo 20W and 30W chargers have foldable plugs, a temperature sensor that Anker says keeps charging 13°C cooler than standard chargers, and a stacked design about 25% smaller. Launch prices were ₱395 for the 20W and ₱495 for the 30W.",
+          "source": "Unbox PH (Nov 1, 2024)",
+          "url": "https://unbox.ph/gadget/anker-zolo-power-bank-charger-philippines/"
+        },
+        {
+          "point": "Anker's spec page for A2698: one USB-C port, 30W max, PD 3.0 and PPS, 100–240V input, 49 g.",
+          "source": "Anker Singapore (manufacturer)",
           "url": "https://anker.com.sg/products/anker-zolo-30w-compact-usb-c-gan-ii-charger-temperature-control-new-heat-dissipation-tech-a2698"
         },
         {
-          "point": "Covered the Zolo chargers' Philippine launch: a foldable plug, a built-in temperature sensor and a stacked design about 25% smaller than chargers with the same output.",
-          "source": "Unbox PH",
-          "url": "https://unbox.ph/gadget/anker-zolo-power-bank-charger-philippines/"
+          "point": "Engadget's 2026 iPhone guide and How-To Geek's list of cheap iPhone essentials both recommend a compact 30W Anker USB-C charger as the one to get. They name the Anker Nano 30W, a different model from this Zolo.",
+          "source": "Engadget (Feb 2026) / How-To Geek (Jul 18, 2025)",
+          "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
         }
       ],
       "pros": [
-        "30W with PD and PPS covers iPhones and most Android fast charging",
-        "Very small and light, with a foldable plug",
-        "Built-in temperature sensor, per Anker",
-        "One of the best sellers in this guide, based on recent sales"
+        "30W with PD and PPS covers iPhones, Samsung and most Android phones",
+        "Very small, with a foldable plug",
+        "Built-in temperature control"
       ],
       "cons": [
-        "Single port, so one device at a time",
-        "We found no independent lab test; the speed and heat claims are Anker's own",
-        "The listing covers more than one model, so you need to pick the right option"
+        "One port, so one device at a time",
+        "No independent lab test of this exact model found"
       ],
-      "bestFor": "Anyone whose phone came without a charger, or who wants a small fast charger for the bag.",
-      "tip": "The listing includes two model codes. Choose the 30W option (A2698), which may cost a little more than the starting price, and pair it with a USB-C cable like pick #3.",
+      "bestFor": "Anyone whose phone came without a charger, or who wants a small spare for the bag or office",
+      "tip": "₱395 is the listing's base price. Unbox PH reported launch prices of ₱395 for the 20W and ₱495 for the 30W, so select the 30W option (A2698) and expect to pay a bit more. It has a USB-C port only; if your phone came with a USB-A cable, add pick #3.",
+      "facts": [
+        {
+          "k": "Output",
+          "v": "30W max, single USB-C port"
+        },
+        {
+          "k": "Fast-charging",
+          "v": "PD (PIQ 3.0) and PPS"
+        },
+        {
+          "k": "Plug",
+          "v": "Foldable"
+        }
+      ],
       "alt": {
         "id": "3367619958",
-        "name": "UGREEN 20W/30W GaN USB-C Fast Charger",
-        "note": "From UGREEN's store on Lazada, with strong recent sales. The listing name doesn't give a model number, so choose the 30W option and check the box."
+        "name": "UGREEN Nexode Mini 30W GaN Charger",
+        "label": "Also great",
+        "note": "About ₱350 from UGREEN Official Store. The listing covers 20W and 30W versions, so pick 30W for full-speed charging on most phones."
       }
     },
     {
       "id": "4689957578",
       "rank": 3,
-      "slot": "USB-C cable",
+      "slot": "Spare USB-C cable",
+      "label": "Best spare cable",
       "name": "Anker Zolo 240W Braided USB-C to USB-C Cable (A8060)",
       "brand": "Anker",
-      "summary": "Cables are the accessory that quietly fails first. This braided one was independently tested and passed, which is rare at this price, and it had the most recent sales of anything in this guide.",
+      "verdict": "A tough, independently tested cable for under ₱300, and one of the most popular cables we found.",
+      "summary": "A second good cable means one stays by the bed and one lives in your bag. This braided Anker Zolo cable is certified by the USB standards body (USB-IF) and passed an independent tester's high-power check. It's also the missing piece if your phone came with an older USB-A cable but your new charger or power bank only has USB-C.",
       "evidence": "strong",
       "reviewers": [
         {
-          "point": "Independent test: USB-IF certified, which the reviewer calls very unusual at this price, with an e-marker chip; it held 140W continuously on their load tester. Overall grade: B+.",
-          "source": "Cheap & Cheerful",
+          "point": "Independent test: USB-IF certified (the reviewer says that's unusual at this price), e-marker present, and it handled a 140W continuous load. The braid is soft and flexible rather than stiff. Overall grade B+.",
+          "source": "Cheap & Cheerful (cheerful.cheap)",
           "url": "https://cheerful.cheap/review/anker-zolo-a8060-240w-slim/"
         },
         {
-          "point": "Same reviewer's main con: data runs at USB 2.0 speed (480 Mbps), so it's a charging cable, not a fast file-transfer cable.",
-          "source": "Cheap & Cheerful",
+          "point": "Same reviewer's main con: data runs at USB 2.0 speed, so treat it as a charging cable, not a fast file-transfer cable.",
+          "source": "Cheap & Cheerful (cheerful.cheap)",
           "url": "https://cheerful.cheap/review/anker-zolo-a8060-240w-slim/"
         },
         {
-          "point": "Rated 240W (USB PD 3.1), sold in 0.9 m and 1.8 m lengths, braided with a slim 5.8 mm connector. No video output.",
-          "source": "Anker (manufacturer)",
-          "url": "https://anker.com.sg/products/anker-zolo-usb-c-to-usb-c-240w-braided-fast-charging-cable-a8060"
+          "point": "General advice: cheap cables can charge slowly, overheat or stop working within months, so choose a certified cable that supports your phone's fast-charging standard.",
+          "source": "SamMobile (updated Feb 13, 2026)",
+          "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
         }
       ],
       "pros": [
-        "Independently tested: USB-IF certified with an e-marker",
-        "Enough power for phones, tablets and most laptops",
-        "Soft, flexible braid with a slim connector",
-        "Very affordable for a certified cable"
+        "Independently tested: USB-IF certified, with an e-marker",
+        "Soft, flexible braid",
+        "Covers phones, tablets and most laptops"
       ],
       "cons": [
-        "USB 2.0 data speed only",
-        "No video output or screen mirroring",
-        "A 240W rating won't make your phone charge faster than the phone and charger allow"
+        "Slow USB 2.0 data transfers",
+        "No video output or screen mirroring"
       ],
-      "bestFor": "A spare cable for the bag, the car or your power bank, or replacing a frayed one.",
-      "tip": "Pick the length (0.9 m or 1.8 m) and colour. It's USB-C on both ends, so older Lightning iPhones need a different cable.",
+      "bestFor": "A spare for the bag, car or power bank, or replacing a frayed cable",
+      "tip": "Pick 0.9 m for a bag or power bank and 1.8 m for the bedside. The price shown is for the base variant. iPhone 14 and older use Lightning, so they need a USB-C to Lightning cable instead.",
+      "facts": [
+        {
+          "k": "Rating",
+          "v": "240W, USB-C to USB-C"
+        },
+        {
+          "k": "Jacket",
+          "v": "Braided"
+        },
+        {
+          "k": "Model",
+          "v": "A8060"
+        }
+      ],
       "alt": {
         "id": "3169948125",
-        "name": "UGREEN 100W 5A USB-C to USB-C Cable",
-        "note": "From UGREEN's store. Rated 100W with an e-marker according to the listing name, enough for phones, tablets and many laptops."
+        "name": "UGREEN 100W USB-C to USB-C Cable with E-Marker",
+        "label": "Also great",
+        "note": "About ₱290 from UGREEN Official Store. Per the listing name it is rated 100W (20V/5A) with an e-marker, which is enough for phones, tablets and many laptops. Choose your length in the variant list."
       }
     },
     {
       "id": "4520978130",
       "rank": 4,
       "slot": "Wireless earbuds",
+      "label": "Best for commuters",
       "name": "Soundcore R50i NC Noise-Cancelling Earbuds (A3959)",
       "brand": "Soundcore by Anker",
-      "summary": "Real active noise cancelling and long battery life at a budget price. Two hands-on reviews, including one from a Philippine site, agree the noise cancelling works well for what you pay, especially against traffic and engine rumble on the commute.",
+      "verdict": "Real noise cancelling for the daily commute, at a budget price.",
+      "summary": "Jeepney engines, bus horns and train announcements add up over a long commute. These Soundcore earbuds use active noise cancelling to turn that down. They last a full day with the case and cost about ₱1,300. A Philippine reviewer found the noise cancelling works best on steady rumble like traffic and engines, which is exactly the noise most of us deal with.",
       "evidence": "strong",
       "reviewers": [
         {
-          "point": "Calls noise cancelling one of its strongest points, cutting traffic and indoor noise well; comfortable for long sessions, and the case flips into a phone stand. Downsides: bass-heavy default tuning, some sound leakage at higher volume, and an average transparency mode.",
-          "source": "Gadgetbyte Nepal",
-          "url": "https://www.gadgetbytenepal.com/soundcore-r50i-nc-review/"
-        },
-        {
-          "point": "A budget pick that punches above its price. The ANC works best on steady low-frequency noise like traffic and engine hum but doesn't block everything; light, comfortable fit; bass-heavy sound.",
-          "source": "WalasTech (PH)",
+          "point": "Scored it 4.3 out of 5. The noise cancelling handles low rumble like traffic and engine hum well but doesn't block everything. Comfortable for hours of commuting. Clear vocals with strong, bass-heavy tuning.",
+          "source": "WalasTech (PH, Carl Lamiel, Jul 22, 2024)",
           "url": "https://walastech.com/6sz2"
         },
         {
-          "point": "Lists adaptive ANC up to 42 dB, 10 mm drivers, Bluetooth 5.4, about 10 hours per charge and 45 hours with the case with ANC off (about 7 and 30 hours with ANC on), IP54, and an 18-month Soundcore warranty through official channels.",
+          "point": "After a week of use: effective at cutting indoor and traffic noise, comfortable enough to fall asleep in, and the case doubles as a phone stand. Cons: sound leaks at higher volume, transparency mode is only so-so, and the default tuning is bass-heavy (fixable with the app EQ).",
+          "source": "Gadgetbyte Nepal (Sep 2026)",
+          "url": "https://www.gadgetbytenepal.com/soundcore-r50i-nc-review/"
+        },
+        {
+          "point": "Anker PH lists model A3959 with adaptive ANC up to 42dB, 10mm drivers, Bluetooth 5.4 and IP54. Battery is 10 hours per charge and 45 hours with the case with ANC off, or about 7 and 30 hours with ANC on. It carries an 18-month Soundcore warranty, and the sale price on anker.com.ph was ₱1,295.",
           "source": "Anker Philippines (manufacturer)",
           "url": "https://www.anker.com.ph/products/soundcore-r50i-nc-earbuds"
         }
       ],
       "pros": [
-        "Adaptive noise cancelling at a budget price",
-        "Long battery life, especially with ANC off",
-        "Case doubles as a phone stand",
-        "App EQ lets you tame the bass"
+        "Real noise cancelling at a budget price",
+        "Long battery life with the case",
+        "Case doubles as a phone stand"
       ],
       "cons": [
-        "Bass-heavy out of the box",
-        "Some sound leakage at high volume",
-        "Transparency mode is only average",
-        "IP54 means splash resistant, not swim-proof"
+        "Bass-heavy out of the box (the app EQ helps)",
+        "Sound leaks at high volume"
       ],
-      "bestFor": "Commuters on jeeps, buses and trains who want noise cancelling without spending much.",
-      "tip": "Battery life is shorter with ANC on. Turn it on for the commute and off at your desk to stretch a charge.",
+      "bestFor": "Commuters on jeeps, buses and trains who want quieter rides without spending much",
+      "tip": "Expect shorter battery life with ANC on (about 7 hours per charge). If the bass feels heavy, use the soundcore app's EQ. Choose your colour in the variant list.",
+      "facts": [
+        {
+          "k": "Noise cancelling",
+          "v": "Adaptive ANC, up to 42dB"
+        },
+        {
+          "k": "Battery",
+          "v": "Up to 45H total playtime"
+        },
+        {
+          "k": "Bluetooth",
+          "v": "5.4"
+        }
+      ],
       "alt": {
         "id": "4552590266",
         "name": "Xiaomi Redmi Buds 6 Active",
-        "note": "About half the price, from Xiaomi's store on Lazada. According to the listing name: Bluetooth 5.4, call noise reduction and up to 30 hours with the case. There's no noise cancelling for music, so it's for calls and casual listening."
+        "label": "Budget pick",
+        "note": "About ₱670 from Xiaomi Official Store Global. Per the listing name: Bluetooth 5.4, dual-mic call noise reduction (ENC), 30 hours with the case, IPX4 and a semi-in-ear fit. It has no active noise cancelling for music, so it's best for calls and casual listening."
       }
     },
     {
-      "id": "4666893958",
-      "rank": 5,
-      "slot": "Case (iPhone 16 series)",
-      "name": "Spigen Ultra Hybrid T MagFit Case for iPhone 16, 16 Pro and 16 Pro Max",
-      "brand": "Spigen",
-      "summary": "A case has to match your exact phone, so this pick is for iPhone 16, 16 Pro and 16 Pro Max owners. Spigen was the only well-known case brand we found in the feed, sold from Spigen's own store, and this model keeps the Camera Control button usable through the case.",
-      "evidence": "strong",
-      "reviewers": [
-        {
-          "point": "Hands-on: the touch-sensitive Camera Control cover works well and passed Apple's gestures through reliably; MagSafe works well through the case. Cons: the raised lip around the screen is bigger than the reviewer likes, and the button covers feel less clicky than metal ones.",
-          "source": "9to5Toys",
-          "url": "https://9to5toys.com/2024/09/25/spigen-iphone-16-camera-control-case/"
-        },
-        {
-          "point": "Made of polycarbonate and TPU with Air Cushion corners, MagSafe compatible, with a capacitive Camera Control cover.",
-          "source": "Spigen (manufacturer)",
-          "url": "https://www.spigen.com/products/iphone-16-series-case-ultra-hybrid-t-magfit"
-        },
-        {
-          "point": "Spigen says it can only guarantee items bought through its official channels, because knockoffs circulate.",
-          "source": "Spigen support",
-          "url": "https://support.spigen.com/portal/en/kb/articles/is-my-item-a-genuine-spigen-product"
-        }
-      ],
-      "pros": [
-        "Camera Control stays usable through the case",
-        "Works with MagSafe chargers, mounts and power banks like pick #1",
-        "Clear back shows off your phone's colour",
-        "Sold from Spigen's own store"
-      ],
-      "cons": [
-        "Only fits iPhone 16, 16 Pro and 16 Pro Max (not the 16 Plus)",
-        "Pricier than generic cases",
-        "Raised screen lip that some people dislike"
-      ],
-      "bestFor": "iPhone 16-series owners who want a clear MagSafe case from a known brand.",
-      "tip": "Select your exact model and colour; the price can differ by variant. If your phone came with a basic case, try it first before buying another.",
-      "alt": null
-    },
-    {
       "id": "3560964744",
-      "rank": 6,
-      "slot": "Selfie stick tripod",
+      "rank": 5,
+      "slot": "Phone stand & selfie tripod",
+      "label": "Best for trips and video calls",
       "name": "Ulanzi MT-44 Extendable Phone Tripod and Selfie Stick",
       "brand": "Ulanzi",
-      "summary": "A selfie stick, a tabletop or floor tripod and a phone clip in one light piece of gear, from a well-known creator-equipment brand. It earns its spot for group photos on trips, videos and hands-free video calls.",
+      "verdict": "A light 3-in-1 stand, tripod and selfie stick that holds almost any phone.",
+      "summary": "A tripod stand is the accessory you'll be glad you packed. Use it for video calls, cooking videos, live selling, or the barkada photo where nobody has to stay behind the camera. The Ulanzi MT-44 folds small, stands on a table or the floor, and doubles as a selfie stick. Its phone clamp hides inside the head, so there's no separate holder to lose.",
       "evidence": "strong",
       "reviewers": [
         {
-          "point": "Hands-on: light at 422 g, folds small for travel, with six height sections, a 360° ball head and a hidden phone holder, so no extra mount is needed. The legs feel stable on flat ground.",
+          "point": "Light at 422 g, with six sections that extend from 32.5 cm to 149 cm, a 360° ball head and a spring-loaded phone holder hidden in the head. The legs lock securely and it is stable on flat surfaces.",
+          "source": "Tech Edition (Vincent Wee, Jul 31, 2025)",
+          "url": "https://www.techedt.com/ulanzi-extendable-vlog-mt-44-tripod-review-sleek-yet-functional-companion-for-content-creators"
+        },
+        {
+          "point": "Same review's cons: less stable when fully extended outdoors in wind, ABS plastic build, a small screw cover that falls off easily, and sections that can feel stiff. The clamp fits phones about 6–8 cm wide.",
           "source": "Tech Edition",
           "url": "https://www.techedt.com/ulanzi-extendable-vlog-mt-44-tripod-review-sleek-yet-functional-companion-for-content-creators"
         },
         {
-          "point": "Same review's cons: it can wobble when fully extended outdoors, the build is plastic, the small screw cover is easy to lose, and the sections can feel stiff. Phone width supported: about 6 to 8 cm.",
-          "source": "Tech Edition",
-          "url": "https://www.techedt.com/ulanzi-extendable-vlog-mt-44-tripod-review-sleek-yet-functional-companion-for-content-creators"
-        },
-        {
-          "point": "Extends to about 146.5 cm in six sections and also works with mirrorless and action cameras.",
+          "point": "Ulanzi lists six sections, up to 146.5 cm (57.6 in), and a foldable hidden phone holder. It also works with small cameras and lights.",
           "source": "Ulanzi (manufacturer)",
           "url": "https://www.ulanzi.com/fr-eu/collections/ulanzi-us-warehouse-delivery/products/ulanzi-mt-44-extendable-vlog-tripod-2502b"
         }
       ],
       "pros": [
-        "Selfie stick, tripod and phone clip in one",
-        "Light and packs small",
-        "Ball head for portrait or landscape shots",
-        "Also holds small cameras"
+        "Stand, tripod and selfie stick in one",
+        "Hidden phone clamp, plus a 1/4-inch screw for cameras and lights",
+        "Sold by an authorized Ulanzi reseller (per the listing photo)"
       ],
       "cons": [
-        "Wobbly at full height, especially in wind",
-        "Plastic build",
-        "Small parts that are easy to lose",
-        "No remote mentioned in the listing; use your phone's timer"
+        "Wobbles at full height in wind",
+        "Plastic build, and no remote included"
       ],
-      "bestFor": "Trips with the barkada, solo travel, short videos and video calls.",
-      "tip": "Measure your phone's width with its case on; the clip fits about 6 to 8 cm. Keep it lower in windy spots.",
-      "alt": null
+      "bestFor": "Barkada trips, solo travelers, video calls, live selling and TikTok or Reels",
+      "tip": "Measure your phone with its case on: the clamp fits about 6 to 8 cm wide. On windy days, keep it below full height, and use your phone's timer for group shots.",
+      "facts": [
+        {
+          "k": "Height",
+          "v": "Up to 146.5 cm, six sections (Ulanzi)"
+        },
+        {
+          "k": "Weight",
+          "v": "About 422 g (Tech Edition)"
+        },
+        {
+          "k": "Mounts",
+          "v": "Phone clamp + 1/4\" screw"
+        }
+      ],
+      "alt": {
+        "id": "2499899812",
+        "name": "Ulanzi MT-44 (JG Superstore listing)",
+        "label": "Lower price, more versions",
+        "note": "The same tripod for less, from a seller whose listing bundles three versions (MT-44, MT-44B and MT-44M). The lowest price is for the plain MT-44, so check the version name before checkout."
+      }
     }
   ],
   "sources": [
+    {
+      "name": "Engadget: The best iPhone accessories for 2026",
+      "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
+    },
+    {
+      "name": "9to5Google: First accessories for your new Google Pixel phone",
+      "url": "https://9to5google.com/2025/12/26/google-pixel-accessories-new-phone/"
+    },
+    {
+      "name": "SamMobile: What phone accessories do I really need?",
+      "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
+    },
+    {
+      "name": "CNET via Yahoo Tech: Bought an iPhone 15 or 16? Try These USB-C Accessories First",
+      "url": "https://tech.yahoo.com/phones/articles/bought-iphone-15-16-try-194800589.html"
+    },
+    {
+      "name": "How-To Geek: Which Smartphone Accessories Are Worth Buying?",
+      "url": "https://www.howtogeek.com/821736/which-smartphone-accessories-are-worth-buying/"
+    },
+    {
+      "name": "How-To Geek: 9 Cheap and Essential iPhone Accessories",
+      "url": "https://www.howtogeek.com/cheap-accessories-that-will-make-your-iphone-better/"
+    },
+    {
+      "name": "Unbox PH: What's In My Personal Vacation Tech Bag?",
+      "url": "https://unbox.ph/gadget/whats-in-my-personal-vacation-tech-bag/"
+    },
     {
       "name": "Macworld: Anker Zolo Magnetic 10K review",
       "url": "https://www.macworld.com/article/2508728/anker-zolo-magnetic-10k-power-bank-review.html"
     },
     {
-      "name": "9to5Mac: Anker's June 2025 power bank recall",
+      "name": "Anker: Zolo Magnetic Power Bank (A1685)",
+      "url": "https://www.anker.com/products/a1685"
+    },
+    {
+      "name": "9to5Mac: Anker June 2025 power bank recall",
       "url": "https://9to5mac.com/2025/06/27/anker-issues-new-global-recall-for-five-power-bank-models-over-fire-hazard/"
     },
     {
-      "name": "Unbox PH: Anker Zolo Philippine launch",
-      "url": "https://unbox.ph/gadget/anker-zolo-power-bank-charger-philippines/"
-    },
-    {
-      "name": "Unbox PH: 160Wh power banks banned on flights",
+      "name": "Unbox PH: 160Wh power banks banned on all flights (CAAP)",
       "url": "https://unbox.ph/news/160whr-power-banks-banned-all-flights/"
     },
     {
-      "name": "CAPA: Philippine Airlines power bank rules",
-      "url": "https://centreforaviation.com/news/philippine-airlines-announces-new-rules-for-power-banks-1355835"
+      "name": "Cebu Pacific: Power bank limitations",
+      "url": "https://help.cebupacificair.com/article/power-bank-limitations-on-cebu-pacific-flights-162399"
     },
     {
-      "name": "Cebu Pacific: power bank limitations",
-      "url": "https://help.cebupacificair.com/article/power-bank-limitations-on-cebu-pacific-flights-162399"
+      "name": "Unbox PH: Anker Zolo power bank and charger PH launch",
+      "url": "https://unbox.ph/gadget/anker-zolo-power-bank-charger-philippines/"
+    },
+    {
+      "name": "Anker Singapore: Zolo 30W charger A2698",
+      "url": "https://anker.com.sg/products/anker-zolo-30w-compact-usb-c-gan-ii-charger-temperature-control-new-heat-dissipation-tech-a2698"
     },
     {
       "name": "Cheap & Cheerful: Anker Zolo A8060 cable test",
       "url": "https://cheerful.cheap/review/anker-zolo-a8060-240w-slim/"
     },
     {
-      "name": "Gadgetbyte Nepal: Soundcore R50i NC review",
-      "url": "https://www.gadgetbytenepal.com/soundcore-r50i-nc-review/"
+      "name": "Anker Singapore: Zolo 240W cable A8060",
+      "url": "https://anker.com.sg/products/anker-zolo-usb-c-to-usb-c-240w-braided-fast-charging-cable-a8060"
+    },
+    {
+      "name": "MegaBites: realme 14 Pro 5G unboxing (PH)",
+      "url": "https://www.megabites.com.ph/realme-14-pro-5g-unboxing-and-first-look/"
     },
     {
       "name": "WalasTech: Soundcore R50i NC review",
       "url": "https://walastech.com/6sz2"
     },
     {
-      "name": "Anker Philippines: Soundcore R50i NC specs and warranty",
+      "name": "Gadgetbyte Nepal: Soundcore P30i/R50i NC review",
+      "url": "https://www.gadgetbytenepal.com/soundcore-r50i-nc-review/"
+    },
+    {
+      "name": "Anker Philippines: soundcore R50i NC",
       "url": "https://www.anker.com.ph/products/soundcore-r50i-nc-earbuds"
-    },
-    {
-      "name": "Anker Philippines: warranty policy",
-      "url": "https://www.anker.com.ph/pages/warranty-policy"
-    },
-    {
-      "name": "9to5Toys: Spigen Camera Control case hands-on",
-      "url": "https://9to5toys.com/2024/09/25/spigen-iphone-16-camera-control-case/"
     },
     {
       "name": "Tech Edition: Ulanzi MT-44 review",
       "url": "https://www.techedt.com/ulanzi-extendable-vlog-mt-44-tripod-review-sleek-yet-functional-companion-for-content-creators"
+    },
+    {
+      "name": "Ulanzi: MT-44 Extendable Vlog Tripod",
+      "url": "https://www.ulanzi.com/fr-eu/collections/ulanzi-us-warehouse-delivery/products/ulanzi-mt-44-extendable-vlog-tripod-2502b"
+    },
+    {
+      "name": "DriveSafe PH: Understanding the Anti-Distracted Driving Act",
+      "url": "https://drivesafe.ph/understanding-the-anti-distracted-driving-act-adda/"
     }
-  ],
-  "sellerNote": "Picks 1 to 4 are sold by the Anker Global store on Lazada. Anker Philippines' 18-month local warranty covers its official Philippine channels, so check the warranty and where the item ships from on the listing before you buy.",
-  "order": 2
+  ]
 }
