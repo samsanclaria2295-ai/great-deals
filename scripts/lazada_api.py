@@ -66,7 +66,7 @@ def sign(path, params, secret):
     return hmac.new(secret.encode("utf-8"), payload.encode("utf-8"), hashlib.sha256).hexdigest().upper()
 
 
-def call(path, biz=None, retries=3, with_user_token=True):
+def call(path, biz=None, retries=3, with_user_token=True, method="POST"):
     """Call a Lazada API path with business params `biz`. Returns the parsed JSON."""
     app_key, secret, user_token = credentials()
     biz = dict(biz or {})
@@ -80,7 +80,10 @@ def call(path, biz=None, retries=3, with_user_token=True):
             **{k: str(v) for k, v in biz.items() if v is not None},
         }
         params["sign"] = sign(path, params, secret)
-        resp = requests.post(GATEWAY + path, data=params, timeout=30)
+        if method == "GET":
+            resp = requests.get(GATEWAY + path, params=params, timeout=30)
+        else:
+            resp = requests.post(GATEWAY + path, data=params, timeout=30)
         try:
             data = resp.json()
         except ValueError:
@@ -113,4 +116,4 @@ def get_links(product_ids, sub_id1=None, sub_id2=None):
 
 
 def category_tree(language_code="en_US"):
-    return call("/category/tree/get", {"language_code": language_code}, with_user_token=False)
+    return call("/category/tree/get", {"language_code": language_code}, with_user_token=False, method="GET")

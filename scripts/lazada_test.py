@@ -53,7 +53,7 @@ for limit in (20, 50, 100):
         if items and not sample_ids:
             note("Feed fields: " + ", ".join(sorted(items[0].keys()))[:900])
             sample = " | ".join(
-                f"{str(it.get('productName', ''))[:40]} P{it.get('discountPrice')} comm {it.get('totalCommissionRate')} 7d {it.get('sales7d')}"
+                f"{str(it.get('productName', ''))[:30]} {it.get('currency')} {it.get('discountPrice')} cat {it.get('categoryL1')} comm {it.get('totalCommissionRate')} 7d {it.get('sales7d')} stock {it.get('stock')}"
                 for it in items[:3])
             note("Feed sample: " + sample)
             sample_ids = [it.get("productId") for it in items[:2] if it.get("productId")]
@@ -65,7 +65,15 @@ for limit in (20, 50, 100):
 # 3. Affiliate links with a sub ID
 if sample_ids:
     try:
-        result = (lz.get_links(sample_ids, sub_id1="test").get("result") or {}).get("data") or {}
+        raw = lz.get_links(sample_ids, sub_id1="test")
+        res = raw.get("result")
+        shape = f"top keys {sorted(raw.keys())}; result type {type(res).__name__}"
+        if isinstance(res, dict):
+            shape += f" keys {sorted(res.keys())}"
+            if isinstance(res.get('data'), dict):
+                shape += f"; data keys {sorted(res['data'].keys())}"
+        note("Links response shape: " + shape)
+        result = (res or {}).get("data") or {} if isinstance(res, dict) else {}
         links = result.get("product_batch_get_link_info_list") or []
         errors = result.get("error_info_list") or []
         have = sum(1 for l in links if l.get("regular_promotion_link"))
