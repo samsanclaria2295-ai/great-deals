@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = path.join(ROOT, 'site');
-const BASE_URL = 'https://samsanclaria2295-ai.github.io/great-deals/';
+const BASE_URL = 'https://greatfinds.space/';
 const PINTEREST = 'https://www.pinterest.com/samsanclaria2295/';
 const EMAIL = 'samsanclaria2295@gmail.com';
 
@@ -718,7 +718,7 @@ function privacyPage() {
 }
 
 function notFoundPage() {
-  const r = '/great-deals/';
+  const r = '/';
   const body = `<section class="lost">
   <div class="wrap reading">
     <span class="kicker">Page not found</span>
@@ -749,4 +749,5 @@ write('404.html', notFoundPage());
 const urls = ['', 'guides/', ...Object.keys(CATS).map(k => `category/${k}/`), ...guides.map(g => `guides/${g.slug}.html`), 'about.html', 'privacy.html'];
 const lastmod = new Date().toISOString().slice(0, 10);
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${BASE_URL}${u}</loc><lastmod>${lastmod}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+write('CNAME', new URL(BASE_URL).host + '\n');
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${BASE_URL}sitemap.xml\n`);

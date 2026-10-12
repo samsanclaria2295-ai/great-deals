@@ -1,4 +1,4 @@
-// Local preview server: serves site/ at http://localhost:8000/great-deals/ (same path as GitHub Pages).
+// Local preview server: serves site/ at http://localhost:8000/ (same root path as https://greatfinds.space/).
 // Usage: node tools/serve.mjs   (port 8765 belongs to Great Finds Studio; don't use it)
 import http from 'node:http';
 import fs from 'node:fs';
@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const SITE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'site');
 const PORT = Number(process.env.PORT) || 8000;
-const PREFIX = '/great-deals/';
+const PREFIX = '/';
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.webp': 'image/webp', '.png': 'image/png',
   '.jpg': 'image/jpeg', '.woff2': 'font/woff2', '.xml': 'application/xml', '.txt': 'text/plain; charset=utf-8', '.svg': 'image/svg+xml' };
 
