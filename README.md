@@ -1,4 +1,4 @@
-# Great Deals
+# Great Finds
 
 Automated, honest deal picks and buying guides for Filipino shoppers.
 
