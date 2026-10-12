@@ -2,6 +2,11 @@ name: Lazada API test
 
 on:
   workflow_dispatch:
+    inputs:
+      category:
+        description: "Optional categoryL1 ID to filter the feed"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -23,4 +28,5 @@ jobs:
           LAZADA_USER_TOKEN: ${{ secrets.LAZADA_USER_TOKEN }}
           # ...or one GREATDEALS secret containing KEY=VALUE lines.
           GREATDEALS_BUNDLE: ${{ secrets.GREATDEALS }}
+          TEST_CATEGORY: ${{ inputs.category }}
         run: python scripts/lazada_test.py

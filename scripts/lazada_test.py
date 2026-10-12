@@ -46,15 +46,16 @@ except Exception as e:  # noqa: BLE001
 
 # 2. Product feed at several page sizes
 sample_ids = []
+CAT = os.environ.get("TEST_CATEGORY") or None
 for limit in (20, 50, 100):
     try:
-        items = items_of(lz.product_feed(page=1, limit=limit))
+        items = items_of(lz.product_feed(page=1, limit=limit, category_l1=CAT))
         note(f"Feed limit={limit}: OK, {len(items)} items")
         if items and not sample_ids:
             note("Feed fields: " + ", ".join(sorted(items[0].keys()))[:900])
             sample = " | ".join(
-                f"{str(it.get('productName', ''))[:30]} {it.get('currency')} {it.get('discountPrice')} cat {it.get('categoryL1')} comm {it.get('totalCommissionRate')} 7d {it.get('sales7d')} stock {it.get('stock')}"
-                for it in items[:3])
+                f"{str(it.get('productName', ''))[:28]} {it.get('currency')} {it.get('discountPrice')} commAmt {it.get('totalCommissionAmount')} cps {it.get('cpsCommissionAmount')} rate {it.get('totalCommissionRate')} 7d {it.get('sales7d')}"
+                for it in items[:4])
             note("Feed sample: " + sample)
             sample_ids = [it.get("productId") for it in items[:2] if it.get("productId")]
     except Exception as e:  # noqa: BLE001
@@ -74,12 +75,16 @@ if sample_ids:
                 shape += f"; data keys {sorted(res['data'].keys())}"
         note("Links response shape: " + shape)
         result = (res or {}).get("data") or {} if isinstance(res, dict) else {}
-        links = result.get("product_batch_get_link_info_list") or []
-        errors = result.get("error_info_list") or []
-        have = sum(1 for l in links if l.get("regular_promotion_link"))
-        prefix = (links[0].get("regular_promotion_link") or "")[:28] if links else ""
+        links = result.get("productBatchGetLinkInfoList") or result.get("product_batch_get_link_info_list") or []
+        errors = result.get("errorInfoList") or result.get("error_info_list") or []
+        if links:
+            note("Link item keys: " + ", ".join(sorted(links[0].keys())))
+        def _link(l):
+            return l.get("regularPromotionLink") or l.get("regular_promotion_link") or ""
+        have = sum(1 for l in links if _link(l))
+        prefix = _link(links[0])[:28] if links else ""
         note(f"Links OK: {have}/{len(sample_ids)} links (format {prefix}...), {len(errors)} errors "
-             + "; ".join(f"{e.get('error_code')} {e.get('error_msg')}" for e in errors))
+             + "; ".join(f"{e.get('errorCode', e.get('error_code'))} {e.get('errorMsg', e.get('error_msg'))}" for e in errors))
     except Exception as e:  # noqa: BLE001
         ok = False
         note(f"Links FAILED: {e}")
