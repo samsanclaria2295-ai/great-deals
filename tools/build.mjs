@@ -126,8 +126,9 @@ function layout({ r = '', title, description, canonical, og = 'og-home.jpg', act
 <meta property="og:locale" content="en_PH">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#f5ebdd">
-<link rel="icon" type="image/png" href="${r}great-finds-icon-150.png">
-<link rel="apple-touch-icon" href="${r}assets/img/icon-512.png">
+<link rel="icon" href="${r}favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="${r}assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="${r}assets/img/apple-touch-icon.png">
 <link rel="preload" href="${r}assets/fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${r}assets/fonts/dm-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${r}assets/css/style.css">
