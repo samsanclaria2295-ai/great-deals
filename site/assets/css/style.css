@@ -616,3 +616,16 @@ p:last-child { margin-bottom: 0; }
 .facts { grid-template-columns: repeat(var(--cols, 3), minmax(0, 1fr)); }
 .glance .g-for { width: 30%; }
 @media (max-width: 640px) { .facts { grid-template-columns: 1fr; } }
+
+/* balanced card rows, adaptive section nav, compact product cards (3 per row) */
+.rows { display: grid; gap: var(--s5); }
+.style-jump { grid-template-columns: repeat(var(--n, 3), minmax(0, 1fr)); }
+.pcard.compact { padding: var(--s5) var(--s4); }
+.pcard.compact .pcard-top { grid-template-columns: 1fr; }
+.pcard.compact .shot { aspect-ratio: 4 / 3; }
+.pcard.compact .pc { grid-template-columns: 1fr; }
+.pcard.compact .pc-col + .pc-col { border-left: 0; border-top: 1.5px solid var(--line); }
+.pcard.compact .facts { grid-template-columns: 1fr; }
+@media (max-width: 1100px) { .style-jump { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 920px) { .grid-3 .pcard.compact .pcard-top { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .style-jump { grid-template-columns: 1fr; } }

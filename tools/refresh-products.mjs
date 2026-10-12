@@ -32,6 +32,9 @@ for (const file of fs.readdirSync(GUIDES).filter(f => f.endsWith('.json'))) {
     if (x.outOfStock || !(Number(x.stock) > 0)) { console.warn(`! ${guide.slug}: ${id} is out of stock`); problems++; }
     if (!urls[id]) { console.warn(`! ${guide.slug}: ${id} has no affiliate link`); problems++; }
     if (!(price > 0 && price < 100000)) { console.warn(`! ${guide.slug}: ${id} has an odd price ${price}`); problems++; }
+    // A product can appear in several guides; each guide keeps its own tracked link (subId2 = guide slug).
+    const prev = result[id] || {};
+    const guideLinks = { ...(prev.links || {}), [guide.slug]: urls[id] || existing[id]?.links?.[guide.slug] || existing[id]?.link || '' };
     result[id] = {
       id,
       name: x.productName,
@@ -41,8 +44,9 @@ for (const file of fs.readdirSync(GUIDES).filter(f => f.endsWith('.json'))) {
       currency: x.currency || '₱',
       images: (x.pictures || []).slice(0, 4).map(u => (u.startsWith('//') ? 'https:' + u : u)),
       inStock: !x.outOfStock && Number(x.stock) > 0,
-      link: urls[id] || existing[id]?.link || '',
-      guide: guide.slug,
+      links: guideLinks,
+      link: prev.link || guideLinks[guide.slug],
+      guides: [...new Set([...(prev.guides || []), guide.slug])],
       checkedAt,
     };
   }

@@ -13,9 +13,9 @@
   "title": "Find your home style: MUJI-inspired, Japandi and Modern Filipino finds",
   "shortTitle": "Shop by home style",
   "kicker": "Home & Decor · Style guide",
-  "dek": "Three calm, condo-friendly looks, each defined by design writers and built as a four-piece set you can actually buy, from clear storage that tames clutter to a capiz lamp that glows like home.",
-  "teaser": "Three condo-friendly looks, each built as a four-piece set: MUJI-inspired, Japandi and Modern Filipino.",
-  "description": "Affordable four-piece sets for three home styles that suit Filipino condos: MUJI-inspired minimalism, Japandi and Modern Filipino, with sourced style notes, pros, cons and buying tips.",
+  "dek": "Three calm, condo-friendly looks built from honest materials (glass, wood, stoneware, cotton and native fibres) as four-piece sets you can actually buy.",
+  "teaser": "Three condo-friendly looks, each a four-piece set in glass, wood, stoneware and native fibres.",
+  "description": "Four-piece sets for three home styles that suit Filipino condos, all in good materials (glass, wood, stoneware, cotton, capiz and native fibres): MUJI-inspired, Japandi and Modern Filipino.",
   "published": "2026-10-12",
   "updated": "2026-10-12",
   "readMinutes": 10,
@@ -29,10 +29,9 @@
     "For each of the three looks below, we read how design writers define it, picked the four pieces that do the most to create it in a small space, and only then searched for products that fit. Each set shares one palette, so the pieces look right together."
   ],
   "curation": {
-    "title": "Define the look first, then shop it",
+    "title": "Define the look, then choose honest materials",
     "summary": [
-      "A style isn't a random pile of nice things. So for each look we started from design sources, wrote down its palette, materials and signature pieces, and built a four-piece shopping list around them.",
-      "Where the perfect piece wasn't available from a seller we trust, we say so and explain the substitute, like a linen drum lamp standing in for a paper lantern."
+      "Design writers agree on what carries each look: Livingetc and Homes & Gardens point to neutral bases, natural materials (wood, cotton, linen, ceramics) and a few functional, well-made pieces, while Tatler Asia and CITEM name narra, capiz, abaca, buri and rattan for modern Filipino rooms. We also set one material rule: no plastic. Each style now has four different product types in glass, bamboo, wood, stoneware, cotton or native fibres, sharing one palette so a single room can hold all four."
     ],
     "stepsTitle": "What we did",
     "steps": [
@@ -44,27 +43,23 @@
     ],
     "sources": [
       {
-        "name": "Livingetc",
+        "name": "Livingetc: Muji Living Room Ideas",
         "url": "https://www.livingetc.com/ideas/muji-style-living-room"
       },
       {
-        "name": "Dwell",
-        "url": "https://www.dwell.com/collection/muji-designs-in-modern-homes-a4417551"
-      },
-      {
-        "name": "Livingetc",
+        "name": "Livingetc: Japandi style in interior design explained (Keith Flanagan)",
         "url": "https://www.livingetc.com/features/japandi-style"
       },
       {
-        "name": "Homes & Gardens",
+        "name": "Homes & Gardens: What is Japandi style?",
         "url": "https://www.homesandgardens.com/interior-design/what-is-japandi-style"
       },
       {
-        "name": "Tatler Asia",
+        "name": "Tatler Asia: How Hurray Design retains traditional elements while modernising Filipino homes",
         "url": "https://www.tatlerasia.com/homes/architecture-design/hurray-design-modernising-filipino-homes"
       },
       {
-        "name": "CITEM",
+        "name": "CITEM: The Big Business of Small Objects",
         "url": "https://citem.gov.ph/citemix/the-big-business-of-small-objects"
       }
     ]
@@ -76,7 +71,7 @@
       "short": "MUJI-inspired",
       "img": "style-muji",
       "alt": "AI sample render of a bright condo bedroom corner with translucent lidded storage boxes, clear bins on a light-wood desk, plain white and beige cotton bedding and a glass reed diffuser on a shelf",
-      "definition": "A calm, storage-first look rooted in Japanese ideas of simplicity and function. Every item should earn its place, and most things live out of sight. Design writers describe it as a neutral palette of soft whites, beiges, greys and pale wood, with natural textures like cotton and linen and simple, fuss-free forms. The MUJI brand itself is known for minimalist, restrained design. We use it only as inspiration: none of these picks are MUJI products.",
+      "definition": "A calm, storage-first look rooted in Japanese ideas of simplicity, with fewer things that are each useful, in soft whites, beiges, greys and pale wood with cotton, linen and other natural textures. We use MUJI only as inspiration: none of these picks are MUJI products.",
       "definitionSources": [
         {
           "name": "Livingetc",
@@ -89,165 +84,172 @@
       ],
       "palette": [
         "soft white",
-        "greige",
-        "pale grey",
-        "clear / translucent",
-        "pale wood"
+        "cream / oat",
+        "clear glass",
+        "pale bamboo",
+        "muted sage"
       ],
       "tips": [
-        "Declutter first, then buy storage. Livingetc's designer advice: keep only what you use and love, and make storage subtle, seamless and tidy.",
-        "Skip stark pure white. Layer off-whites, soft greys and pale wood so the room feels calm, not cold (Livingetc).",
-        "Buy storage in one colour and shape, so a full shelf reads as one quiet block instead of many small things."
+        "Declutter first, then buy. Livingetc's designer advice is to 'declutter, and then declutter again', and to keep storage subtle, seamless and tidy.",
+        "Choose wood, cotton, linen and other organic textures, as designer Yoko Kloeden advises in Livingetc. Clear glass and matte stoneware keep the same quiet feel.",
+        "Repeat one colour and material: one bedding shade, matching jars, one plate set. A full shelf then reads as one calm block."
       ],
-      "shoppingList": "MUJI-inspired rooms start with storage, so two of the four pieces fight clutter: lidded boxes for closet shelves, and clear bins for the pantry, fridge or vanity. Plain cotton bedding in a soft neutral calms the biggest surface in a condo bedroom, and a glass reed diffuser adds a quiet scent with no cords or blinking lights. Everything stays in white, clear and soft beige, so the four read as one calm set.",
+      "shoppingList": "Four calm basics in honest materials: plain cotton bedding, a ribbed glass storage jar with a bamboo lid, matte speckled stoneware for everyday meals, and a glass reed diffuser. White, oat, clear glass and a soft sage keep the set quiet.",
+      "note": "MUJI is named here only as the inspiration. These aren't MUJI products, and Great Finds isn't affiliated with MUJI.",
       "items": [
         {
-          "id": "3123363472",
-          "slot": "The storage boxes",
-          "label": "Hide-the-clutter piece",
-          "name": "Home Gallery 12L Storage Box with Handle (buy 1 take 1)",
-          "brand": "Home Gallery",
-          "verdict": "Two lidded, see-through boxes that turn a cluttered closet shelf into one calm, uniform row.",
-          "summary": "MUJI-inspired rooms start with storage that fades into the background. These translucent boxes stack neatly and keep dust off clothes and small things, and you get two for about ₱420 from Home Gallery's own store.",
+          "id": "1177516269",
+          "slot": "The bed",
+          "label": "Best overall",
+          "name": "HOLA plain cotton fitted sheet set (neutral shades)",
+          "brand": "Hola",
+          "verdict": "Plain, unpatterned cotton in cream, white and taupe tones, the simplest way to calm the biggest surface in a condo bedroom.",
+          "summary": "In a small bedroom the bed is the first thing you see, so solid neutral cotton does more for a calm look than any decor piece. The set has a fully garterized fitted sheet and two overlap pillowcases, and it is popular with recent buyers.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Designers behind the look recommend hidden storage that tucks neatly into shelving, so the room shows less visual noise.",
-              "source": "Livingetc",
+              "point": "Designer Yoko Kloeden's advice for the look: choose wood, cotton, linen and other organic textures that bring warmth and calm into the space.",
+              "source": "Livingetc (Lilith Hudson, 23 April 2025)",
               "url": "https://www.livingetc.com/ideas/muji-style-living-room"
             },
             {
-              "point": "Measure the shelf height before buying: each box is 19.5 cm tall with its lid, per the listing name.",
+              "point": "Common-sense check: compare your mattress thickness with the fitted sheet's pocket depth before choosing a size, and wash the set once before first use.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Two boxes for about ₱420",
-            "Stackable, with lids and handles",
-            "Sold by Home Gallery's own store"
+            "Plain cotton in soft neutral shades, no print",
+            "Fitted sheet plus two pillowcases in one set",
+            "Sold by HOLA's own official store"
           ],
           "cons": [
-            "Plastic, so it reads practical rather than premium",
-            "Check that it fits your shelf height"
+            "Check pocket depth and sizes on the listing",
+            "Shade names aren't given in the API data"
           ],
-          "tip": "Buy enough to fill one shelf in a single row. Matching boxes look calmer than a mix of sizes and colours.",
+          "bestFor": "Condo bedrooms that need a quick, calm reset",
+          "tip": "Pick cream or white for the calmest look, and buy two sets in the same shade so one is always ready on wash day.",
           "facts": [
             {
-              "k": "Size",
-              "v": "34.5 x 24.5 x 19.5 cm, 12L"
+              "k": "Material",
+              "v": "Cotton (per listing name)"
             },
             {
               "k": "Includes",
-              "v": "2 boxes with lids"
+              "v": "Fitted sheet + 2 overlap pillowcases"
             },
             {
-              "k": "Material",
-              "v": "BPA-free plastic (per listing)"
+              "k": "Shades",
+              "v": "Cream, white, taupe, brown (photo)"
             }
           ],
-          "alt": {
-            "id": "4052239525",
-            "name": "Orocan Natura Slim Drawer Cabinet (4 or 5 layers)",
-            "label": "Prefer drawers?",
-            "note": "A slim drawer tower for the gap beside a bed, from a long-running Philippine plastics brand. Its drawer fronts have a quilted texture, a little busier than the rest of this set."
-          }
+          "alt": null
         },
         {
-          "id": "3663051286",
-          "slot": "The clear bins",
-          "label": "Inside-the-cupboard order",
-          "name": "Home Gallery Ultra Clear all-purpose organizer bin",
-          "brand": "Home Gallery",
-          "verdict": "Plain, see-through bins that turn a messy pantry shelf, fridge or vanity into neat rows without adding colour or pattern.",
-          "summary": "MUJI-inspired order is about knowing where everything is, and clear bins let you see what you own at a glance. Buy a few of the same size and line them up, so the shelf looks calm even when it is full.",
+          "id": "3085952323",
+          "slot": "The kitchen jar",
+          "label": "Most creative",
+          "name": "LOCAUPIN ribbed glass jar with bamboo lid and ring handle",
+          "brand": "LOCAUPIN",
+          "verdict": "A fluted glass jar with a bamboo lid and a small ring pull. Everyday storage that looks good enough to leave on the counter.",
+          "summary": "Clear glass lets you see what you have, and the ribbed body and warm bamboo lid make coffee, tea, oats or snacks look tidy on an open shelf. It comes from LOCAUPIN's own store and is popular with recent buyers. Two or three in a row look best.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "The look is about 'living well with less': declutter first ('and then declutter again'), then buy bins to fit what is left.",
+              "point": "Borosilicate glass has a very low coefficient of thermal expansion, which makes it more resistant to thermal shock than other common glass.",
+              "source": "Wikipedia: Borosilicate glass",
+              "url": "https://en.wikipedia.org/wiki/Borosilicate_glass"
+            },
+            {
+              "point": "The look is about living well with less, and the designers Livingetc spoke to say storage should be subtle, seamless and tidy.",
               "source": "Livingetc (Lilith Hudson, 2025)",
               "url": "https://www.livingetc.com/ideas/muji-style-living-room"
             },
             {
-              "point": "Common-sense care: clear plastic bins are for room-temperature or fridge items. Hand-wash them in lukewarm soapy water, and keep them out of the dishwasher and away from hot pots unless the listing says otherwise.",
+              "point": "Common-sense care: hand-wash the bamboo lid and dry it fully. Don't soak it or put it in the dishwasher.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Sold by Home Gallery's own store",
-            "Built-in handle for pulling out of deep shelves or the fridge",
-            "Works in the kitchen, bathroom or closet"
+            "Glass and bamboo, nothing plastic-looking",
+            "Ribbed body and ring pull give it character",
+            "Brand's own store, steady recent sales"
           ],
           "cons": [
-            "Fewer recent buyers than our other picks",
-            "Check the dimensions before ordering"
+            "Capacity options aren't stated in the API data",
+            "Bamboo lid needs hand-washing and drying"
           ],
-          "tip": "Measure your shelf depth before ordering, and buy one more bin than you think you need so the row looks complete.",
+          "bestFor": "Open kitchen shelves and coffee corners",
+          "tip": "Decant only what you use daily, like coffee, oats or sugar, and keep the jars in one row. Matching jars look calmer than mixed packaging.",
           "facts": [
             {
-              "k": "Material",
-              "v": "Clear plastic; the listing photo shows a PET recycling mark and 'BPA free'"
+              "k": "Body",
+              "v": "Ribbed clear glass (per listing photo)"
+            },
+            {
+              "k": "Lid",
+              "v": "Bamboo, metal ring pull (per name)"
             },
             {
               "k": "Use",
-              "v": "Fridge, freezer, kitchen cabinet, pantry (per listing name)"
-            },
-            {
-              "k": "Feature",
-              "v": "Integrated handle at one end (per listing photo)"
+              "v": "Airtight dry-food storage (per name)"
             }
           ],
           "alt": {
-            "id": "3662382948",
-            "name": "Home Gallery Ultra Clear modular drawer organizer (extra small / small)",
-            "label": "Smaller trays?",
-            "note": "₱45 trays for inside desk or vanity drawers, from the same Home Gallery store. Mix the sizes to fill a drawer."
+            "id": "1370950827",
+            "name": "LOCAUPIN bamboo-lid glass canister (straight cylinder)",
+            "label": "Tall jar option",
+            "note": "Simpler straight-sided jars from the same store, for a set of tall matching canisters for pasta, grains and nuts. Fewer recent buyers than the ribbed jar."
           }
         },
         {
-          "id": "1177516269",
-          "slot": "The bedding",
-          "label": "Calm, unpatterned bed",
-          "name": "HOLA Plain Cotton Fitted Sheet Set, Neutral Colours",
-          "brand": "HOLA",
-          "verdict": "Plain cotton in white or soft beige: the single biggest step toward a calm, MUJI-inspired bedroom.",
-          "summary": "In a small condo the bed is the biggest thing you see, so plain, unpatterned cotton does more than any decor piece. This set from HOLA's own store has a fully garterized fitted sheet and two overlap pillowcases, in a range of neutrals that includes white and beige.",
+          "id": "3585247390",
+          "slot": "The plates",
+          "label": "Best everyday ceramic",
+          "name": "BILI.PH matte speckled stoneware plates and bowls",
+          "brand": "BILI.PH (No Brand in API)",
+          "verdict": "Matte, speckled stoneware with a neat raised rim, the quiet and useful kind of tableware this look is built on.",
+          "summary": "These plates have a soft, frosted glaze flecked with tiny dark specks, so they feel handmade without being fussy. Plates and bowls are in the same listing, so you can build one simple matching set. Popular with recent buyers.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Natural textures are central to the look: designers suggest starting with wood, cotton, linen and other organic textures in soft whites, beiges and greys.",
-              "source": "Livingetc",
-              "url": "https://www.livingetc.com/ideas/muji-style-living-room"
+              "point": "Stoneware is fired at about 1,100-1,300 °C to be impervious to water, and its uses include tableware.",
+              "source": "Wikipedia: Stoneware",
+              "url": "https://en.wikipedia.org/wiki/Stoneware"
             },
             {
-              "point": "Check your mattress thickness before choosing a size. The listing says the fitted sheet suits mattresses up to about 6 to 8 inches thick.",
+              "point": "Common-sense care: matte glazes can show cutlery marks. Hand-wash or use a gentle cycle, and check the listing before using a microwave or oven.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Plain cotton in calm neutral colours",
-            "Fitted sheet and two pillowcases for under ₱300",
-            "From HOLA's own store, and very popular"
+            "Stoneware with a matte, lightly speckled glaze",
+            "Plates and bowls in one listing",
+            "Raised rim keeps sauces on the plate"
           ],
           "cons": [
-            "Thick mattresses may need a deeper sheet",
-            "Colours can look slightly different from the photos"
+            "Sold by a reseller store, not a maker",
+            "Microwave and dishwasher use not stated"
           ],
-          "tip": "Choose white or a soft beige, and check the size against your mattress, including its thickness, before ordering.",
+          "bestFor": "A first matching dinnerware set for a condo",
+          "tip": "Start with two plate sizes and one bowl in a single colour. A small matching set looks calmer than a big mixed one.",
           "facts": [
             {
               "k": "Material",
-              "v": "Plain cotton (per listing name)"
+              "v": "Stoneware (per listing name)"
             },
             {
-              "k": "Includes",
-              "v": "Fitted sheet + 2 pillowcases"
+              "k": "Glaze",
+              "v": "Matte 'sesame' speckle (per name)"
             },
             {
-              "k": "Colours",
-              "v": "Neutrals, incl. white and beige"
+              "k": "Pieces",
+              "v": "Plates and bowls (per listing name)"
             }
           ],
           "alt": null
@@ -258,31 +260,33 @@
           "label": "Quiet finishing touch",
           "name": "Mandaue Foam reed diffuser (5 reeds)",
           "brand": "Mandaue Foam",
-          "verdict": "A plain glass reed diffuser gives a soft, steady scent without the plastic body and LED lights of an electric diffuser.",
-          "summary": "A clear bottle and a few thin reeds are about as quiet as home fragrance gets, so it sits easily on a shelf or by the door. It comes from Mandaue Foam's own store, one of the Philippines' biggest home and furniture retailers.",
+          "verdict": "A clear glass bottle and thin reeds give a soft, steady scent with no cords, lights or plastic housing.",
+          "summary": "A reed diffuser is about as quiet as home fragrance gets, so it sits easily on a shelf or by the door. This one comes from Mandaue Foam's own store, one of the Philippines' best-known home and furniture retailers, and it is popular with recent buyers.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Common-sense use: turn the reeds over every few days to refresh the scent, and add or remove reeds to make it stronger or lighter.",
-              "source": "",
-              "url": ""
+              "point": "An evaporative diffuser uses a pad, filter or reeds to spread scented oils, so a reed diffuser needs no plug.",
+              "source": "Wikipedia: Aroma lamp",
+              "url": "https://en.wikipedia.org/wiki/Aroma_lamp"
             },
             {
-              "point": "Common-sense care: keep it out of direct sun and away from aircon vents, and set it on a coaster. Fragrance oil can mark varnished wood and some plastics.",
+              "point": "Common-sense use: flip the reeds every few days to refresh the scent, and set the bottle on a coaster away from direct sun and aircon vents.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Mandaue Foam's own store",
-            "No electricity, no noise",
+            "Mandaue Foam's own official store",
+            "Glass bottle, no electricity or noise",
             "Popular with recent buyers"
           ],
           "cons": [
-            "Scent options and bottle size are not shown in the API data",
-            "How long it lasts is not verified"
+            "Scent options and volume not in the API data",
+            "How long it lasts is not stated"
           ],
-          "tip": "Choose a light, clean scent (cotton, linen or tea-type notes, if offered) rather than a sweet one. That suits the calm of the look.",
+          "bestFor": "Entryways, bathrooms and bedside shelves",
+          "tip": "Pick a light, clean scent if offered, and use fewer reeds in a small room so the scent stays gentle.",
           "facts": [
             {
               "k": "Reeds",
@@ -290,13 +294,16 @@
             },
             {
               "k": "Bottle",
-              "v": "Clear glass (per listing photo); volume not confirmed"
+              "v": "Clear glass (per listing photo)"
+            },
+            {
+              "k": "Power",
+              "v": "None needed (reed diffuser)"
             }
           ],
           "alt": null
         }
-      ],
-      "note": "MUJI is named here only as the inspiration. These aren't MUJI products, and Great Finds isn't affiliated with MUJI."
+      ]
     },
     {
       "id": "japandi",
@@ -304,7 +311,7 @@
       "short": "Japandi",
       "img": "style-japandi",
       "alt": "AI sample render of a Japandi bedside corner with an oak-look three-drawer cabinet, a linen drum lamp on a wood base, a ribbed sand-glazed stoneware cup and saucer, and a taupe cushion on a low sofa",
-      "definition": "Japandi blends Japanese minimalism with Scandinavian simplicity: clean lines, natural materials and real craftsmanship, but warmer and more textured than stark minimalism. Expect a neutral base of warm whites and soft beiges, wood in both light and darker tones, linen, handmade ceramics and soft, diffused light. Hanging rice-paper lights are the classic example. Most clutter is kept behind closed doors.",
+      "definition": "Japandi blends Japanese minimalism with Scandinavian simplicity: clean lines, natural materials and genuine craftsmanship, warmer and more textured than stark minimalism. Expect warm whites and light beiges, wood, linen, handmade-looking ceramics and soft, diffused light, with most clutter behind closed doors.",
       "definitionSources": [
         {
           "name": "Livingetc",
@@ -321,18 +328,18 @@
       ],
       "palette": [
         "warm white",
-        "soft beige / oat",
+        "oat / soft beige",
         "mushroom taupe",
-        "warm oak brown",
+        "warm oak",
         "sand stoneware",
         "charcoal accent"
       ],
       "tips": [
-        "Try the 20/80 rule from Homes & Gardens: about 20% of your things on show and 80% behind closed doors.",
-        "Use soft beige instead of bright white as your base, and bring colour in only through small things like a lampshade or a cushion (Homes & Gardens).",
-        "Buy fewer, better-made pieces in natural materials, and add one living plant. Both Livingetc and Homes & Gardens treat greenery as part of the look."
+        "Try the 20/80 rule from Homes & Gardens: about 20% of your things in sight and 80% behind closed doors.",
+        "Keep the base to warm whites and light beiges, and bring colour in only through small accessories like a lampshade or throw pillows (Homes & Gardens).",
+        "Favour functional pieces in natural materials (Livingetc's examples: ceramic cups, a teapot, books) and add one living plant."
       ],
-      "shoppingList": "The sources agree on four signatures: soft, diffused light, wood, handmade-looking ceramics and natural textiles, with clutter tucked away. So this set is a warm wood-look drawer cabinet for closed storage that doubles as a bedside table, a linen-shaded lamp on a wood base for the glow, a ribbed stoneware cup and saucer for the ceramic, and a plain mushroom-taupe cushion for soft texture. They share oat, sand, taupe and warm oak tones, so they sit naturally together on one bedside or reading corner. Honest gaps: no rice-paper lantern and no stoneware vase in the affiliate feed passed our checks, so the lamp has a linen-look shade and the ceramic is a cup set.",
+      "shoppingList": "Japandi leans on soft light, wood, handmade-looking ceramics and natural textiles, with clutter behind closed doors. This set covers each: a linen-shade lamp on a wood base, a ribbed stoneware cup, a taupe cushion and an oak-look cabinet.",
       "items": [
         {
           "id": "4339905585",
@@ -340,31 +347,33 @@
           "label": "Soft-glow signature",
           "name": "KingDo wood-base bedside lamp with linen-look drum shade",
           "brand": "KingDo",
-          "verdict": "Not the paper lantern we hoped for, but its linen-look drum shade on a round wood base gives the same soft, diffused glow for under ₱150.",
-          "summary": "Japandi light should glow, not glare, and a fabric drum shade over a warm-white bulb does exactly that on a bedside table or shelf. The pale wood base ties it to the rest of the set's natural materials.",
+          "verdict": "A fabric drum shade on a warm wood base gives the soft, bulb-hiding glow Japandi rooms rely on, at a gift-friendly price.",
+          "summary": "Japandi lighting should glow rather than glare. This small lamp pairs a cream, linen-look drum shade with a round natural wood stem and base, and it comes with a warm-white bulb. It suits a bedside table, a reading corner or a work-from-home desk.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Paper-style lighting is popular in this look because it brings 'natural illumination to a room without being the full focus', and a fabric drum shade softens light in the same way.",
-              "source": "Homes & Gardens (quoting designer Brad Ford)",
+              "point": "Paper-style lighting 'brings a natural illumination to a room without being the full focus of the design', and a fabric drum shade softens light in a similar way.",
+              "source": "Homes & Gardens: paper lights roundup (Nikhita Mahtani)",
               "url": "https://www.homesandgardens.com/shopping/best-paper-lighting"
             },
             {
-              "point": "Common-sense safety: use a warm-white LED bulb (about 2700-3000K). It runs cool, so it is kinder to fabric or paper shades, and it should not exceed the lamp's rated wattage.",
+              "point": "Common-sense safety: use a warm-white LED bulb (about 2700-3000K), which runs cooler near fabric, and don't go over the lamp's rated wattage.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Very low price for a wood-and-fabric lamp",
-            "From the brand's own store",
-            "Warm-white bulb included (per listing name)"
+            "Real wood stem and base",
+            "Warm-white bulb included (per listing)",
+            "Popular with recent buyers, low price"
           ],
           "cons": [
-            "Fabric shade, not rice paper",
-            "Bulb wattage, plug type and cord length are not in the API data"
+            "Shade is linen-look fabric; fibre not stated",
+            "Plug type and safety marks not in API data"
           ],
-          "tip": "Put it at bedside or reading height and switch off the ceiling light in the evening. Layered low light is what makes a Japandi corner feel calm.",
+          "bestFor": "Bedside tables and small reading corners",
+          "tip": "Place it low, beside the bed or sofa, instead of using it as your main light. Two small pools of warm light feel calmer than one bright ceiling lamp.",
           "facts": [
             {
               "k": "Base",
@@ -372,11 +381,11 @@
             },
             {
               "k": "Shade",
-              "v": "Cream fabric drum, linen-look (per listing photo)"
+              "v": "Cream fabric drum (per listing photo)"
             },
             {
               "k": "Bulb",
-              "v": "Warm white included (per listing name)"
+              "v": "Warm white, included (per name)"
             }
           ],
           "alt": null
@@ -384,34 +393,41 @@
         {
           "id": "4557251531",
           "slot": "The ceramic",
-          "label": "Everyday handmade-look piece",
-          "name": "Kitchen Plus Japanese-style stoneware cup and saucer (300 ml)",
-          "brand": "No Brand (seller: Kitchen Plus)",
-          "verdict": "A ribbed stoneware cup and saucer in sand or cream brings the handmade-ceramic feel Japandi leans on, and it is something you will actually use every day.",
-          "summary": "Both Japandi sources point to ceramics made to last, and a textured stoneware cup on a tray or bedside is the most useful way to bring that in. The ribbed sides and reactive-style glaze give it the slightly imperfect, crafted look of wabi-sabi pottery.",
+          "label": "Best ceramic",
+          "name": "Kitchen Plus ribbed stoneware cup and saucer (300 ml)",
+          "brand": "Kitchen Plus (No Brand in API)",
+          "verdict": "A ribbed stoneware cup with an earthy, speckled glaze, the kind of everyday handmade-look piece Japandi is built around.",
+          "summary": "Japandi favours functional objects in natural materials, and a good cup you reach for every morning fits that idea. This 300 ml stoneware cup has fluted sides, a speckled rim and a matching saucer, and the listing photo shows several earthy glaze colours.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Stoneware is fired at roughly 1,100-1,300 °C and is meant to be impervious to water (under 1% absorption after firing), which is why it is used for cups and tea bowls.",
-              "source": "Wikipedia: Stoneware",
-              "url": "https://en.wikipedia.org/wiki/Stoneware"
+              "point": "Japandi decor favours functional items, 'like ceramic cups, a teapot or books'.",
+              "source": "Livingetc: Japandi style explained",
+              "url": "https://www.livingetc.com/features/japandi-style"
             },
             {
-              "point": "Japandi favours 'handmade wooden items and ceramics that are made to last', so choose pieces you will use daily rather than display-only decor.",
-              "source": "Homes & Gardens (Laila Rietbergen, quoted by Molly Malsom)",
+              "point": "Designer Laila Rietbergen recommends handmade wooden items and ceramics that are made to last.",
+              "source": "Homes & Gardens (Molly Malsom, 2024)",
               "url": "https://www.homesandgardens.com/interior-design/what-is-japandi-style"
+            },
+            {
+              "point": "Stoneware is fired at about 1,100-1,300 °C to be impervious to water.",
+              "source": "Wikipedia: Stoneware",
+              "url": "https://en.wikipedia.org/wiki/Stoneware"
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Stoneware (per listing name)",
-            "Earthy ribbed shape suits the wabi-sabi side of Japandi",
-            "Useful every day, not just decor"
+            "Stoneware with a ribbed, handmade look",
+            "Matching saucer included",
+            "Several earthy glaze colours (per photo)"
           ],
           "cons": [
-            "Fewer recent buyers than our other picks",
-            "Comes in darker glazes too, so pick cream or sand"
+            "Fewer recent buyers than the other picks",
+            "Microwave and dishwasher use not stated"
           ],
-          "tip": "Set the cup on a wooden tray next to the lamp. A small morning-coffee corner is the easiest way to make the look feel lived-in.",
+          "bestFor": "Slow mornings and coffee-corner styling",
+          "tip": "Choose the sand or cream glaze to match warm oak and linen, and hand-wash to protect the reactive glaze and rim.",
           "facts": [
             {
               "k": "Material",
@@ -423,54 +439,61 @@
             },
             {
               "k": "Includes",
-              "v": "Cup and saucer (per listing name); model KP673"
+              "v": "Cup and saucer; model KP673"
             }
           ],
-          "alt": null
+          "alt": {
+            "id": "5241828835",
+            "name": "JOTO handcrafted matcha bowl (coarse pottery)",
+            "label": "Tea-lover option",
+            "note": "A hand-formed coarse-pottery matcha bowl from JOTO Kitchen's store, shown with a bamboo whisk and scoop. Fewer recent buyers than the cup, so read the listing reviews first."
+          }
         },
         {
           "id": "4978509575",
           "slot": "The cushion",
-          "label": "Soft texture in a muted tone",
+          "label": "Soft-texture accent",
           "name": "Mandaue Foam plain throw pillowcase (mushroom taupe)",
           "brand": "Mandaue Foam",
-          "verdict": "A plain mushroom-taupe cover is the cheapest way to pull a sofa, bed or floor cushion into the Japandi palette.",
-          "summary": "Homes & Gardens suggests keeping colour to small accessories like throw pillows, and a soft taupe is about as quiet as colour gets. The flat flange border keeps the outline neat and tailored rather than fussy.",
+          "verdict": "A plain mushroom-taupe cover with a flat flange edge adds the quiet, warm accent colour a Japandi sofa or bed needs.",
+          "summary": "Japandi keeps colour low and brings it in through small things like cushions. This plain cover has a soft sheen and a neat flange border, and it is sold singly from Mandaue Foam's own store, so you can buy exactly the number you need.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Keep the base neutral with warm whites and light beiges, and add small touches of colour through accessories like throw pillows.",
+              "point": "Bring in small pops of colour through accessories like a lampshade or throw pillows, over a base of warm whites and light beiges.",
               "source": "Homes & Gardens (Molly Malsom, 2024)",
               "url": "https://www.homesandgardens.com/interior-design/what-is-japandi-style"
             },
             {
-              "point": "Common-sense care: wash velvet-look covers inside out on a gentle cycle and dry them in the shade so the colour doesn't fade.",
+              "point": "Common-sense care: wash soft-sheen covers inside out on a gentle cycle and dry them in the shade so the colour doesn't fade.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Mandaue Foam's own store",
-            "Popular with recent buyers",
-            "Under ₱150"
+            "Mandaue Foam's own official store",
+            "Plain warm taupe with a tidy flange edge",
+            "Sold singly; popular with recent buyers"
           ],
           "cons": [
-            "Looks like velvet, not linen, so it has more sheen than classic Japandi linen",
-            "Size, insert and colour options are not in the API data"
+            "Fibre content not stated in the API data",
+            "Soft sheen is less rustic than linen"
           ],
-          "tip": "Buy two and mix them with a cream or oat cushion you already own. Tone-on-tone looks more considered than a matching set.",
+          "bestFor": "Sofas and beds that need one warm accent",
+          "tip": "Use two in taupe with one in cream or oat. Three soft neutrals look layered without breaking the calm.",
           "facts": [
             {
               "k": "Type",
-              "v": "Throw pillowcase, sold singly (per listing name)"
+              "v": "Throw pillowcase, sold singly"
             },
             {
               "k": "Look",
-              "v": "Plain velvet-look fabric with flange border (per listing photo)"
+              "v": "Plain, soft sheen, flange edge (photo)"
             },
             {
               "k": "Colour",
-              "v": "Mushroom taupe / warm greige (per listing photo)"
+              "v": "Mushroom taupe (per listing photo)"
             }
           ],
           "alt": null
@@ -478,46 +501,48 @@
         {
           "id": "4695086778",
           "slot": "The wood piece",
-          "label": "Closed storage in warm oak",
-          "name": "Mandaue Foam Starki 3-drawer mobile cabinet",
+          "label": "Closed-storage piece",
+          "name": "Mandaue Foam Starki 3-drawer mobile cabinet (oak-look)",
           "brand": "Mandaue Foam",
-          "verdict": "A compact three-drawer cabinet in warm oak gives Japandi its wood-and-closed-storage backbone and doubles as a bedside table.",
-          "summary": "Japandi depends on clutter staying hidden, and a small wood-look cabinet does that while adding the warm wood tone the style is built on. On casters it moves between bedside and desk, which helps in a studio-type condo.",
+          "verdict": "A compact oak-look drawer unit on casters, closed storage for the hidden 80% of a Japandi room that doubles as a bedside table.",
+          "summary": "Japandi only stays calm when most things are hidden, and three deep drawers swallow chargers, papers and small clothes. The warm mid-oak grain and slim black handles match the lamp and cushion, and the casters let it roll beside a bed or under a desk.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Enough storage is key to the look. Designer Laila Rietbergen's 20/80 rule keeps 20% of your things in sight and 80% behind closed doors.",
+              "point": "Designer Laila Rietbergen's 20/80 rule: 20% of your stuff can be in sight and 80% behind closed doors.",
               "source": "Homes & Gardens (Molly Malsom, 2024)",
               "url": "https://www.homesandgardens.com/interior-design/what-is-japandi-style"
             },
             {
-              "point": "Common-sense care: wood-look furniture is often engineered board, which dislikes water. Wipe up spills quickly, and keep it off freshly mopped floors and away from wet aircon drips.",
+              "point": "Common-sense care: wood-look furniture is often engineered board, which dislikes water. Wipe spills quickly and keep it away from aircon drips.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Mandaue Foam's own store",
-            "Three drawers of closed storage in a small footprint",
-            "Casters make it easy to move"
+            "Mandaue Foam's own official store",
+            "Three drawers on casters, fits beside a bed",
+            "Warm oak-look grain matches the set"
           ],
           "cons": [
-            "Priciest pick in the guide (about ₱4,199)",
-            "Material and exact size are not in the API data. It is likely engineered wood with an oak-look finish"
+            "The priciest piece in this guide",
+            "Board type not stated; likely engineered wood"
           ],
-          "tip": "Keep the top almost bare: the lamp and one cup. Everything else goes in the drawers, which is the 80% part of the 20/80 rule.",
+          "bestFor": "Small bedrooms that need hidden storage",
+          "tip": "Keep only the lamp and one cup on top and everything else inside. A bare top is what makes the corner feel Japandi.",
           "facts": [
             {
               "k": "Drawers",
-              "v": "3, mobile (on casters) (per listing name)"
+              "v": "3 (per listing name)"
+            },
+            {
+              "k": "Mobility",
+              "v": "Casters, mobile (per listing name)"
             },
             {
               "k": "Finish",
-              "v": "Oak-look (per listing photo); other finishes may be offered"
-            },
-            {
-              "k": "Hardware",
-              "v": "Black bar handles, black casters (per listing photo)"
+              "v": "Mid-brown oak-look (per photo)"
             }
           ],
           "alt": null
@@ -530,7 +555,7 @@
       "short": "Modern Filipino",
       "img": "style-filipino",
       "alt": "AI sample render of a condo dining corner with a capiz lotus lamp, a rattan and abaca basket of pandesal and mangoes, a round acacia tray and a lidded buri hamper",
-      "definition": "Modern Filipino style puts the country's own natural materials into clean, contemporary rooms instead of heritage-heavy ones: narra and other hardwoods, capiz shell, abaca, buri and rattan. Philippine design is known for natural, endemic materials worked by hand, and woven abaca and rattan pieces read as relaxed accents in modern homes. Keep walls and big pieces neutral, and let one glowing capiz light and a few woven and wooden accents carry the look.",
+      "definition": "Modern Filipino style brings the country's own natural materials, such as narra and other hardwoods, capiz shell, abaca, buri and rattan, into clean, contemporary rooms instead of heritage-heavy ones. Keep walls and big pieces neutral, then let one glowing capiz light and a few woven and wooden accents carry the look.",
       "definitionSources": [
         {
           "name": "Tatler Asia",
@@ -552,108 +577,68 @@
       "palette": [
         "white",
         "beige / taupe",
-        "honey acacia wood",
-        "natural buri and abaca tan",
+        "honey acacia",
+        "buri and abaca tan",
         "capiz pearl",
         "leafy green"
       ],
       "tips": [
-        "Use local natural materials such as capiz, abaca, buri, rattan and acacia or narra as accents, not everywhere. The Hurray Design project in Tatler Asia pairs them with contemporary finishes.",
-        "Keep the base neutral (Tatler Asia's example uses grey, white, brown, taupe and beige) so the woven textures and the capiz glow stand out.",
-        "In a humid condo, give woven pieces air. Don't push baskets flat against walls or leave damp laundry in them (common-sense care)."
+        "Use local natural materials such as capiz, abaca, buri, rattan and acacia or narra as accents, not everywhere. Tatler Asia's Hurray Design homes pair them with contemporary finishes.",
+        "Keep the base neutral (white, beige, taupe) so the woven textures and the capiz glow stand out.",
+        "In a humid condo, give woven pieces air. Don't push baskets flat against walls or leave damp laundry in them."
       ],
-      "shoppingList": "The look rests on a few local materials in a clean room, so each slot carries one of them: capiz for light, buri for storage, rattan and abaca for the table, and acacia for wood. A small capiz lamp gives the pearly glow the material is prized for. A lidded buri hamper hides laundry in something handsome enough to keep in the sala or bedroom. A rattan-and-abaca basket makes merienda or fruit look intentional. A round acacia tray brings warm local wood to the table. All four share honey, tan and pearl tones against white walls, so they work together in one condo dining-and-living corner. Three of the four come from small Filipino craft sellers, and we say below where their recent sales are low.",
+      "shoppingList": "One local material per piece: capiz for light, rattan and abaca for the table, buri for storage and acacia for warm wood. Honey, tan and pearl tones against white walls make them work together.",
       "items": [
         {
           "id": "3581736538",
           "slot": "The capiz light",
-          "label": "Signature glow",
-          "name": "Capiz shell petal table lamp (bulb included)",
+          "label": "Best capiz",
+          "name": "Capiz shell lotus table lamp (bulb included)",
           "brand": "No Brand",
-          "verdict": "A small capiz lamp is the most recognisably Filipino light you can own, and this one costs under ₱300.",
-          "summary": "Capiz shell has been used in Philippine windows and lamps for generations because light glows softly through it. A small petal-shaped lamp on a side table or shelf gives a modern room that pearly, warm glow without a big fixture.",
+          "verdict": "Layered capiz petals that glow warm pearl-white, the easiest way to bring a Filipino-made material into a modern room.",
+          "summary": "Capiz has long been used as a glass substitute because it is durable and translucent, and here it is shaped into lotus-style petals on a small dark wood base. Switched on, it casts a soft, warm glow, so it works as mood lighting on a console or shelf.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Capiz is the shell of the windowpane oyster (Placuna placenta), named after Capiz province. It has long been used as a glass substitute, valued for its durability and translucence, and today for lampshades and chandeliers.",
+              "point": "Capiz (windowpane oyster) shells have been used for thousands of years as a glass substitute because of their durability and translucence, and more recently for chandeliers and lampshades.",
               "source": "Wikipedia: Windowpane oyster",
               "url": "https://en.wikipedia.org/wiki/Windowpane_oyster"
             },
             {
-              "point": "Designers modernising Filipino homes name narra wood, capiz shells and abaca fibres as the natural materials to bring in.",
+              "point": "Designers modernising Filipino homes use natural materials like narra wood, capiz shells and abaca fibres.",
               "source": "Tatler Asia (Celine Dabao, 2025)",
               "url": "https://www.tatlerasia.com/homes/architecture-design/hurray-design-modernising-filipino-homes"
+            },
+            {
+              "point": "Common-sense care: use a low-heat LED bulb, dust the petals with a soft dry brush, and keep the lamp out of damp spots like bathrooms.",
+              "source": "",
+              "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Real capiz shell from a Filipino craft seller",
+            "Real capiz shell petals",
             "Bulb included (per listing name)",
-            "Under ₱300"
+            "Small enough for a condo shelf"
           ],
           "cons": [
-            "Unbranded, from a small craft seller",
-            "The title says \"cabbage\" but the photo shows lotus petals"
+            "No brand or safety marks shown in the photo",
+            "Mood light only, too soft for reading"
           ],
-          "tip": "Use it as an accent lamp on a side table or shelf next to something woven. It is a mood light, not a reading light.",
+          "bestFor": "Consoles, shelves and gift-giving",
+          "tip": "Use a low-heat LED bulb and place it where you can see the glow from the sofa. One capiz light is enough to anchor the look.",
           "facts": [
             {
               "k": "Shade",
-              "v": "Capiz shell, laser engraved (per listing name)"
-            },
-            {
-              "k": "Bulb",
-              "v": "Included (per listing name)"
+              "v": "Capiz shell, laser engraved (per name)"
             },
             {
               "k": "Base",
               "v": "Round dark wood (per listing photo)"
-            }
-          ],
-          "alt": null
-        },
-        {
-          "id": "1652250878",
-          "slot": "The buri hamper",
-          "label": "Woven storage you can show off",
-          "name": "Ilokana Handicrafts buri hamper with cloth lining",
-          "brand": "No Brand (maker: Ilokana Handicrafts)",
-          "verdict": "A lidded buri hamper from a named Filipino maker is storage you can leave out in the open, which matters when a condo has no laundry room.",
-          "summary": "Woven native baskets are the easiest way to bring Filipino texture into a modern room, and a lidded hamper hides clutter at the same time. The cloth lining protects clothes from snags and keeps loose fibres in.",
-          "reviewers": [
-            {
-              "point": "Buri is the local name of the Corypha utan palm, whose leaves are widely used in weaving fans, baskets and mats.",
-              "source": "Wikipedia: Corypha utan",
-              "url": "https://en.wikipedia.org/wiki/Corypha_utan"
             },
             {
-              "point": "Philippine design is known for 'predominantly natural, endemic and sustainable materials', with abaca, buri, raffia, bamboo and rattan named directly.",
-              "source": "CITEM (2025)",
-              "url": "https://citem.gov.ph/citemix/the-big-business-of-small-objects"
-            }
-          ],
-          "reviewersTitle": "Good to know",
-          "pros": [
-            "Named local maker with its own branded store",
-            "Lid and cloth lining included",
-            "Doubles as decor in the sala or bedroom"
-          ],
-          "cons": [
-            "Few recent buyers, so read the latest reviews",
-            "The photo shows three sizes, so check which one the price buys"
-          ],
-          "tip": "Set it in a corner with a little space behind it so air can circulate. Woven fibres stay fresher in our humidity when they can breathe.",
-          "facts": [
-            {
-              "k": "Material",
-              "v": "Buri (per listing name)"
-            },
-            {
-              "k": "Lining",
-              "v": "Cloth lining (per listing name)"
-            },
-            {
-              "k": "Lid",
-              "v": "Yes (per listing photo)"
+              "k": "Bulb",
+              "v": "Included (per listing name)"
             }
           ],
           "alt": null
@@ -661,34 +646,41 @@
         {
           "id": "4155026183",
           "slot": "The table basket",
-          "label": "Everyday woven accent",
+          "label": "Best table piece",
           "name": "Rattan and abaca bread basket with handles",
           "brand": "Local Brands",
-          "verdict": "A hand-woven rattan-and-abaca basket makes pandesal, fruit or merienda look intentional, and it costs about ₱210.",
-          "summary": "Two of the country's best-known fibres meet in one useful piece: a rattan frame for shape and braided abaca sides for texture. It sits on the dining table every day, so it carries the look more often than most decor does.",
+          "verdict": "A shallow rattan-and-abaca basket with loop handles for pandesal, fruit or snacks. Local fibres at an easy price.",
+          "summary": "Abaca is a banana relative endemic to the Philippines, and here its braided fibre is paired with a rattan rim and base. The shallow shape works for bread at breakfast, fruit on the counter or keys by the door, and it sits well next to wood and capiz.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Abaca (Musa textilis) is a banana relative endemic to the Philippines and is described as the strongest of the natural fibres.",
+              "point": "Abaca (Musa textilis) is endemic to the Philippines and is described as the strongest of the natural fibres.",
               "source": "Wikipedia: Abacá",
               "url": "https://en.wikipedia.org/wiki/Abac%C3%A1"
             },
             {
-              "point": "Rattan is lightweight, durable and somewhat flexible, and its outer layers are pared into strips for weaving baskets and mats.",
+              "point": "Rattan is traditionally used in Southeast Asia for wickerwork furniture, baskets, woven mats and other handicrafts.",
               "source": "Wikipedia: Rattan",
               "url": "https://en.wikipedia.org/wiki/Rattan"
+            },
+            {
+              "point": "Common-sense use: line it with a cloth napkin for bread, wipe it with a dry cloth, and let it dry fully if it gets wet.",
+              "source": "",
+              "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Two Filipino fibres, rattan and abaca, in one piece",
-            "Handles make it easy to pass around",
-            "Inexpensive at about ₱210"
+            "Rattan and abaca, both natural fibres",
+            "Loop handles make it easy to pass around",
+            "Low price for a handwoven piece"
           ],
           "cons": [
-            "Low stock when we checked",
-            "Exact size isn't in our data"
+            "Small seller with limited stock",
+            "Exact size not in the API data"
           ],
-          "tip": "Line it with a plain white or natural cloth napkin. The bread stays clean and the weave stays dry.",
+          "bestFor": "Breakfast tables and kitchen counters",
+          "tip": "Line it with a cloth napkin for pandesal, and keep it out of the sink area so the fibres stay dry.",
           "facts": [
             {
               "k": "Material",
@@ -696,46 +688,102 @@
             },
             {
               "k": "Shape",
-              "v": "Rectangle with two handles (per listing name and photo)"
+              "v": "Rectangle with handles (per name)"
             },
             {
               "k": "Use",
-              "v": "Bread or fruit basket for the kitchen and table (per listing name)"
+              "v": "Bread or fruit basket (per name)"
             }
           ],
           "alt": null
         },
         {
-          "id": "935964540",
-          "slot": "The acacia tray",
-          "label": "Warm local wood",
-          "name": "KAHOY round acacia wood tray",
-          "brand": "No Brand (maker: KAHOY / Kahoy Woodcrafts)",
-          "verdict": "A plain round acacia tray from a named Filipino woodcraft seller brings warm local wood to the table without carving or fuss.",
-          "summary": "Modern Filipino rooms lean on warm hardwood, and a round tray is the simplest, most useful way to add it to a small space. Use it for merienda, the capiz lamp and a plant, or a charcuterie spread when guests come over.",
+          "id": "1652250878",
+          "slot": "The buri hamper",
+          "label": "Best woven storage",
+          "name": "Ilokana Handicrafts buri hamper with cloth lining",
+          "brand": "Ilokana Handicrafts (No Brand in API)",
+          "verdict": "A chunky, hand-woven buri hamper with a lid and cloth lining from a named local maker. Laundry storage that looks like decor.",
+          "summary": "Woven natural fibre is one of the clearest signs of Filipino design, and a lidded buri hamper puts it to daily use. The braided texture adds warmth to a plain bedroom, and the cloth lining keeps clothes from snagging on the weave.",
+          "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Hardwood is central to the look. The Hurray Design team names narra wood among the natural materials of traditional Filipino homes and mixes natural wood with contemporary finishes.",
-              "source": "Tatler Asia (Celine Dabao, 2025)",
-              "url": "https://www.tatlerasia.com/homes/architecture-design/hurray-design-modernising-filipino-homes"
+              "point": "Buri is the local name of the Corypha utan palm, whose leaves are widely used in weaving fans, baskets and mats.",
+              "source": "Wikipedia: Corypha utan",
+              "url": "https://en.wikipedia.org/wiki/Corypha_utan"
             },
             {
-              "point": "Common-sense care: hand-wash and dry right away, never soak or put it in the dishwasher, and rub in a little food-safe mineral oil now and then to keep the wood from drying out.",
+              "point": "Philippine design is known for predominantly natural, endemic and sustainable materials such as abaca, buri, bamboo and rattan.",
+              "source": "CITEM (2025)",
+              "url": "https://citem.gov.ph/citemix/the-big-business-of-small-objects"
+            },
+            {
+              "point": "Common-sense care: don't put damp towels or clothes in, leave the lid open now and then to air it out, and wash the lining separately.",
               "source": "",
               "url": ""
             }
           ],
           "reviewersTitle": "Good to know",
           "pros": [
-            "Named local woodcraft seller (Kahoy Woodcrafts)",
-            "Acacia hardwood (per listing name)",
-            "Simple round shape works for serving or display"
+            "Named local maker's own store",
+            "Lid and cloth lining (per listing)",
+            "Hand-woven buri adds warm texture"
           ],
           "cons": [
-            "Few recent buyers, so read the latest reviews",
-            "Size and finish aren't in our data"
+            "Few recent buyers; read reviews first",
+            "Which size the price covers isn't stated"
           ],
-          "tip": "Group the capiz lamp, a small plant and a candle on the tray. Corralling small things on one tray keeps a side table looking tidy.",
+          "bestFor": "Bedrooms that need laundry storage on show",
+          "tip": "Keep it off wet bathroom floors and open the lid now and then. Natural fibres last longer when they can breathe.",
+          "facts": [
+            {
+              "k": "Material",
+              "v": "Buri (per listing name)"
+            },
+            {
+              "k": "Lining",
+              "v": "Cloth (per listing name)"
+            },
+            {
+              "k": "Lid",
+              "v": "Yes, woven (per listing photo)"
+            }
+          ],
+          "alt": null
+        },
+        {
+          "id": "935964540",
+          "slot": "The acacia piece",
+          "label": "Best local wood",
+          "name": "KAHOY round acacia wood tray",
+          "brand": "KAHOY (No Brand in API)",
+          "verdict": "A round acacia tray with honey-to-caramel grain from a local woodcraft store, for serving, styling or corralling the coffee table.",
+          "summary": "Hardwood is central to Filipino homes, and a solid wood tray is an easy, useful way to bring it into a modern room. Use it for merienda, a grazing spread for the barkada, or to group the capiz lamp and a small plant on the coffee table.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Designers modernising Filipino homes use natural materials like narra wood, capiz shells and abaca fibres, mixed with contemporary finishes.",
+              "source": "Tatler Asia (Celine Dabao, 2025)",
+              "url": "https://www.tatlerasia.com/homes/architecture-design/hurray-design-modernising-filipino-homes"
+            },
+            {
+              "point": "Common-sense care: hand-wash and dry right away, never soak it or use the dishwasher, and rub in a little food-safe mineral oil now and then.",
+              "source": "",
+              "url": ""
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Solid acacia with warm, visible grain",
+            "Sold by a local woodcraft store",
+            "Serving tray and coffee-table styling in one"
+          ],
+          "cons": [
+            "Few recent buyers; read reviews first",
+            "Hand-wash only; needs occasional oiling"
+          ],
+          "bestFor": "Merienda, grazing boards and coffee tables",
+          "tip": "Rub in a little food-safe mineral oil every few weeks to keep the grain rich and stop the wood from drying out.",
           "facts": [
             {
               "k": "Material",
@@ -743,14 +791,19 @@
             },
             {
               "k": "Shape",
-              "v": "Round (per listing name and photo)"
+              "v": "Round, low rim (per listing photo)"
             },
             {
               "k": "Uses",
-              "v": "Serving tray, wine tray (per listing name)"
+              "v": "Serving or wine tray (per name)"
             }
           ],
-          "alt": null
+          "alt": {
+            "id": "1322734069",
+            "name": "KAHOY 6-inch acacia wood plate",
+            "label": "Small plate option",
+            "note": "The same maker's small acacia plate, for snacks, a soap bar or a key dish. Also has few recent buyers, so read the reviews first."
+          }
         }
       ]
     }

@@ -1,6 +1,8 @@
 {
   "slug": "must-have-phone-accessories",
-  "type": "ranked",
+  "type": "styles",
+  "sectionNoun": "Collection",
+  "listTitle": "The picks",
   "order": 2,
   "color": "mustard",
   "og": "og-guide-phone.jpg",
@@ -10,37 +12,35 @@
       "topic": "phone-accessories"
     }
   ],
-  "title": "The 5 phone accessories worth owning, ranked",
-  "shortTitle": "Must-have phone accessories",
-  "kicker": "Tech · Ranked buying guide",
-  "dek": "Built from six expert lists, then matched to real Lazada listings: a flight-friendly power bank, a fast charger, a cable that lasts, commute-ready earbuds and a tripod for trips.",
-  "teaser": "Six expert lists, five picks: the accessories that make a phone easier to live with, ranked.",
-  "description": "The phone accessories worth owning in the Philippines, ranked from six expert lists: power bank, fast charger, USB-C cable, noise-cancelling earbuds and a tripod, with pros, cons and sources.",
+  "title": "Creative phone accessories worth owning: 12 clever picks",
+  "shortTitle": "Creative phone accessories",
+  "kicker": "Tech · Creative picks",
+  "dek": "Phone gear with character: a fold-flat metal MagSafe stand, a robot-faced charger, a camera-cover case, a clip-on macro lens and more, from brands that stand behind them.",
+  "teaser": "Twelve clever picks: robot chargers, fold-flat stands, creative cases and a macro lens.",
+  "description": "Creative phone accessories worth buying in the Philippines: clever stands and holders, creative cases, design-forward chargers and power banks, and fun extras like a macro lens, a camera grip and trackers.",
   "published": "2026-10-12",
   "updated": "2026-10-12",
-  "readMinutes": 9,
+  "readMinutes": 10,
   "hero": {
     "img": "banner-phone",
-    "alt": "AI sample render of a sunny condo desk with a sky-blue magnetic power bank on a phone, a pale blue cube charger, braided USB-C cables, black earbuds with their case and a black tripod holding a phone",
-    "caption": "AI sample render of our five picks, drawn from written descriptions of each product. The real product photos from Lazada are below."
+    "alt": "AI sample render of a sunny desk with creative phone accessories: a metal MagSafe stand, a robot-faced charger, a mesh ring-stand case, a magnetic power bank, a clip-on macro lens and a camera grip",
+    "caption": "AI sample render of a selection of our picks, drawn from written descriptions of each product. The real product photos from Lazada are below."
   },
   "intro": [
-    "Your phone carries a lot of your day: payments, rides, work chats, the family group chat, maps and every photo from the last out-of-town trip. The accessories around it don't need to be fancy. They need to keep it charged, steady and easy to use, and they need to be genuine, because a fake charger or power bank isn't just money wasted. It can overheat.",
-    "So instead of starting from whatever sells, we started from the experts. We read six editorial accessory lists, counted what they agree on, set clear criteria for each item, and only then compared real listings against them."
+    "Most phone accessories do one boring job. The ones in this guide do it with a little more imagination: a stand that folds flat into your pocket, a charger with a face, a case with a privacy slider, a lens that turns your phone into a macro camera.",
+    "Creative doesn't mean careless, though. Chargers and power banks come only from well-known brands with model numbers, and we skipped look-alike stores and listings whose photos didn't match."
   ],
   "curation": {
-    "title": "Six expert lists, one shortlist",
+    "title": "Clever first, safe always",
     "summary": [
-      "We read six editorial lists: Engadget, 9to5Google, SamMobile, CNET, How-To Geek and Unbox PH. The power bank is the only accessory all six include. Next come a case and a spare charging cable (five of six), then a wall charger and a stand, grip or mount (four of six).",
-      "We ranked the slots by how many lists include them, how often you would use them, and how much they matter here: long commutes, brownouts, flights and heat. Cases and car mounts are covered in the notes below instead of as picks."
+      "Two 2026 editor guides, Engadget's best iPhone accessories and Macworld's iPhone gift guide, agree on what lifts an accessory above a commodity: magnetic stands and grips that fold flat, fold-flat charging stations, chargers and power banks with character (robot shapes, kickstands, built-in cables), artistic or kickstand cases, and add-on lenses, camera grips and trackers. We built four sections around those ideas, then picked listings from the Lazada affiliate feed, favouring official brand stores and authorised distributors, checking every listing photo and keeping all chargers and power banks to well-known brands."
     ],
     "stepsTitle": "What we did",
     "steps": [
-      "Read six editorial accessory lists and counted which accessory types they share.",
-      "Ranked the types by agreement, daily use and Philippine relevance, then set 3 to 4 checkable criteria per slot.",
-      "Compared 2 to 4 Lazada listings per slot on those criteria, price, seller and recent buyers.",
-      "Checked every product photo against its listing, and every power bank model code against Anker's 2025 recall list.",
-      "Dropped look-alike stores (we found fake \"Anker\" shops spelled with Greek and Cyrillic letters) and listings whose photos didn't match."
+      "Read editor guides on the best and most giftable phone accessories and noted which ideas stand out.",
+      "Built four collections: holders and stands, cases, chargers and power, and creative extras.",
+      "Compared Lazada listings, favouring official brand stores and authorized distributors.",
+      "Kept every charger and power bank to well-known brands, checked model codes against recalls, and checked every photo."
     ],
     "sources": [
       {
@@ -48,377 +48,725 @@
         "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
       },
       {
-        "name": "9to5Google: These are the first accessories you should get for your new Google Pixel phone",
-        "url": "https://9to5google.com/2025/12/26/google-pixel-accessories-new-phone/"
-      },
-      {
-        "name": "SamMobile: What phone accessories do I really need?",
-        "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
-      },
-      {
-        "name": "CNET via Yahoo Tech: Bought an iPhone 15 or 16? Try These USB-C Accessories First",
-        "url": "https://tech.yahoo.com/phones/articles/bought-iphone-15-16-try-194800589.html"
-      },
-      {
-        "name": "How-To Geek: Which Smartphone Accessories Are Worth Buying?",
-        "url": "https://www.howtogeek.com/821736/which-smartphone-accessories-are-worth-buying/"
-      },
-      {
-        "name": "Unbox PH: What's In My Personal Vacation Tech Bag?",
-        "url": "https://unbox.ph/gadget/whats-in-my-personal-vacation-tech-bag/"
+        "name": "Macworld: I'm an iPhone accessories expert. Here are all the gifts I recommend",
+        "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
       }
     ]
   },
-  "callouts": [
+  "sellerNote": "Cases fit one exact phone model, so pick yours from each listing's variant list. Several picks come from official brand stores (UGREEN, Sanptoch) or authorized distributors (JG Superstore for Ulanzi, Tech Smart for Nillkin), per their listings.",
+  "sections": [
     {
-      "title": "Flying soon? Know the power bank rules",
-      "body": "CAAP bans power banks over 160Wh on flights, and up to 100Wh is allowed on board. Philippine Airlines and Cebu Pacific allow a maximum of two power banks of 100Wh or less. They must travel with you, not in checked bags, and both airlines say to keep them out of the overhead bin and not to charge with them during the flight. A 10,000mAh power bank is about 37Wh. Check your airline's latest rules before you fly.",
-      "sources": [
+      "id": "holders",
+      "name": "Creative phone holders and stands",
+      "short": "Holders and stands",
+      "img": "phone-holders",
+      "alt": "AI sample render of the holders and stands below on a sunny desk",
+      "definition": "These holders do more than prop up your phone: they fold flat, clip onto a bag, snap on with magnets or pop open into a tall tripod. Pick one for how you really use your phone, from video calls at the condo desk to barkada group shots.",
+      "tips": [
+        "Magnetic stands snap straight onto iPhone 12 and newer (not the 16e). Android phones need a magnetic case or the metal ring some stands include.",
+        "Using a big phone in a thick case? Test the stand on the table first before trusting it with an important shot.",
+        "For group photos, set the tripod on flat ground, open the legs fully and use your camera timer or a Bluetooth remote."
+      ],
+      "items": [
         {
-          "name": "Unbox PH",
-          "url": "https://unbox.ph/news/160whr-power-banks-banned-all-flights/"
+          "id": "5179179118",
+          "slot": "Magnetic multi-mode stand",
+          "label": "Most versatile",
+          "name": "Ulanzi MA38 MagLock 5-in-1 Phone Stand",
+          "brand": "Ulanzi",
+          "verdict": "A folding all-metal stand that snaps onto your phone and turns into a desk stand, hook, hand grip or mini tripod.",
+          "summary": "The MA38 is a folding metal frame with a magnetic ring on top. Open the legs for a desk stand or mini tripod, flip out the hook to hang it, or hold it as a grip. Amateur Photographer found the magnetic hold quick and secure in both orientations.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Amateur Photographer's review describes an all-metal build with a gunmetal finish and silicone pads, about 108g and 155 x 56 x 11mm folded.",
+              "source": "Amateur Photographer: Ulanzi MA38 review (Andy Westlake, Oct 2025)",
+              "url": "https://amateurphotographer.com/review/ulanzi-ma38-review"
+            },
+            {
+              "point": "The same review says recent iPhones attach directly, while Android phones need the supplied metal adapter ring.",
+              "source": "Amateur Photographer: Ulanzi MA38 review (Andy Westlake, Oct 2025)",
+              "url": "https://amateurphotographer.com/review/ulanzi-ma38-review"
+            },
+            {
+              "point": "Its main downside, per the review: it is larger than many phone tripods and mounts, so it is not one to leave on your phone.",
+              "source": "Amateur Photographer: Ulanzi MA38 review (Andy Westlake, Oct 2025)",
+              "url": "https://amateurphotographer.com/review/ulanzi-ma38-review"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "All-metal build that folds flat",
+            "Stand, hook, grip and mini-tripod modes",
+            "Works in portrait and landscape"
+          ],
+          "cons": [
+            "Bulkier than most phone mounts",
+            "Android phones need the metal ring first"
+          ],
+          "bestFor": "Video calls, vlogging and travel",
+          "tip": "On Android, stick the included metal ring onto your case first. iPhone 12 and newer (not the 16e) snap on directly.",
+          "facts": [
+            {
+              "k": "Model",
+              "v": "MA38 (T163)"
+            },
+            {
+              "k": "Modes",
+              "v": "Snap-on, handheld, mantis, tripod"
+            },
+            {
+              "k": "Weight",
+              "v": "About 108g (per review)"
+            }
+          ],
+          "alt": {
+            "id": "4774847907",
+            "name": "Ulanzi MA30 MagSafe Carabiner Tripod",
+            "label": "Simpler Ulanzi",
+            "note": "A simpler clip-style folding magnetic stand from the same brand and seller, for less."
+          }
         },
         {
-          "name": "CAPA",
-          "url": "https://centreforaviation.com/news/philippine-airlines-announces-new-rules-for-power-banks-1355835"
+          "id": "15422767904",
+          "slot": "Selfie-stick tripod",
+          "label": "Best for group shots",
+          "name": "Ulanzi One-Click Magnetic Phone Tripod",
+          "brand": "Ulanzi",
+          "verdict": "A selfie stick that becomes a tall tripod in one move: press it on the ground to open, lift it to fold.",
+          "summary": "Most selfie-stick tripods make you unfold each leg by hand. Per the listing, this Ulanzi opens its legs when you press it to the ground and folds them when you pull it up, reaches 1.8m for full-body shots and holds your phone on a magnetic ring.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Open it on flat, firm ground and extend the thicker pole sections first; a tall stick on uneven ground tips over more easily.",
+              "source": "Common-sense use and care tip",
+              "url": ""
+            },
+            {
+              "point": "Android phones have no built-in MagSafe magnets, so magnetic mounts need a magnetic case or metal ring; Amateur Photographer notes the same for Ulanzi's MA38.",
+              "source": "Amateur Photographer: Ulanzi MA38 review (Andy Westlake, Oct 2025)",
+              "url": "https://amateurphotographer.com/review/ulanzi-ma38-review"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Opens and folds in one move (per listing)",
+            "1.8m reach for full-body shots",
+            "Magnetic ring, no clamp to fiddle with"
+          ],
+          "cons": [
+            "Pricier than basic selfie-stick tripods",
+            "Android needs a magnetic case or ring"
+          ],
+          "bestFor": "Barkada group shots and travel",
+          "tip": "Extend it over flat ground and keep a hand near the pole at full height on windy beach days.",
+          "facts": [
+            {
+              "k": "Max height",
+              "v": "1.8m (per the listing)"
+            },
+            {
+              "k": "Opening",
+              "v": "Press on ground to open, lift to fold"
+            },
+            {
+              "k": "Mount",
+              "v": "Magnetic phone ring"
+            }
+          ],
+          "alt": {
+            "id": "2499899812",
+            "name": "Ulanzi MT-44 Selfie Stick Tripod",
+            "label": "Budget tripod",
+            "note": "A cheaper, popular Ulanzi selfie-stick tripod with fold-by-hand legs; check which variant (MT-44, MT-44B or MT-44M) you choose."
+          }
         },
         {
-          "name": "Cebu Pacific Help",
-          "url": "https://help.cebupacificair.com/article/power-bank-limitations-on-cebu-pacific-flights-162399"
+          "id": "2923005413",
+          "slot": "Pocket ring stand",
+          "label": "Best pocket stand",
+          "name": "Sanptoch Magnetic Metal Ring Grip",
+          "brand": "Sanptoch",
+          "verdict": "A slim metal ring that snaps on with magnets, so you get a finger grip and a fold-out kickstand without sticky glue.",
+          "summary": "Most ring holders are glued to your phone or case for good. This Sanptoch ring snaps onto MagSafe iPhones or magnetic cases instead, so you can pull it off for wireless charging. Flip it out to hook a finger through, or stand the phone up for videos.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Engadget's 2026 guide favours magnetic grips because you can attach them only when you need them.",
+              "source": "Engadget: The best iPhone accessories for 2026 (Valentina Palladino, updated Feb 13, 2026)",
+              "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
+            },
+            {
+              "point": "Macworld's 2026 gift guide includes a metal magnetic ring stand that folds flat and rotates 360 degrees: the same idea from a premium brand.",
+              "source": "Macworld: I'm an iPhone accessories expert. Here are all the gifts I recommend (Simon Jary, Mar 18, 2026)",
+              "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
+            },
+            {
+              "point": "Apple advises keeping credit cards, IDs and key fobs out from between an iPhone and a MagSafe charger; take the ring off before charging wirelessly, too.",
+              "source": "Apple Support: How to use your MagSafe Charger with iPhone",
+              "url": "https://support.apple.com/en-us/HT211829"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Metal ring, not a flimsy plastic loop",
+            "Snaps on and off, no adhesive",
+            "Grip and kickstand in one"
+          ],
+          "cons": [
+            "Needs MagSafe or a magnetic case",
+            "Remove it before wireless charging"
+          ],
+          "bestFor": "One-handed scrolling on the commute",
+          "tip": "Galaxy A55 or A35? Pair it with a magnetic case, like Sanptoch's matte magnetic one, so the ring has magnets to grab.",
+          "facts": [
+            {
+              "k": "Material",
+              "v": "Metal alloy ring"
+            },
+            {
+              "k": "Attaches",
+              "v": "Magnetic, no adhesive"
+            },
+            {
+              "k": "Fits",
+              "v": "iPhone 12+ or magnetic cases"
+            }
+          ],
+          "alt": {
+            "id": "5212299147",
+            "name": "UGREEN MagFlow Qi2 25W Car Vent Mount",
+            "label": "For drivers",
+            "note": "A magnetic air-vent mount that also charges compatible iPhones wirelessly, from UGREEN's official store."
+          }
         }
       ]
     },
     {
-      "title": "Always check the model number",
-      "body": "In June 2025, Anker recalled five power bank models (A1257, A1647, A1652, A1681 and A1689) because of battery cells from one supplier. Our pick, the A1685, is not one of them, and while researching we skipped a listing whose name still carries a recalled code. Whatever power bank you buy, make sure the model on the box matches the listing.",
-      "sources": [
+      "id": "cases",
+      "name": "Creative phone cases",
+      "short": "Cases",
+      "img": "phone-cases",
+      "alt": "AI sample render of the cases below on a sunny desk",
+      "definition": "Creative cases add a trick on top of protection: a built-in stand, a breathable mesh back, a bold print or a little mirror for touch-ups. They're cheap enough to switch with your mood, but each one is cut for an exact phone model.",
+      "tips": [
+        "Cases fit one exact model. Pick yours from the listing's variant list and double-check it (iPhone 16 vs 16 Pro, Galaxy A55 vs A56).",
+        "A case with built-in magnets lets Android phones use MagSafe-style stands, grips, wallets and chargers.",
+        "Wipe clear and light cases weekly with mild soap and water, and brush out mesh holes so dust does not build up."
+      ],
+      "items": [
         {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2025/06/27/anker-issues-new-global-recall-for-five-power-bank-models-over-fire-hazard/"
+          "id": "15477573871",
+          "slot": "iPhone stand case",
+          "label": "Most creative",
+          "name": "Sanptoch Mesh Cooling Ring-Stand Case (iPhone)",
+          "brand": "Sanptoch",
+          "verdict": "A sporty mesh-back iPhone case with a metal ring that flips out as a kickstand, plus magnets for MagSafe gear.",
+          "summary": "This Sanptoch case covers the back in rows of small holes, which the listing pitches for heat dissipation during long games or calls. A metal ring around the magnets flips out as a kickstand or finger grip. Shown in orange and cream, for iPhone 13 to 17.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Apple says iPhones are designed for surroundings between 0 and 35°C, and charging may slow or stop when the phone gets too hot.",
+              "source": "Apple Support: If your iPhone or iPad gets too hot or too cold",
+              "url": "https://support.apple.com/en-us/HT201678"
+            },
+            {
+              "point": "Macworld's 2026 gift guide counts cases with built-in kickstands among its picks for iPhone users.",
+              "source": "Macworld: I'm an iPhone accessories expert. Here are all the gifts I recommend (Simon Jary, Mar 18, 2026)",
+              "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Built-in metal ring kickstand",
+            "Eye-catching mesh back in two colours",
+            "MagSafe magnets for stands and wallets"
+          ],
+          "cons": [
+            "For iPhone 13 to 17 models only",
+            "Holes collect lint; brush them out"
+          ],
+          "bestFor": "iPhone gamers and video watchers",
+          "tip": "Choose your exact iPhone model in the variant list; the case is cut differently for each model and size.",
+          "facts": [
+            {
+              "k": "Fits",
+              "v": "iPhone 13 to 17 series"
+            },
+            {
+              "k": "Stand",
+              "v": "Alloy ring kickstand"
+            },
+            {
+              "k": "Magnets",
+              "v": "MagSafe-compatible"
+            }
+          ],
+          "alt": null
+        },
+        {
+          "id": "5169479508",
+          "slot": "Samsung art case",
+          "label": "Most artistic",
+          "name": "Sanptoch Graffiti Magnetic Case (Galaxy S25/S24 Ultra)",
+          "brand": "Sanptoch",
+          "verdict": "A frosted case printed with playful graffiti shapes, with a built-in magnet ring so Galaxy Ultras can use magnetic gear.",
+          "summary": "Plain black cases are everywhere; this one wears a doodle-style print of grey and white squiggles and orange dots on a frosted back. Per the listing it has a soft TPU frame and a built-in magnet ring, so MagSafe-style stands and chargers can snap on.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "G Style Magazine tested a Qi2 magnetic charger with a Galaxy S24 Ultra and found alignment worked well with the appropriate magnetic setup, such as a magnetic case.",
+              "source": "G Style Magazine: UGREEN MagFlow Qi2 25W 2-in-1 Foldable Wireless Charger review (Christian Rivera, Sep 15, 2026)",
+              "url": "https://gstylemag.com/2026/09/15/ugreen-magflow-qi2-25w-2-in-1-foldable-wireless-charger-review/"
+            },
+            {
+              "point": "Macworld's 2026 gift guide lists colourful, artistic cases as a gift idea in their own right.",
+              "source": "Macworld: I'm an iPhone accessories expert. Here are all the gifts I recommend (Simon Jary, Mar 18, 2026)",
+              "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Fun, artistic print on a frosted back",
+            "Built-in magnet ring for MagSafe gear",
+            "Soft frame with a hard back"
+          ],
+          "cons": [
+            "Only for Galaxy S25 Ultra and S24 Ultra",
+            "Light frosted back shows dirt sooner"
+          ],
+          "bestFor": "Galaxy Ultra owners who want colour",
+          "tip": "Pick S25 Ultra or S24 Ultra carefully in the variant list; the camera cut-outs differ between the two phones.",
+          "facts": [
+            {
+              "k": "Fits",
+              "v": "Galaxy S25 Ultra, S24 Ultra"
+            },
+            {
+              "k": "Build",
+              "v": "Hard PC back, soft TPU frame"
+            },
+            {
+              "k": "Magnets",
+              "v": "Built-in magnetic ring"
+            }
+          ],
+          "alt": {
+            "id": "4899515140",
+            "name": "UGREEN Magnetic Ring-Stand Case (Galaxy S25 Ultra)",
+            "label": "Official-brand pick",
+            "note": "A frosted black magnetic case with a fold-out ring stand, from UGREEN's official store (model 65347)."
+          }
+        },
+        {
+          "evidence": "guidance",
+          "reviewersTitle": "Good to know",
+          "alt": null,
+          "id": "1567312442",
+          "slot": "Camera-cover case",
+          "label": "Most practical",
+          "name": "Nillkin CamShield Armor Case (iPhone 13 to 16)",
+          "brand": "Nillkin",
+          "verdict": "A rugged case with a slide-shut camera cover and a fold-out ring stand, for privacy and hands-free video calls.",
+          "summary": "Slide a small shutter over the lenses when you are not shooting, and flip out the ring to stand the phone up for videos. It is sold by Tech Smart Philippines, which shows itself as an authorized Nillkin reseller in the listing photo.",
+          "reviewers": [
+            {
+              "point": "A slide cover also protects the camera glass from scratches when the phone lies face-up on a table.",
+              "source": "",
+              "url": ""
+            },
+            {
+              "point": "Cases fit one exact model, so choose yours from the variant list (iPhone 16 vs 16 Pro, for example).",
+              "source": "",
+              "url": ""
+            }
+          ],
+          "pros": [
+            "Slide cover protects and hides the cameras",
+            "Fold-out ring doubles as a stand",
+            "Authorized reseller, per the listing photo"
+          ],
+          "cons": [
+            "Bulkier than slim cases",
+            "Fits iPhone 13 to 16 models only"
+          ],
+          "bestFor": "iPhone owners who want sturdy protection, a privacy cover and a built-in stand",
+          "tip": "Pick your exact iPhone model (13 to 16, Pro, Pro Max or mini) in the variant list before checking out.",
+          "facts": [
+            {
+              "k": "Fits",
+              "v": "iPhone 13 to 16 series"
+            },
+            {
+              "k": "Camera",
+              "v": "Slide-shut cover"
+            },
+            {
+              "k": "Stand",
+              "v": "Fold-out ring"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Protect it first: case and screen protector",
-      "body": "Cases and screen protectors are on most expert lists, but they have to match your exact phone model, so there is no single pick for everyone. Some phones sold here come with a basic clear case and a pre-applied screen film, so check the box first. If you buy one, choose the listing made for your model, ideally from the brand's own store.",
-      "sources": [
+      "id": "chargers",
+      "name": "Creative chargers and power",
+      "short": "Chargers and power",
+      "img": "phone-chargers",
+      "alt": "AI sample render of the chargers and power below on a sunny desk",
+      "definition": "Chargers and power banks don't have to be plain white bricks. These picks from official Anker and UGREEN stores add a robot face, a built-in stand or a fold-flat design, and still cover the basics: fast, safe charging from brands you can trace.",
+      "tips": [
+        "Buy chargers and power banks only from the brand's official store, and read the seller name letter by letter: fake 'ΑNΚER' and 'АNKЕR' stores use Greek or Cyrillic look-alike letters.",
+        "Own an Anker power bank? Check its model number against Anker's June 2025 recall (A1257, A1647, A1652, A1681, A1689) and stop using it if it matches.",
+        "Keep power banks out of hot cars and direct sun, and pack them in your hand-carry bag, not checked luggage, when you fly."
+      ],
+      "items": [
         {
-          "name": "SamMobile",
-          "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
+          "id": "4051142452",
+          "slot": "Wall charger",
+          "label": "Most creative",
+          "name": "UGREEN Uno 65W Robot GaN Charger",
+          "brand": "UGREEN",
+          "verdict": "A 65W, 3-port GaN charger shaped like a tiny robot whose screen face changes expression as your devices charge.",
+          "summary": "The Uno looks like a little robot in headphones, and its screen face shows how charging is going. Behind the fun is a 65W, 3-port GaN charger (per the listing) with Samsung 45W Super Fast Charging, for a phone, tablet or many USB-C laptops.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Macworld's 2026 iPhone gift guide includes UGREEN's earlier robot-shaped 30W GaN charger, so the robot look already has editor fans.",
+              "source": "Macworld: I'm an iPhone accessories expert. Here are all the gifts I recommend (Simon Jary, Mar 18, 2026)",
+              "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
+            },
+            {
+              "point": "Apple notes that charging makes a phone warmer and may slow or stop if it gets too hot, so charge in a shaded, airy spot.",
+              "source": "Apple Support: If your iPhone or iPad gets too hot or too cold",
+              "url": "https://support.apple.com/en-us/HT201678"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Robot design with an expressive screen face",
+            "3 ports for phone, tablet and earbuds",
+            "Supports Samsung 45W Super Fast Charging"
+          ],
+          "cons": [
+            "Bigger than a basic 20W cube",
+            "65W total is shared across busy ports"
+          ],
+          "bestFor": "Desk setups and gift-giving",
+          "tip": "When several devices charge at once, the 65W is shared; charge a laptop on its own for the fastest top-up.",
+          "facts": [
+            {
+              "k": "Output",
+              "v": "65W max, GaN"
+            },
+            {
+              "k": "Ports",
+              "v": "3-port (per the listing)"
+            },
+            {
+              "k": "Samsung",
+              "v": "Supports 45W Super Fast Charging"
+            }
+          ],
+          "alt": {
+            "id": "4605196392",
+            "name": "UGREEN Uno 100W Robot Charger",
+            "label": "More power",
+            "note": "The bigger 4-port Uno robot with 100W total, for charging a laptop and a phone together."
+          }
         },
         {
-          "name": "9to5Google",
-          "url": "https://9to5google.com/2025/12/26/google-pixel-accessories-new-phone/"
+          "id": "4738702087",
+          "slot": "Magnetic power bank with stand",
+          "label": "Best power bank",
+          "name": "Anker Zolo Magnetic Power Bank 10K (A1685)",
+          "brand": "Anker",
+          "verdict": "A pastel magnetic power bank with its own USB-C cable and a fold-out stand, so nothing extra rides in your bag.",
+          "summary": "Anker's Zolo snaps onto MagSafe iPhones for 7.5W wireless top-ups, and its built-in USB-C cable charges any USB-C phone at up to 30W. A stand flips out so you can watch while it charges. The listing photo shows it in soft blue, pink and white.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Macworld's 2026 iPhone gift guide picks the Anker Zolo 10K Magnetic for its built-in USB-C cable and kickstand.",
+              "source": "Macworld: I'm an iPhone accessories expert. Here are all the gifts I recommend (Simon Jary, Mar 18, 2026)",
+              "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
+            },
+            {
+              "point": "A1685 is not among the power bank models in Anker's June 2025 recall (A1257, A1647, A1652, A1681 and A1689).",
+              "source": "Anker: Product recalls (June 2025 power bank recall)",
+              "url": "https://www.anker.com/product-recalls"
+            },
+            {
+              "point": "Apple advises keeping cards, IDs and key fobs out from between an iPhone and a magnetic charger.",
+              "source": "Apple Support: How to use your MagSafe Charger with iPhone",
+              "url": "https://support.apple.com/en-us/HT211829"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Built-in USB-C cable, nothing to forget",
+            "Fold-out stand for hands-free videos",
+            "30W wired for USB-C iPhones and Android"
+          ],
+          "cons": [
+            "7.5W wireless is slower than the cable",
+            "Magnets need iPhone 12+ or a magnetic case"
+          ],
+          "bestFor": "Commutes, brownouts and travel",
+          "tip": "Use the built-in cable when you need speed; save the magnetic wireless mode for slow top-ups while you scroll or watch.",
+          "facts": [
+            {
+              "k": "Model",
+              "v": "A1685"
+            },
+            {
+              "k": "Capacity",
+              "v": "10,000mAh"
+            },
+            {
+              "k": "Output",
+              "v": "30W wired, 7.5W wireless"
+            }
+          ],
+          "alt": {
+            "id": "4614792255",
+            "name": "UGREEN Uno Magnetic Power Bank with Stand",
+            "label": "Cutest option",
+            "note": "Smiley-face screen and a wire kickstand from UGREEN's official store; 7.5W wireless and 20W USB-C. Choose the 10,000mAh option."
+          }
+        },
+        {
+          "id": "5198682268",
+          "slot": "Folding wireless station",
+          "label": "Best fold-flat station",
+          "name": "UGREEN MagFlow 2-in-1 Qi2 25W Foldable Charger",
+          "brand": "UGREEN",
+          "verdict": "A palm-size Qi2 25W stand that folds into a small square, with a second pad for earbuds, for the desk or a travel kit.",
+          "summary": "Open it and the magnetic pad holds your phone in portrait or landscape while a small pad below charges earbuds; fold it and it is a palm-size square. G Style Magazine rated it 8/10 for portability and its sturdy hinge. No wall adapter is included.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "G Style Magazine (Sept 2026) rated it 8/10: very portable, sturdy hinge, earbuds pad up to 5W, folding to about 6 x 7.5 x 1.3 cm.",
+              "source": "G Style Magazine: UGREEN MagFlow Qi2 25W 2-in-1 Foldable Wireless Charger review (Christian Rivera, Sep 15, 2026)",
+              "url": "https://gstylemag.com/2026/09/15/ugreen-magflow-qi2-25w-2-in-1-foldable-wireless-charger-review/"
+            },
+            {
+              "point": "The same review notes there is no wall adapter in the box; UGREEN recommends a 45W or higher USB-C power supply.",
+              "source": "G Style Magazine: UGREEN MagFlow Qi2 25W 2-in-1 Foldable Wireless Charger review (Christian Rivera, Sep 15, 2026)",
+              "url": "https://gstylemag.com/2026/09/15/ugreen-magflow-qi2-25w-2-in-1-foldable-wireless-charger-review/"
+            },
+            {
+              "point": "Engadget's 2026 guide picks the 3-in-1 sibling of this UGREEN MagFlow fold-flat station and calls the design clever and premium.",
+              "source": "Engadget: The best iPhone accessories for 2026 (Valentina Palladino, updated Feb 13, 2026)",
+              "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Folds into a palm-size square",
+            "Qi2.2 up to 25W on newer iPhones",
+            "Second pad for earbuds"
+          ],
+          "cons": [
+            "No wall adapter included (45W+ advised)",
+            "Samsung needs a magnetic case to align"
+          ],
+          "bestFor": "Bedside tables and travel kits",
+          "tip": "Budget for a 45W or higher USB-C wall charger, like the Uno 65W above, since none comes in the box.",
+          "facts": [
+            {
+              "k": "Wireless",
+              "v": "Qi2.2, up to 25W (per listing)"
+            },
+            {
+              "k": "Charges",
+              "v": "Phone + earbuds"
+            },
+            {
+              "k": "Folded size",
+              "v": "About 6 x 7.5 x 1.3 cm (review)"
+            }
+          ],
+          "alt": {
+            "id": "5216899733",
+            "name": "UGREEN MagFlow Qi2 25W Magnetic Charger",
+            "label": "Budget wireless",
+            "note": "A single magnetic Qi2 puck with a braided cable for less, without the stand or earbuds pad."
+          }
         }
       ]
     },
     {
-      "title": "Why there is no car mount (yet)",
-      "body": "Car mounts appear on three of the six lists, but none of the mounts we checked had an independent review we could verify, so we are holding off rather than guessing. If you use one, mount it low on the dashboard or an aircon vent, never in the middle of the windshield: the Anti-Distracted Driving Act (RA 10913) bans placements that block your view of the road.",
-      "sources": [
+      "id": "extras",
+      "name": "Other creative accessories",
+      "short": "Creative extras",
+      "img": "phone-extras",
+      "alt": "AI sample render of the creative extras below on a sunny desk",
+      "definition": "Small add-ons that unlock new tricks: zoom and macro shots, a camera-style grip with its own light, and tags that help you find your keys. They make easy gifts because most work with almost any phone.",
+      "tips": [
+        "Clip-on lenses work best without a thick case; centre the lens over your main camera and use a tripod for zoom shots.",
+        "Apple Find My tags only work with iPhone, iPad, Mac or Apple Watch. Android users should choose a tag that supports Google's Find Hub.",
+        "Charge grips and lights before a shoot, and switch the light off afterwards so it does not drain in your bag."
+      ],
+      "items": [
         {
-          "name": "DriveSafe PH",
-          "url": "https://drivesafe.ph/understanding-the-anti-distracted-driving-act-adda/"
+          "evidence": "guidance",
+          "reviewersTitle": "Good to know",
+          "alt": null,
+          "id": "15461703801",
+          "slot": "Clip-on lens",
+          "label": "Most fun for photos",
+          "name": "APEXEL 10-20x Zoom Macro Lens",
+          "brand": "APEXEL",
+          "verdict": "A clip-on macro lens that turns your phone into a close-up camera for flowers, food textures and tiny details.",
+          "summary": "Clamp it over your main camera and get much closer than your phone can focus on its own, from a leaf's veins to latte art. It is from APEXEL, a brand that specialises in phone lenses, and the listing says it fits iPhone, Samsung and most smartphones.",
+          "reviewers": [
+            {
+              "point": "Add-on phone lenses, including macro lenses, are among the iPhone gifts Macworld recommends in its 2026 guide.",
+              "source": "Macworld",
+              "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
+            },
+            {
+              "point": "Take off thick cases and centre the lens over your main camera before shooting, and use good light.",
+              "source": "",
+              "url": ""
+            }
+          ],
+          "pros": [
+            "10x to 20x macro in one lens",
+            "Camera-style clamp fits most phones, per the listing",
+            "A fun, giftable upgrade for hobby photos"
+          ],
+          "cons": [
+            "Macro only, not a zoom or wide lens",
+            "Needs steady hands or a stand for sharp shots"
+          ],
+          "bestFor": "Plant lovers, foodies and anyone who likes close-up photos",
+          "tip": "Remove thick cases, centre the lens over your main camera, and move slowly toward the subject until it snaps into focus.",
+          "facts": [
+            {
+              "k": "Range",
+              "v": "10x to 20x macro (per listing)"
+            },
+            {
+              "k": "Mount",
+              "v": "Camera-style clamp"
+            },
+            {
+              "k": "Fits",
+              "v": "Most smartphones (per listing)"
+            }
+          ]
+        },
+        {
+          "id": "3451730090",
+          "slot": "Camera grip with light",
+          "label": "Best for content",
+          "name": "Ulanzi CG-02 Camera Grip with Fill Light",
+          "brand": "Ulanzi",
+          "verdict": "A clip-on handle that makes your phone feel like a camera, with a built-in light and a detachable Bluetooth shutter.",
+          "summary": "Clamp the CG-02 onto your phone and you get a proper hand grip, a shutter button under your finger, a three-level LED fill light and a cold shoe for a mic. KelbyOne's reviewer scored it 90% and called its flaws minor.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "KelbyOne's review lists a three-level LED, a detachable Bluetooth shutter with about 15m range, a 58-86mm clamp, a cold shoe and a 1/4-inch tripod hole; about 118g.",
+              "source": "KelbyOne Insider: Ulanzi CG-02 Bluetooth smartphone camera grip review (Fernando Santos, Dec 16, 2023)",
+              "url": "https://insider.kelbyone.com/review-ulanzi-cg-02-bluetooth-smartphone-camera-grip/"
+            },
+            {
+              "point": "Downsides noted in the same review: the zoom buttons don't work with iPhones, and the LED has no battery-level indicator.",
+              "source": "KelbyOne Insider: Ulanzi CG-02 Bluetooth smartphone camera grip review (Fernando Santos, Dec 16, 2023)",
+              "url": "https://insider.kelbyone.com/review-ulanzi-cg-02-bluetooth-smartphone-camera-grip/"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Camera-style grip and shutter button",
+            "Built-in 3-level fill light",
+            "Cold shoe for a mic or light"
+          ],
+          "cons": [
+            "Zoom buttons don't work on iPhone (review)",
+            "No battery indicator on the light"
+          ],
+          "bestFor": "TikTok, Reels and live sellers",
+          "tip": "Select CG-02 (the fill-light version) in the variant list, and charge both the light and the remote before going live.",
+          "facts": [
+            {
+              "k": "Phone width",
+              "v": "58-86mm clamp"
+            },
+            {
+              "k": "Light",
+              "v": "3-level LED fill light"
+            },
+            {
+              "k": "Weight",
+              "v": "About 118g (per review)"
+            }
+          ],
+          "alt": {
+            "id": "4416953413",
+            "name": "Phomemo D50 Label Maker",
+            "label": "Gift for organisers",
+            "note": "A retro camera-shaped Bluetooth label printer you control from your phone; per the listing it prints inkless 16-24mm labels from Phomemo's official store."
+          }
+        },
+        {
+          "id": "4906896932",
+          "slot": "Find My tracker tags",
+          "label": "Best tracker",
+          "name": "UGREEN Smart Finder Tracker (4-pack)",
+          "brand": "UGREEN",
+          "verdict": "Four slim tags that work with Apple's Find My, so an iPhone family can keep track of keys, bags and luggage.",
+          "summary": "Clip a tag to your keys, bag or luggage and it shows up in Apple's Find My app. Per the listing photo this pack has four tags, handy for sharing across the family or a barkada trip. It's for iPhone users; Android owners should choose the alternate.",
+          "evidence": "guidance",
+          "reviewers": [
+            {
+              "point": "Apple says AirTag and other Find My network accessories can only be located with the Find My app on iPhone, iPad, Mac or Apple Watch, not on the web.",
+              "source": "Apple Support: Use Find My to locate your lost Apple device or AirTag",
+              "url": "https://support.apple.com/en-us/104978"
+            },
+            {
+              "point": "Engadget's 2026 guide includes a Find My tracker for bags and wallets among its iPhone essentials.",
+              "source": "Engadget: The best iPhone accessories for 2026 (Valentina Palladino, updated Feb 13, 2026)",
+              "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
+            }
+          ],
+          "reviewersTitle": "Good to know",
+          "pros": [
+            "Four tags for keys, bags and luggage",
+            "Uses Apple's Find My network",
+            "From UGREEN's official store"
+          ],
+          "cons": [
+            "iPhone, iPad or Mac only; no Android",
+            "Plain look; add a keyring or holder"
+          ],
+          "bestFor": "iPhone families and frequent travellers",
+          "tip": "Add each tag in the Find My app's Items tab and give it a clear name, like 'Luggage' or 'Car keys', before your trip.",
+          "facts": [
+            {
+              "k": "Works with",
+              "v": "Apple Find My (iPhone)"
+            },
+            {
+              "k": "Pack",
+              "v": "4 tags (per the listing photo)"
+            },
+            {
+              "k": "For",
+              "v": "Keys, wallet, luggage"
+            }
+          ],
+          "alt": {
+            "id": "15582196925",
+            "name": "UGREEN Finder Pro (Apple and Android)",
+            "label": "For Android users",
+            "note": "A USB-C rechargeable UGREEN tag that works with Apple Find My or Android's Find Hub, per the listing, sold by JG Superstore Pro."
+          }
         }
       ]
-    }
-  ],
-  "sellerNote": "Picks 1 to 4 are sold by the Anker Global store on Lazada. Anker Philippines' 18-month local warranty covers its official Philippine channels, so check the warranty and where the item ships from on the listing before you buy.",
-  "items": [
-    {
-      "id": "4738702087",
-      "rank": 1,
-      "slot": "Power bank",
-      "label": "Best overall",
-      "name": "Anker Zolo Magnetic Power Bank 10K (A1685)",
-      "brand": "Anker",
-      "verdict": "Our top pick for keeping any USB-C phone going through a long commute or a full day out, plus magnetic charging for iPhones.",
-      "summary": "If you buy only one accessory, make it a power bank. This Anker Zolo has its own USB-C cable built in, so you can top up on the bus, at the mall or during a brownout without hunting for a cord. iPhone owners get two extras: it snaps on magnetically, and it has a little stand for watching videos while it charges.",
-      "evidence": "strong",
-      "reviewers": [
-        {
-          "point": "Gave it an Editors' Choice. In their battery test it recharged an iPhone 16 Pro to 191%, the highest result they had recorded at the time.",
-          "source": "Macworld (Simon Jary, Nov 16, 2024)",
-          "url": "https://www.macworld.com/article/2508728/anker-zolo-magnetic-10k-power-bank-review.html"
-        },
-        {
-          "point": "The main catch: the built-in cable is USB-C, so it suits iPhone 15 and newer and USB-C Android phones, not older Lightning iPhones.",
-          "source": "Macworld",
-          "url": "https://www.macworld.com/article/2508728/anker-zolo-magnetic-10k-power-bank-review.html"
-        },
-        {
-          "point": "A1685 is not one of the five Anker power banks recalled in June 2025 (A1257, A1647, A1652, A1681, A1689).",
-          "source": "9to5Mac (Jun 27, 2025)",
-          "url": "https://9to5mac.com/2025/06/27/anker-issues-new-global-recall-for-five-power-bank-models-over-fire-hazard/"
-        }
-      ],
-      "pros": [
-        "Built-in USB-C cable plus a spare USB-C port",
-        "Up to 30W wired, fast enough for iPhone 15+ and Android",
-        "Snaps onto MagSafe iPhones and has a kickstand"
-      ],
-      "cons": [
-        "Costs more than a basic 10,000mAh bank",
-        "Wireless charging is a slow 7.5W"
-      ],
-      "bestFor": "Commuters and travelers who want one grab-and-go battery, especially iPhone 15 and newer owners",
-      "tip": "Check that the box says A1685 and pick your colour in the variant list. When flying, keep it with you in the cabin, never in checked bags, and don't use it on board.",
-      "facts": [
-        {
-          "k": "Capacity",
-          "v": "10,000mAh"
-        },
-        {
-          "k": "Wired output",
-          "v": "Up to 30W via built-in USB-C cable"
-        },
-        {
-          "k": "Wireless",
-          "v": "7.5W magnetic, with stand"
-        }
-      ],
-      "alt": {
-        "id": "4264261380",
-        "name": "UGREEN 10000mAh Magnetic Wireless Power Bank",
-        "label": "Budget pick",
-        "note": "About ₱1,100 from UGREEN Official Store. The listing photo shows 20W wired charging, 7.5W to 15W magnetic wireless charging and a free USB-C cable. The listing doesn't name a model code, and the title also mentions a 5,000mAh size, so make sure you select the 10,000mAh option."
-      }
-    },
-    {
-      "id": "4644812363",
-      "rank": 2,
-      "slot": "Fast charger",
-      "label": "Best value",
-      "name": "Anker Zolo 30W GaN USB-C Charger (A2698)",
-      "brand": "Anker",
-      "verdict": "A tiny, low-cost 30W charger that fast-charges both iPhones and Samsung phones and is designed to stay cool.",
-      "summary": "Not every phone comes with a charger in the box anymore, so check yours first. If you need one, this pocket-size Anker Zolo is an easy choice. 30W covers full-speed charging on most phones, and it speaks both Apple's and Samsung's fast-charging standards. Anker also built in a temperature sensor, which is reassuring on hot Philippine afternoons.",
-      "evidence": "moderate",
-      "reviewers": [
-        {
-          "point": "Covered the local launch: the Zolo 20W and 30W chargers have foldable plugs, a temperature sensor that Anker says keeps charging 13°C cooler than standard chargers, and a stacked design about 25% smaller. Launch prices were ₱395 for the 20W and ₱495 for the 30W.",
-          "source": "Unbox PH (Nov 1, 2024)",
-          "url": "https://unbox.ph/gadget/anker-zolo-power-bank-charger-philippines/"
-        },
-        {
-          "point": "Anker's spec page for A2698: one USB-C port, 30W max, PD 3.0 and PPS, 100–240V input, 49 g.",
-          "source": "Anker Singapore (manufacturer)",
-          "url": "https://anker.com.sg/products/anker-zolo-30w-compact-usb-c-gan-ii-charger-temperature-control-new-heat-dissipation-tech-a2698"
-        },
-        {
-          "point": "Engadget's 2026 iPhone guide and How-To Geek's list of cheap iPhone essentials both recommend a compact 30W Anker USB-C charger as the one to get. They name the Anker Nano 30W, a different model from this Zolo.",
-          "source": "Engadget (Feb 2026) / How-To Geek (Jul 18, 2025)",
-          "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
-        }
-      ],
-      "pros": [
-        "30W with PD and PPS covers iPhones, Samsung and most Android phones",
-        "Very small, with a foldable plug",
-        "Built-in temperature control"
-      ],
-      "cons": [
-        "One port, so one device at a time",
-        "No independent lab test of this exact model found"
-      ],
-      "bestFor": "Anyone whose phone came without a charger, or who wants a small spare for the bag or office",
-      "tip": "₱395 is the listing's base price. Unbox PH reported launch prices of ₱395 for the 20W and ₱495 for the 30W, so select the 30W option (A2698) and expect to pay a bit more. It has a USB-C port only; if your phone came with a USB-A cable, add pick #3.",
-      "facts": [
-        {
-          "k": "Output",
-          "v": "30W max, single USB-C port"
-        },
-        {
-          "k": "Fast-charging",
-          "v": "PD (PIQ 3.0) and PPS"
-        },
-        {
-          "k": "Plug",
-          "v": "Foldable"
-        }
-      ],
-      "alt": {
-        "id": "3367619958",
-        "name": "UGREEN Nexode Mini 30W GaN Charger",
-        "label": "Also great",
-        "note": "About ₱350 from UGREEN Official Store. The listing covers 20W and 30W versions, so pick 30W for full-speed charging on most phones."
-      }
-    },
-    {
-      "id": "4689957578",
-      "rank": 3,
-      "slot": "Spare USB-C cable",
-      "label": "Best spare cable",
-      "name": "Anker Zolo 240W Braided USB-C to USB-C Cable (A8060)",
-      "brand": "Anker",
-      "verdict": "A tough, independently tested cable for under ₱300, and one of the most popular cables we found.",
-      "summary": "A second good cable means one stays by the bed and one lives in your bag. This braided Anker Zolo cable is certified by the USB standards body (USB-IF) and passed an independent tester's high-power check. It's also the missing piece if your phone came with an older USB-A cable but your new charger or power bank only has USB-C.",
-      "evidence": "strong",
-      "reviewers": [
-        {
-          "point": "Independent test: USB-IF certified (the reviewer says that's unusual at this price), e-marker present, and it handled a 140W continuous load. The braid is soft and flexible rather than stiff. Overall grade B+.",
-          "source": "Cheap & Cheerful (cheerful.cheap)",
-          "url": "https://cheerful.cheap/review/anker-zolo-a8060-240w-slim/"
-        },
-        {
-          "point": "Same reviewer's main con: data runs at USB 2.0 speed, so treat it as a charging cable, not a fast file-transfer cable.",
-          "source": "Cheap & Cheerful (cheerful.cheap)",
-          "url": "https://cheerful.cheap/review/anker-zolo-a8060-240w-slim/"
-        },
-        {
-          "point": "General advice: cheap cables can charge slowly, overheat or stop working within months, so choose a certified cable that supports your phone's fast-charging standard.",
-          "source": "SamMobile (updated Feb 13, 2026)",
-          "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
-        }
-      ],
-      "pros": [
-        "Independently tested: USB-IF certified, with an e-marker",
-        "Soft, flexible braid",
-        "Covers phones, tablets and most laptops"
-      ],
-      "cons": [
-        "Slow USB 2.0 data transfers",
-        "No video output or screen mirroring"
-      ],
-      "bestFor": "A spare for the bag, car or power bank, or replacing a frayed cable",
-      "tip": "Pick 0.9 m for a bag or power bank and 1.8 m for the bedside. The price shown is for the base variant. iPhone 14 and older use Lightning, so they need a USB-C to Lightning cable instead.",
-      "facts": [
-        {
-          "k": "Rating",
-          "v": "240W, USB-C to USB-C"
-        },
-        {
-          "k": "Jacket",
-          "v": "Braided"
-        },
-        {
-          "k": "Model",
-          "v": "A8060"
-        }
-      ],
-      "alt": {
-        "id": "3169948125",
-        "name": "UGREEN 100W USB-C to USB-C Cable with E-Marker",
-        "label": "Also great",
-        "note": "About ₱290 from UGREEN Official Store. Per the listing name it is rated 100W (20V/5A) with an e-marker, which is enough for phones, tablets and many laptops. Choose your length in the variant list."
-      }
-    },
-    {
-      "id": "4520978130",
-      "rank": 4,
-      "slot": "Wireless earbuds",
-      "label": "Best for commuters",
-      "name": "Soundcore R50i NC Noise-Cancelling Earbuds (A3959)",
-      "brand": "Soundcore by Anker",
-      "verdict": "Real noise cancelling for the daily commute, at a budget price.",
-      "summary": "Jeepney engines, bus horns and train announcements add up over a long commute. These Soundcore earbuds use active noise cancelling to turn that down. They last a full day with the case and cost about ₱1,300. A Philippine reviewer found the noise cancelling works best on steady rumble like traffic and engines, which is exactly the noise most of us deal with.",
-      "evidence": "strong",
-      "reviewers": [
-        {
-          "point": "Scored it 4.3 out of 5. The noise cancelling handles low rumble like traffic and engine hum well but doesn't block everything. Comfortable for hours of commuting. Clear vocals with strong, bass-heavy tuning.",
-          "source": "WalasTech (PH, Carl Lamiel, Jul 22, 2024)",
-          "url": "https://walastech.com/6sz2"
-        },
-        {
-          "point": "After a week of use: effective at cutting indoor and traffic noise, comfortable enough to fall asleep in, and the case doubles as a phone stand. Cons: sound leaks at higher volume, transparency mode is only so-so, and the default tuning is bass-heavy (fixable with the app EQ).",
-          "source": "Gadgetbyte Nepal (Sep 2026)",
-          "url": "https://www.gadgetbytenepal.com/soundcore-r50i-nc-review/"
-        },
-        {
-          "point": "Anker PH lists model A3959 with adaptive ANC up to 42dB, 10mm drivers, Bluetooth 5.4 and IP54. Battery is 10 hours per charge and 45 hours with the case with ANC off, or about 7 and 30 hours with ANC on. It carries an 18-month Soundcore warranty, and the sale price on anker.com.ph was ₱1,295.",
-          "source": "Anker Philippines (manufacturer)",
-          "url": "https://www.anker.com.ph/products/soundcore-r50i-nc-earbuds"
-        }
-      ],
-      "pros": [
-        "Real noise cancelling at a budget price",
-        "Long battery life with the case",
-        "Case doubles as a phone stand"
-      ],
-      "cons": [
-        "Bass-heavy out of the box (the app EQ helps)",
-        "Sound leaks at high volume"
-      ],
-      "bestFor": "Commuters on jeeps, buses and trains who want quieter rides without spending much",
-      "tip": "Expect shorter battery life with ANC on (about 7 hours per charge). If the bass feels heavy, use the soundcore app's EQ. Choose your colour in the variant list.",
-      "facts": [
-        {
-          "k": "Noise cancelling",
-          "v": "Adaptive ANC, up to 42dB"
-        },
-        {
-          "k": "Battery",
-          "v": "Up to 45H total playtime"
-        },
-        {
-          "k": "Bluetooth",
-          "v": "5.4"
-        }
-      ],
-      "alt": {
-        "id": "4552590266",
-        "name": "Xiaomi Redmi Buds 6 Active",
-        "label": "Budget pick",
-        "note": "About ₱670 from Xiaomi Official Store Global. Per the listing name: Bluetooth 5.4, dual-mic call noise reduction (ENC), 30 hours with the case, IPX4 and a semi-in-ear fit. It has no active noise cancelling for music, so it's best for calls and casual listening."
-      }
-    },
-    {
-      "id": "3560964744",
-      "rank": 5,
-      "slot": "Phone stand & selfie tripod",
-      "label": "Best for trips and video calls",
-      "name": "Ulanzi MT-44 Extendable Phone Tripod and Selfie Stick",
-      "brand": "Ulanzi",
-      "verdict": "A light 3-in-1 stand, tripod and selfie stick that holds almost any phone.",
-      "summary": "A tripod stand is the accessory you'll be glad you packed. Use it for video calls, cooking videos, live selling, or the barkada photo where nobody has to stay behind the camera. The Ulanzi MT-44 folds small, stands on a table or the floor, and doubles as a selfie stick. Its phone clamp hides inside the head, so there's no separate holder to lose.",
-      "evidence": "strong",
-      "reviewers": [
-        {
-          "point": "Light at 422 g, with six sections that extend from 32.5 cm to 149 cm, a 360° ball head and a spring-loaded phone holder hidden in the head. The legs lock securely and it is stable on flat surfaces.",
-          "source": "Tech Edition (Vincent Wee, Jul 31, 2025)",
-          "url": "https://www.techedt.com/ulanzi-extendable-vlog-mt-44-tripod-review-sleek-yet-functional-companion-for-content-creators"
-        },
-        {
-          "point": "Same review's cons: less stable when fully extended outdoors in wind, ABS plastic build, a small screw cover that falls off easily, and sections that can feel stiff. The clamp fits phones about 6–8 cm wide.",
-          "source": "Tech Edition",
-          "url": "https://www.techedt.com/ulanzi-extendable-vlog-mt-44-tripod-review-sleek-yet-functional-companion-for-content-creators"
-        },
-        {
-          "point": "Ulanzi lists six sections, up to 146.5 cm (57.6 in), and a foldable hidden phone holder. It also works with small cameras and lights.",
-          "source": "Ulanzi (manufacturer)",
-          "url": "https://www.ulanzi.com/fr-eu/collections/ulanzi-us-warehouse-delivery/products/ulanzi-mt-44-extendable-vlog-tripod-2502b"
-        }
-      ],
-      "pros": [
-        "Stand, tripod and selfie stick in one",
-        "Hidden phone clamp, plus a 1/4-inch screw for cameras and lights",
-        "Sold by an authorized Ulanzi reseller (per the listing photo)"
-      ],
-      "cons": [
-        "Wobbles at full height in wind",
-        "Plastic build, and no remote included"
-      ],
-      "bestFor": "Barkada trips, solo travelers, video calls, live selling and TikTok or Reels",
-      "tip": "Measure your phone with its case on: the clamp fits about 6 to 8 cm wide. On windy days, keep it below full height, and use your phone's timer for group shots.",
-      "facts": [
-        {
-          "k": "Height",
-          "v": "Up to 146.5 cm, six sections (Ulanzi)"
-        },
-        {
-          "k": "Weight",
-          "v": "About 422 g (Tech Edition)"
-        },
-        {
-          "k": "Mounts",
-          "v": "Phone clamp + 1/4\" screw"
-        }
-      ],
-      "alt": {
-        "id": "2499899812",
-        "name": "Ulanzi MT-44 (JG Superstore listing)",
-        "label": "Lower price, more versions",
-        "note": "The same tripod for less, from a seller whose listing bundles three versions (MT-44, MT-44B and MT-44M). The lowest price is for the plain MT-44, so check the version name before checkout."
-      }
     }
   ],
   "sources": [
@@ -427,92 +775,8 @@
       "url": "https://www.engadget.com/computing/accessories/best-iphone-accessories-140022449.html"
     },
     {
-      "name": "9to5Google: First accessories for your new Google Pixel phone",
-      "url": "https://9to5google.com/2025/12/26/google-pixel-accessories-new-phone/"
-    },
-    {
-      "name": "SamMobile: What phone accessories do I really need?",
-      "url": "https://www.sammobile.com/news/what-phone-accessories-do-i-really-need/"
-    },
-    {
-      "name": "CNET via Yahoo Tech: Bought an iPhone 15 or 16? Try These USB-C Accessories First",
-      "url": "https://tech.yahoo.com/phones/articles/bought-iphone-15-16-try-194800589.html"
-    },
-    {
-      "name": "How-To Geek: Which Smartphone Accessories Are Worth Buying?",
-      "url": "https://www.howtogeek.com/821736/which-smartphone-accessories-are-worth-buying/"
-    },
-    {
-      "name": "How-To Geek: 9 Cheap and Essential iPhone Accessories",
-      "url": "https://www.howtogeek.com/cheap-accessories-that-will-make-your-iphone-better/"
-    },
-    {
-      "name": "Unbox PH: What's In My Personal Vacation Tech Bag?",
-      "url": "https://unbox.ph/gadget/whats-in-my-personal-vacation-tech-bag/"
-    },
-    {
-      "name": "Macworld: Anker Zolo Magnetic 10K review",
-      "url": "https://www.macworld.com/article/2508728/anker-zolo-magnetic-10k-power-bank-review.html"
-    },
-    {
-      "name": "Anker: Zolo Magnetic Power Bank (A1685)",
-      "url": "https://www.anker.com/products/a1685"
-    },
-    {
-      "name": "9to5Mac: Anker June 2025 power bank recall",
-      "url": "https://9to5mac.com/2025/06/27/anker-issues-new-global-recall-for-five-power-bank-models-over-fire-hazard/"
-    },
-    {
-      "name": "Unbox PH: 160Wh power banks banned on all flights (CAAP)",
-      "url": "https://unbox.ph/news/160whr-power-banks-banned-all-flights/"
-    },
-    {
-      "name": "Cebu Pacific: Power bank limitations",
-      "url": "https://help.cebupacificair.com/article/power-bank-limitations-on-cebu-pacific-flights-162399"
-    },
-    {
-      "name": "Unbox PH: Anker Zolo power bank and charger PH launch",
-      "url": "https://unbox.ph/gadget/anker-zolo-power-bank-charger-philippines/"
-    },
-    {
-      "name": "Anker Singapore: Zolo 30W charger A2698",
-      "url": "https://anker.com.sg/products/anker-zolo-30w-compact-usb-c-gan-ii-charger-temperature-control-new-heat-dissipation-tech-a2698"
-    },
-    {
-      "name": "Cheap & Cheerful: Anker Zolo A8060 cable test",
-      "url": "https://cheerful.cheap/review/anker-zolo-a8060-240w-slim/"
-    },
-    {
-      "name": "Anker Singapore: Zolo 240W cable A8060",
-      "url": "https://anker.com.sg/products/anker-zolo-usb-c-to-usb-c-240w-braided-fast-charging-cable-a8060"
-    },
-    {
-      "name": "MegaBites: realme 14 Pro 5G unboxing (PH)",
-      "url": "https://www.megabites.com.ph/realme-14-pro-5g-unboxing-and-first-look/"
-    },
-    {
-      "name": "WalasTech: Soundcore R50i NC review",
-      "url": "https://walastech.com/6sz2"
-    },
-    {
-      "name": "Gadgetbyte Nepal: Soundcore P30i/R50i NC review",
-      "url": "https://www.gadgetbytenepal.com/soundcore-r50i-nc-review/"
-    },
-    {
-      "name": "Anker Philippines: soundcore R50i NC",
-      "url": "https://www.anker.com.ph/products/soundcore-r50i-nc-earbuds"
-    },
-    {
-      "name": "Tech Edition: Ulanzi MT-44 review",
-      "url": "https://www.techedt.com/ulanzi-extendable-vlog-mt-44-tripod-review-sleek-yet-functional-companion-for-content-creators"
-    },
-    {
-      "name": "Ulanzi: MT-44 Extendable Vlog Tripod",
-      "url": "https://www.ulanzi.com/fr-eu/collections/ulanzi-us-warehouse-delivery/products/ulanzi-mt-44-extendable-vlog-tripod-2502b"
-    },
-    {
-      "name": "DriveSafe PH: Understanding the Anti-Distracted Driving Act",
-      "url": "https://drivesafe.ph/understanding-the-anti-distracted-driving-act-adda/"
+      "name": "Macworld: I'm an iPhone accessories expert. Here are all the gifts I recommend",
+      "url": "https://www.macworld.com/article/2148223/best-gifts-and-accessories-for-iphone-users.html"
     }
   ]
 }

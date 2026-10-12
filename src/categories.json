@@ -4,16 +4,28 @@
     "short": "Tech",
     "img": "cat-tech",
     "color": "mustard",
-    "blurb": "Chargers, earbuds and the small gadgets that make everyday life smoother.",
-    "intro": "Phones run most of our day, so the gear around them should be safe, genuine and built to last. Our tech guides focus on the accessories and gadgets people actually use every day, from well-known brands sold by established stores.",
+    "blurb": "Clever phone accessories and gadgets with character, from brands that stand behind them.",
+    "intro": "Phones run most of our day, so the gear around them should be clever, safe and genuine. Our tech guides look for accessories with a little imagination, like fold-flat stands, chargers with character and lenses that open up new shots, from well-known brands sold by established stores.",
     "lookForTitle": "What we look for in tech",
     "lookFor": [
-      { "title": "Genuine brands, real stores", "body": "We favour brands' own stores and established sellers, and we check model numbers against known recalls and look-alike shops." },
-      { "title": "Independent evidence", "body": "Manufacturer specs are a starting point. We look for independent reviews and tests, and link every one so you can read it yourself." },
-      { "title": "Safe for daily use", "body": "Chargers and power banks need clear ratings and capacity labels, which also matters for flights. If the safety story is unclear, it doesn't make the list." }
+      {
+        "title": "Genuine brands, real stores",
+        "body": "We favour brands' own stores and established sellers, and we check model numbers against known recalls and look-alike shops."
+      },
+      {
+        "title": "Independent evidence",
+        "body": "Manufacturer specs are a starting point. We look for independent reviews and tests, and link every one so you can read it yourself."
+      },
+      {
+        "title": "Safe for daily use",
+        "body": "Chargers and power banks need clear ratings and capacity labels, which also matters for flights. If the safety story is unclear, it doesn't make the list."
+      }
     ],
     "topics": {
-      "phone-accessories": { "name": "Phone accessories", "blurb": "Chargers, cables, power banks, earbuds and more." }
+      "phone-accessories": {
+        "name": "Phone accessories",
+        "blurb": "Chargers, cables, power banks, earbuds and more."
+      }
     }
   },
   "home": {
@@ -21,17 +33,32 @@
     "short": "Home & Decor",
     "img": "cat-home",
     "color": "olive",
-    "blurb": "Storage, lighting and decor that make a small space feel like home.",
-    "intro": "Most of us live in condos and compact homes, where every piece has to earn its place. Our home guides start from a look or a problem worth solving, then build a short list of pieces that work together.",
+    "blurb": "Decor in good materials (glass, wood, ceramic and native fibres) for small spaces.",
+    "intro": "Most of us live in condos and compact homes, where every piece has to earn its place. Our home guides start from a look worth living in, then build a short list of well-made pieces in honest materials that work together.",
     "lookForTitle": "What we look for in home and decor",
     "lookFor": [
-      { "title": "Pieces that work together", "body": "We start from the look or the problem, list the pieces that create it, and only then search for products, so a guide reads like a plan, not a pile." },
-      { "title": "Clear sizes and materials", "body": "Small spaces leave little room for surprises. We favour listings that state sizes and materials, and tell you what to measure before buying." },
-      { "title": "Sellers with a track record", "body": "Named brands, local makers and established stores with steady recent buyers, at prices that make sense for the item." }
+      {
+        "title": "Pieces that work together",
+        "body": "We start from the look or the problem, list the pieces that create it, and only then search for products, so a guide reads like a plan, not a pile."
+      },
+      {
+        "title": "Good materials, no plastic",
+        "body": "Glass, wood, stone, ceramic, cotton and native fibres like rattan, abaca, buri and capiz. If it looks or feels like cheap plastic, it does not make the list."
+      },
+      {
+        "title": "Sellers with a track record",
+        "body": "Named brands, local makers and established stores with steady recent buyers, at prices that make sense for the item."
+      }
     ],
     "topics": {
-      "style-guides": { "name": "Style guides", "blurb": "Shop a look, from Japandi to Modern Filipino." },
-      "holiday-decor": { "name": "Holiday decor", "blurb": "Seasonal decorating ideas for small spaces." }
+      "style-guides": {
+        "name": "Style guides",
+        "blurb": "Shop a look: MUJI-inspired, Japandi, Modern Filipino and boho."
+      },
+      "holiday-decor": {
+        "name": "Holiday decor",
+        "blurb": "Seasonal decorating ideas for small spaces."
+      }
     }
   },
   "beauty": {
@@ -43,9 +70,18 @@
     "intro": "Beauty is the category where fakes and exaggerated claims are most common, so we're taking our time. Our first beauty guides are being researched now, and they'll only go live once we've found products we're comfortable recommending.",
     "lookForTitle": "How we'll pick beauty finds",
     "lookFor": [
-      { "title": "Official and authorized sellers", "body": "We'll only recommend beauty products sold by the brand's own store or an authorized seller, because that's the surest way to get the genuine item." },
-      { "title": "Claims checked against sources", "body": "We'll look at ingredient lists and claims and compare them with reputable sources, and say plainly when evidence is thin." },
-      { "title": "Made for our weather", "body": "We'll favour products that suit hot, humid days and a range of Filipino skin types, with notes on who each one is for." }
+      {
+        "title": "Official and authorized sellers",
+        "body": "We'll only recommend beauty products sold by the brand's own store or an authorized seller, because that's the surest way to get the genuine item."
+      },
+      {
+        "title": "Claims checked against sources",
+        "body": "We'll look at ingredient lists and claims and compare them with reputable sources, and say plainly when evidence is thin."
+      },
+      {
+        "title": "Made for our weather",
+        "body": "We'll favour products that suit hot, humid days and a range of Filipino skin types, with notes on who each one is for."
+      }
     ],
     "topics": {}
   },
@@ -58,12 +94,24 @@
     "intro": "From the ber months to the big sale days, some shopping is best done early. Our seasonal guides arrive ahead of the rush, with picks that suit small spaces and safety notes where they matter.",
     "lookForTitle": "What we look for in seasonal finds",
     "lookFor": [
-      { "title": "Planned ahead", "body": "Seasonal guides go up weeks before the big day, so you can shop calmly and avoid last-minute stock-outs." },
-      { "title": "Safety first", "body": "Lights and plug-in decor get extra scrutiny. We favour USB and battery options and explain the PS and ICC marks to look for." },
-      { "title": "Made for small spaces", "body": "Tabletop, wall and window ideas that bring the season home without crowding a condo." }
+      {
+        "title": "Planned ahead",
+        "body": "Seasonal guides go up weeks before the big day, so you can shop calmly and avoid last-minute stock-outs."
+      },
+      {
+        "title": "Safety first",
+        "body": "Lights and plug-in decor get extra scrutiny. We favour USB and battery options and explain the PS and ICC marks to look for."
+      },
+      {
+        "title": "Made for small spaces",
+        "body": "Tabletop, wall and window ideas that bring the season home without crowding a condo."
+      }
     ],
     "topics": {
-      "christmas": { "name": "Christmas", "blurb": "Decor and hosting ideas for a Pinoy Christmas." }
+      "christmas": {
+        "name": "Christmas",
+        "blurb": "Parols, decor themes and small-condo ideas for a Pinoy Christmas."
+      }
     }
   }
 }

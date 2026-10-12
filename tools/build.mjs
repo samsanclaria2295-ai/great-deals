@@ -36,7 +36,7 @@ const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
 const product = (id, where) => {
   const p = products[id];
   if (!p) throw new Error(`Missing product data for ${id} (${where}); run tools/refresh-products.mjs`);
-  return p;
+  return { ...p, link: p.links?.[where] || p.link }; // each guide uses its own tracked link
 };
 
 const ICON = {
@@ -191,10 +191,19 @@ function guideCard(g, r, wide = false) {
       </div>
     </a>`;
 }
-// Balanced grids: 1 guide = wide feature card, 2 = two columns, 3+ = three columns.
-const cardGrid = (gs, r) => gs.length === 1
-  ? `<div class="grid-1">${guideCard(gs[0], r, true)}</div>`
-  : `<div class="grid-${gs.length === 2 ? 2 : 3}" data-stagger>${gs.map(g => guideCard(g, r)).join('\n')}</div>`;
+// Balanced rows for any count: rows of 3, finishing with a row of 2 (or 2 + 2) instead of a lonely card.
+// A single guide becomes a wide feature card.
+function cardGrid(gs, r) {
+  if (gs.length === 1) return `<div class="grid-1">${guideCard(gs[0], r, true)}</div>`;
+  const rows = [];
+  let rest = [...gs];
+  while (rest.length) {
+    const take = rest.length === 4 || rest.length === 2 ? 2 : 3;
+    rows.push(rest.slice(0, take));
+    rest = rest.slice(take);
+  }
+  return `<div class="rows">${rows.map(row => `<div class="grid-${row.length}" data-stagger>${row.map(g => guideCard(g, r)).join('\n')}</div>`).join('')}</div>`;
+}
 
 const EVIDENCE = {
   strong: 'Research: strong · independent reviews',
@@ -203,11 +212,13 @@ const EVIDENCE = {
   guidance: 'Research: buying and safety guidance',
 };
 
-function notesBlock(it, g) {
+// Citations show just the publication ("Livingetc"), linked to the article; full titles are in Sources.
+const shortSource = s => String(s || '').split(/:\s/)[0].replace(/\s*\([^)]*\d{4}[^)]*\)\s*$/, '').trim();
+function notesBlock(it, g, max = 3) {
   const title = it.reviewersTitle || (it.evidence === 'strong' || it.evidence === 'moderate' ? 'What reviewers say' : (g.guidanceLabel || 'Good to know'));
-  const list = it.reviewers || [];
+  const list = (it.reviewers || []).slice(0, max);
   if (!list.length) return '';
-  return `<div class="notes"><h4>${esc(title)}</h4><ul>${list.map(n => `<li>${esc(n.point)}${n.url ? ` <cite>(<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.source)}</a>)</cite>` : ''}</li>`).join('')}</ul></div>`;
+  return `<div class="notes"><h4>${esc(title)}</h4><ul>${list.map(n => `<li>${esc(n.point)}${n.url ? ` <cite>(<a href="${esc(n.url)}" target="_blank" rel="noopener" title="${esc(n.source)}">${esc(shortSource(n.source))}</a>)</cite>` : ''}</li>`).join('')}</ul></div>`;
 }
 const prosCons = it => `<div class="pc" role="group" aria-label="Pros and cons">
         <div class="pc-col pc-pros"><div class="pc-head"><i aria-hidden="true">+</i>Pros</div><ul>${it.pros.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
@@ -220,9 +231,9 @@ const factsBlock = (it, p) => {
 const priceBlock = p => `<div class="price">From around ${peso(p.price)}<small>Price checked ${fmtDate(p.checkedAt)}${p.seller ? ` · Sold by ${esc(p.seller.trim())}` : ''}</small></div>`;
 const award = label => label ? `<span class="award">${ICON.star}${esc(label)}</span>` : '';
 
-function altBlock(alt) {
+function altBlock(alt, slug) {
   if (!alt?.id) return '';
-  const p = product(alt.id, 'alternate');
+  const p = product(alt.id, slug);
   return `<div class="alt">
         ${aff(p, lazImg(p, `Product photo of ${alt.name} from its Lazada listing`), 'ashot')}
         <div><small>${esc(alt.label || 'Also consider')}</small><b>${esc(alt.name)}</b><p>${esc(alt.note)}</p></div>
@@ -254,31 +265,31 @@ function pickBlock(it, g) {
       <div><h4>Best for</h4><p>${esc(it.bestFor)}</p></div>
       <div><h4>Before you buy</h4><p>${esc(it.tip)}</p></div>
     </div>
-    ${altBlock(it.alt)}
+    ${altBlock(it.alt, g.slug)}
   </article>`;
 }
 
 // Card version of the same block (style guides). Alternates are shown under the grid, not inside cards,
 // so every card holds the same kinds of content.
-function pickCard(it, g) {
+function pickCard(it, g, compact = false) {
   const p = product(it.id, g.slug);
-  return `<article class="pcard" id="${esc(it.anchor || 'p' + it.id)}" data-reveal>
+  return `<article class="pcard${compact ? ' compact' : ''}" id="${esc(it.anchor || 'p' + it.id)}" data-reveal>
       <div class="pcard-top">
         <div>${aff(p, lazImg(p, `Product photo of ${it.name} from its Lazada listing`), 'shot')}<span class="photo-note">Photo from the Lazada listing</span></div>
         <div class="pcard-head"><span class="slot">${esc(it.slot)}</span>${award(it.label)}<h3>${esc(it.name)}</h3><p class="verdict">${esc(it.verdict)}</p></div>
       </div>
       <p class="summary">${esc(it.summary)}</p>
       ${factsBlock(it, p)}
-      ${notesBlock(it, g)}
+      ${notesBlock(it, g, 2)}
       ${prosCons(it)}
       <p class="tipline"><b>Before you buy:</b> ${esc(it.tip)}</p>
       <div class="buyrow">${priceBlock(p)}${buyBtn(p)}</div>
     </article>`;
 }
-const altsRow = items => {
+const altsRow = (items, slug) => {
   const withAlt = items.filter(it => it.alt?.id);
   if (!withAlt.length) return '';
-  return `<div class="alts" data-reveal><h4>Also worth a look</h4><div class="grid-2">${withAlt.map(it => altBlock({ label: `Instead of: ${it.slot}`, ...it.alt })).join('')}</div></div>`;
+  return `<div class="alts" data-reveal><h4>Also worth a look</h4><div class="grid-2">${withAlt.map(it => altBlock({ label: `Instead of: ${it.slot}`, ...it.alt }, slug)).join('')}</div></div>`;
 };
 
 function glanceTable(items, g, title = 'The picks at a glance') {
@@ -407,33 +418,38 @@ ${related(g, r)}`;
 
 function stylesGuide(g) {
   const r = '../';
-  const jump = `<nav class="style-jump" aria-label="Styles in this guide" data-stagger>${g.sections.map((s, i) => `<a href="#${s.id}" data-reveal>${img(r, s.img, '', '80px')}<span><small>Style ${i + 1}</small><b>${esc(s.name)}</b></span></a>`).join('')}</nav>`;
+  const noun = g.sectionNoun || 'Style';
+  const n = g.sections.length;
+  const jump = `<nav class="style-jump" style="--n:${n === 4 ? 4 : n === 2 ? 2 : 3}" aria-label="Sections in this guide" data-stagger>${g.sections.map((s, i) => `<a href="#${s.id}" data-reveal>${img(r, s.img, '', '80px')}<span><small>${esc(noun)} ${i + 1}</small><b>${esc(s.name)}</b></span></a>`).join('')}</nav>`;
+  // 3 picks per section sit in one row of compact cards; 2, 4 or 6 use rows of two.
+  const compact = s => s.items.length % 3 === 0 && s.items.length !== 6;
   const sections = g.sections.map((s, i) => `<section class="style-sec" id="${s.id}">
     <div class="style-head">
       <div data-reveal>
-        <span class="kicker">Style ${i + 1} of ${g.sections.length}</span>
+        <span class="kicker">${esc(noun)} ${i + 1} of ${g.sections.length}</span>
         <h2>${esc(s.name)}</h2>
         ${squiggle()}
         <p>${esc(s.definition)}</p>
         ${s.palette?.length ? `<div class="palette" aria-label="Palette">${s.palette.map(c => `<span>${esc(c)}</span>`).join('')}</div>` : ''}
         <ol class="tips">${s.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ol>
         ${s.note ? `<p class="note">${esc(s.note)}</p>` : ''}
-        ${s.definitionSources?.length ? `<p class="small muted" style="margin-top:var(--s3)">Style references: ${s.definitionSources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a>`).join(' · ')}</p>` : ''}
+        ${s.definitionSources?.length ? `<p class="small muted" style="margin-top:var(--s3)">References: ${s.definitionSources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a>`).join(' · ')}</p>` : ''}
       </div>
       <figure class="render" data-reveal>
         <div class="frame">${img(r, s.img, s.alt, '(max-width: 920px) 100vw, 600px')}<span class="ai-chip">AI sample render</span></div>
         <figcaption><sup>1</sup> AI sample render of the picks below in one room, drawn from written descriptions of each product. Not a photo of the actual products.</figcaption>
       </figure>
     </div>
-    <div class="list-head" data-reveal><h3>The shopping list</h3>${s.shoppingList ? `<p>${esc(s.shoppingList)}</p>` : ''}</div>
-    <div class="grid-2" data-stagger>${s.items.map(it => pickCard(it, g)).join('\n')}</div>
-    ${altsRow(s.items)}
+    <div class="list-head" data-reveal><h3>${esc(g.listTitle || 'The shopping list')}</h3>${s.shoppingList ? `<p>${esc(s.shoppingList)}</p>` : ''}</div>
+    <div class="grid-${compact(s) ? 3 : 2}" data-stagger>${s.items.map(it => pickCard(it, g, compact(s))).join('\n')}</div>
+    ${altsRow(s.items, g.slug)}
   </section>`).join('\n');
   const body = `${guideHead(g, r)}
 <section class="section flush-top">
   <div class="wrap" style="display:flex;flex-direction:column;gap:var(--s7)">
     <div class="reading block">${disclosureShort(r)}<div class="intro">${g.intro.map(p => `<p>${esc(p)}</p>`).join('')}</div></div>
     ${curationBox(g)}
+    ${g.sellerNote ? `<div class="disclosure reading" style="border-left-color:var(--mustard)" data-reveal><p><strong>Good to know:</strong> ${esc(g.sellerNote)}</p></div>` : ''}
     ${jump}
     ${sections}
     <div class="reading" style="display:flex;flex-direction:column;gap:var(--s6)">${sourcesBlock(g)}${footnotes(g)}</div>
@@ -496,10 +512,10 @@ function homePage() {
   const body = `<section class="hero">
   <div class="wrap grid">
     <div>
-      <span class="kicker" data-reveal>Product finds for Filipino homes</span>
+      <span class="kicker" data-reveal>Creative finds for Filipino homes</span>
       <h1><span class="line"><span>Good finds,</span></span><span class="line"><span>honestly</span></span><span class="line"><span>picked.</span></span></h1>
       ${squiggle()}
-      <p class="lede" data-reveal>We read the listings, the spec sheets and the independent reviews so you don't have to, then share the finds that are worth your peso, with the pros <em>and</em> the cons.</p>
+      <p class="lede" data-reveal>We hunt for well-made, creative pieces in good materials, read the spec sheets and independent reviews, then share the finds that are worth your peso, with the pros <em>and</em> the cons.</p>
       <div class="actions" data-reveal>
         <a class="btn" href="guides/">Browse the guides ${ICON.arrow}</a>
         <a class="link-arrow" href="about.html">How we pick ${ICON.arrow}</a>
