@@ -425,7 +425,7 @@ function rankedGuide(g) {
   </div>
 </section>
 ${related(g, r)}`;
-  return layout({ r, title: g.title, description: g.description, canonical: `guides/${g.slug}.html`, og: g.og, active: `cat-${primary(g).cat}`, body, type: 'article' });
+  return layout({ r, title: g.seoTitle || g.title, description: g.description, canonical: `guides/${g.slug}.html`, og: g.og, active: `cat-${primary(g).cat}`, body, type: 'article' });
 }
 
 function stylesGuide(g) {
@@ -433,8 +433,10 @@ function stylesGuide(g) {
   const noun = g.sectionNoun || 'Style';
   const n = g.sections.length;
   const jump = `<nav class="style-jump" style="--n:${n === 4 ? 4 : n === 2 ? 2 : 3}" aria-label="Sections in this guide" data-stagger>${g.sections.map((s, i) => `<a href="#${s.id}" data-reveal>${img(r, s.img, '', '80px')}<span><small>${esc(noun)} ${i + 1}</small><b>${esc(s.name)}</b></span></a>`).join('')}</nav>`;
-  // 3 picks per section sit in one row of compact cards; 2, 4 or 6 use rows of two.
+  // 3 picks per section sit in one row of compact cards; 2, 4 or 6 use rows of two; any other odd count
+  // uses rows of two with the last card spanning the full row.
   const compact = s => s.items.length % 3 === 0 && s.items.length !== 6;
+  const gridOf = s => (compact(s) ? '3' : s.items.length % 2 ? '2 span-last' : '2');
   const sections = g.sections.map((s, i) => `<section class="style-sec" id="${s.id}">
     <div class="style-head">
       <div data-reveal>
@@ -453,7 +455,7 @@ function stylesGuide(g) {
       </figure>
     </div>
     <div class="list-head" data-reveal><h3>${esc(g.listTitle || 'The shopping list')}</h3>${s.shoppingList ? `<p>${esc(s.shoppingList)}</p>` : ''}</div>
-    <div class="grid-${compact(s) ? 3 : 2}" data-stagger>${s.items.map(it => pickCard(it, g, compact(s))).join('\n')}</div>
+    <div class="grid-${gridOf(s)}" data-stagger>${s.items.map(it => pickCard(it, g, compact(s))).join('\n')}</div>
     ${altsRow(s.items, g.slug)}
   </section>`).join('\n');
   const body = `${guideHead(g, r)}
@@ -470,7 +472,7 @@ function stylesGuide(g) {
   </div>
 </section>
 ${related(g, r)}`;
-  return layout({ r, title: g.title, description: g.description, canonical: `guides/${g.slug}.html`, og: g.og, active: `cat-${primary(g).cat}`, body, type: 'article' });
+  return layout({ r, title: g.seoTitle || g.title, description: g.description, canonical: `guides/${g.slug}.html`, og: g.og, active: `cat-${primary(g).cat}`, body, type: 'article' });
 }
 
 function catTile(k, c, r) {

@@ -204,6 +204,8 @@ p:last-child { margin-bottom: 0; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s5); }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s5); }
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--s5); }
+/* An odd number of cards in rows of two: the last card spans the full row instead of sitting alone. */
+.grid-2.span-last > :last-child { grid-column: 1 / -1; }
 
 /* every boxed item stretches to its row and pins its last child to the bottom */
 .box { background: var(--paper); border-radius: var(--radius); box-shadow: var(--shadow); padding: var(--s5); display: flex; flex-direction: column; gap: var(--s3); height: 100%; }
