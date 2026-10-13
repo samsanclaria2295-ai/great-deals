@@ -111,6 +111,10 @@
       "christmas": {
         "name": "Christmas",
         "blurb": "Parols, decor themes and small-condo ideas for a Pinoy Christmas."
+      },
+      "gifts": {
+        "name": "Gift guides",
+        "blurb": "Exchange gift and Kris Kringle ideas that feel thoughtful on a budget."
       }
     }
   }

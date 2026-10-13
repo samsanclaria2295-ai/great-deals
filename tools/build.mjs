@@ -378,14 +378,25 @@ function guideHead(g, r) {
 }
 
 // ---------- pages ----------
+// Shared by ranked and styles guides. Callouts sit side by side; tip groups render as balanced grids
+// (3 tips in a row of three, otherwise rows of two). A tip without a url shows its `common` label.
+function calloutsBlock(g) {
+  return g.callouts?.length ? `<div class="grid-2" data-stagger>${g.callouts.map(c => `<div class="callout" data-reveal><h3>${esc(c.title)}</h3><p>${esc(c.body)}</p>${c.sources?.length ? `<div class="src">Sources: ${c.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(', ')}</div>` : ''}</div>`).join('')}</div>` : '';
+}
+function tipGroupsOf(g) {
+  return g.tipGroups || (g.tips?.length ? [{ title: g.tipsTitle || 'Tips', tips: g.tips }] : []);
+}
+function tipsBlock(g) {
+  const tipCard = t => `<div class="box tip-card" data-reveal><h3>${esc(t.title)}</h3><p>${esc(t.body)}</p><div class="foot">${t.url ? `Source: <a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.source)}</a>` : esc(t.common || 'Common-sense care')}</div></div>`;
+  return tipGroupsOf(g).map((grp, i) => `<section class="block" id="tips-${i + 1}" data-reveal>${grp.kicker ? `<span class="kicker" style="margin:0">${esc(grp.kicker)}</span>` : ''}<h2>${esc(grp.title)}</h2><div class="grid-${grp.tips.length % 3 === 0 && grp.tips.length % 2 ? 3 : 2}" data-stagger>${grp.tips.map(tipCard).join('')}</div></section>`).join('\n');
+}
+
 function rankedGuide(g) {
   const r = '../';
-  const callouts = g.callouts?.length ? `<div class="grid-2" data-stagger>${g.callouts.map(c => `<div class="callout" data-reveal><h3>${esc(c.title)}</h3><p>${esc(c.body)}</p><div class="src">Sources: ${c.sources.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(', ')}</div></div>`).join('')}</div>` : '';
+  const callouts = calloutsBlock(g);
   const sellerNote = g.sellerNote ? `<div class="disclosure" style="border-left-color:var(--mustard)" data-reveal><p><strong>About the sellers:</strong> ${esc(g.sellerNote)}</p></div>` : '';
-  // Tip groups render as balanced grids: 3 tips in a row of three, otherwise rows of two.
-  const groups = g.tipGroups || (g.tips?.length ? [{ title: g.tipsTitle || 'Tips', tips: g.tips }] : []);
-  const tipCard = t => `<div class="box tip-card" data-reveal><h3>${esc(t.title)}</h3><p>${esc(t.body)}</p><div class="foot">${t.url ? `Source: <a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.source)}</a>` : 'Common-sense care'}</div></div>`;
-  const tips = groups.map((grp, i) => `<section class="block" id="tips-${i + 1}" data-reveal>${grp.kicker ? `<span class="kicker" style="margin:0">${esc(grp.kicker)}</span>` : ''}<h2>${esc(grp.title)}</h2><div class="grid-${grp.tips.length % 3 === 0 && grp.tips.length % 2 ? 3 : 2}" data-stagger>${grp.tips.map(tipCard).join('')}</div></section>`).join('\n');
+  const groups = tipGroupsOf(g);
+  const tips = tipsBlock(g);
   const toc = `<div class="side-box"><h4>In this guide</h4><ol class="toc">
       ${g.curation ? `<li><a href="#how-built"><span class="n">·</span><span>How we built this list</span></a></li>` : ''}
       <li><a href="#glance"><span class="n">·</span><span>At a glance</span></a></li>
@@ -450,9 +461,11 @@ function stylesGuide(g) {
   <div class="wrap" style="display:flex;flex-direction:column;gap:var(--s7)">
     <div class="reading block">${disclosureShort(r)}<div class="intro">${g.intro.map(p => `<p>${esc(p)}</p>`).join('')}</div></div>
     ${curationBox(g)}
+    ${calloutsBlock(g)}
     ${g.sellerNote ? `<div class="disclosure reading" style="border-left-color:var(--mustard)" data-reveal><p><strong>Good to know:</strong> ${esc(g.sellerNote)}</p></div>` : ''}
     ${jump}
     ${sections}
+    ${tipsBlock(g)}
     <div class="reading" style="display:flex;flex-direction:column;gap:var(--s6)">${sourcesBlock(g)}${footnotes(g)}</div>
   </div>
 </section>
