@@ -98,7 +98,7 @@ function mobileMenu(r) {
     </ul></details>`;
   }).join('\n    ');
   return `<nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
-    <a href="${r}index.html">Home</a>
+    <a href="${r || './'}">Home</a>
     ${cats}
     <a href="${r}guides/">All guides</a>
     <a href="${r}about.html">How we pick</a>
@@ -140,7 +140,7 @@ function layout({ r = '', title, description, canonical, og = 'og-home.jpg', act
     <nav class="nav" aria-label="Categories">
       ${Object.keys(CATS).map(k => megaItem(k, r, active)).join('\n      ')}
     </nav>
-    <a class="logo" href="${r}index.html" aria-label="Great Finds, home"><span class="word">Great<br>Finds<span class="dots" aria-hidden="true"><i></i><i></i></span></span><span class="tag">Honest finds · PH</span></a>
+    <a class="logo" href="${r || './'}" aria-label="Great Finds, home"><span class="word">Great<br>Finds<span class="dots" aria-hidden="true"><i></i><i></i></span></span><span class="tag">Honest finds · PH</span></a>
     <nav class="nav right" aria-label="Site">
       <a class="nav-link" href="${r}guides/"${cur('guides')}>All guides</a>
       <a class="nav-link" href="${r}about.html"${cur('about')}>How we pick</a>
@@ -355,7 +355,7 @@ function crumbsFor(g, r) {
   const { cat, topic } = primary(g);
   const c = CATS[cat];
   const t = c.topics?.[topic];
-  return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${r}index.html">Home</a><span>/</span><a href="${r}category/${cat}/">${esc(c.name)}</a>${t ? `<span>/</span><a href="${r}category/${cat}/#${topic}">${esc(t.name)}</a>` : ''}</nav>`;
+  return `<nav class="crumbs" aria-label="Breadcrumb"><a href="${r || './'}">Home</a><span>/</span><a href="${r}category/${cat}/">${esc(c.name)}</a>${t ? `<span>/</span><a href="${r}category/${cat}/#${topic}">${esc(t.name)}</a>` : ''}</nav>`;
 }
 
 function guideHead(g, r) {
@@ -478,7 +478,7 @@ function categoryPage(key) {
   const body = `<section class="page-head with-art">
   <div class="wrap">
     <div>
-      <nav class="crumbs" aria-label="Breadcrumb"><a href="${r}index.html">Home</a><span>/</span><span>${esc(c.name)}</span></nav>
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="${r || './'}">Home</a><span>/</span><span>${esc(c.name)}</span></nav>
       <span class="kicker">Category</span>
       <h1>${esc(c.name)}</h1>
       ${squiggle()}
@@ -600,7 +600,7 @@ function guidesIndex() {
   }).join('\n');
   const body = `<section class="page-head">
   <div class="wrap">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="${r}index.html">Home</a><span>/</span><span>All guides</span></nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="${r || './'}">Home</a><span>/</span><span>All guides</span></nav>
     <span class="kicker">All guides</span>
     <h1>Guides worth bookmarking</h1>
     ${squiggle()}
@@ -617,7 +617,7 @@ function aboutPage() {
   const r = '';
   const body = `<section class="page-head">
   <div class="wrap reading">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>How we pick</span></nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>/</span><span>How we pick</span></nav>
     <span class="kicker">About Great Finds</span>
     <h1>How we pick what we recommend</h1>
     ${squiggle()}
@@ -665,7 +665,7 @@ function privacyPage() {
   const r = '';
   const body = `<section class="page-head">
   <div class="wrap reading">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Privacy Policy</span></nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="./">Home</a><span>/</span><span>Privacy Policy</span></nav>
     <span class="kicker">Legal</span>
     <h1>Privacy Policy</h1>
     ${squiggle()}
