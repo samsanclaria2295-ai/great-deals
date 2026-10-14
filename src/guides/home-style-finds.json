@@ -126,7 +126,7 @@
           ],
           "cons": [
             "Check pocket depth and sizes on the listing",
-            "Shade names aren't given in the API data"
+            "Check the shade names in the listing options"
           ],
           "bestFor": "Condo bedrooms that need a quick, calm reset",
           "tip": "Pick cream or white for the calmest look, and buy two sets in the same shade so one is always ready on wash day.",
@@ -179,8 +179,8 @@
             "Brand's own store, steady recent sales"
           ],
           "cons": [
-            "Capacity options aren't stated in the API data",
-            "Bamboo lid needs hand-washing and drying"
+            "Check the capacity options in the listing",
+            "Hand-wash and dry the bamboo lid to keep it nice"
           ],
           "bestFor": "Open kitchen shelves and coffee corners",
           "tip": "Decant only what you use daily, like coffee, oats or sugar, and keep the jars in one row. Matching jars look calmer than mixed packaging.",
@@ -202,7 +202,7 @@
             "id": "1370950827",
             "name": "LOCAUPIN bamboo-lid glass canister (straight cylinder)",
             "label": "Tall jar option",
-            "note": "Simpler straight-sided jars from the same store, for a set of tall matching canisters for pasta, grains and nuts. Fewer recent buyers than the ribbed jar."
+            "note": "Simpler straight-sided jars from the same store, for a set of tall matching canisters for pasta, grains and nuts."
           }
         },
         {
@@ -210,7 +210,7 @@
           "slot": "The plates",
           "label": "Best everyday ceramic",
           "name": "BILI.PH matte speckled stoneware plates and bowls",
-          "brand": "BILI.PH (No Brand in API)",
+          "brand": "BILI.PH",
           "verdict": "Matte, speckled stoneware with a neat raised rim, the quiet and useful kind of tableware this look is built on.",
           "summary": "These plates have a soft, frosted glaze flecked with tiny dark specks, so they feel handmade without being fussy. Plates and bowls are in the same listing, so you can build one simple matching set. Popular with recent buyers.",
           "evidence": "guidance",
@@ -233,8 +233,8 @@
             "Raised rim keeps sauces on the plate"
           ],
           "cons": [
-            "Sold by a reseller store, not a maker",
-            "Microwave and dishwasher use not stated"
+            "Sold through a reseller shop",
+            "Check the listing for microwave and dishwasher use"
           ],
           "bestFor": "A first matching dinnerware set for a condo",
           "tip": "Start with two plate sizes and one bowl in a single colour. A small matching set looks calmer than a big mixed one.",
@@ -282,8 +282,8 @@
             "Popular with recent buyers"
           ],
           "cons": [
-            "Scent options and volume not in the API data",
-            "How long it lasts is not stated"
+            "Check the scents and bottle size in the listing",
+            "Lasting time isn't listed; flip the reeds to refresh"
           ],
           "bestFor": "Entryways, bathrooms and bedside shelves",
           "tip": "Pick a light, clean scent if offered, and use fewer reeds in a small room so the scent stays gentle.",
@@ -369,8 +369,8 @@
             "Popular with recent buyers, low price"
           ],
           "cons": [
-            "Shade is linen-look fabric; fibre not stated",
-            "Plug type and safety marks not in API data"
+            "Linen-look fabric shade; the fibre isn't listed",
+            "Check the plug type and safety mark in the listing"
           ],
           "bestFor": "Bedside tables and small reading corners",
           "tip": "Place it low, beside the bed or sofa, instead of using it as your main light. Two small pools of warm light feel calmer than one bright ceiling lamp.",
@@ -395,7 +395,7 @@
           "slot": "The ceramic",
           "label": "Best ceramic",
           "name": "Kitchen Plus ribbed stoneware cup and saucer (300 ml)",
-          "brand": "Kitchen Plus (No Brand in API)",
+          "brand": "Kitchen Plus",
           "verdict": "A ribbed stoneware cup with an earthy, speckled glaze, the kind of everyday handmade-look piece Japandi is built around.",
           "summary": "Japandi favours functional objects in natural materials, and a good cup you reach for every morning fits that idea. This 300 ml stoneware cup has fluted sides, a speckled rim and a matching saucer, and the listing photo shows several earthy glaze colours.",
           "evidence": "guidance",
@@ -423,8 +423,8 @@
             "Several earthy glaze colours (per photo)"
           ],
           "cons": [
-            "Fewer recent buyers than the other picks",
-            "Microwave and dishwasher use not stated"
+            "A less-known pick; read the reviews before you order",
+            "Check the listing for microwave and dishwasher use"
           ],
           "bestFor": "Slow mornings and coffee-corner styling",
           "tip": "Choose the sand or cream glaze to match warm oak and linen, and hand-wash to protect the reactive glaze and rim.",
@@ -446,7 +446,7 @@
             "id": "5241828835",
             "name": "JOTO handcrafted matcha bowl (coarse pottery)",
             "label": "Tea-lover option",
-            "note": "A hand-formed coarse-pottery matcha bowl from JOTO Kitchen's store, shown with a bamboo whisk and scoop. Fewer recent buyers than the cup, so read the listing reviews first."
+            "note": "A hand-formed coarse-pottery matcha bowl from JOTO Kitchen's store, shown with a bamboo whisk and scoop. Read the listing reviews first."
           }
         },
         {
@@ -477,8 +477,8 @@
             "Sold singly; popular with recent buyers"
           ],
           "cons": [
-            "Fibre content not stated in the API data",
-            "Soft sheen is less rustic than linen"
+            "Check the fabric content in the listing",
+            "Soft sheen, smoother than rustic linen"
           ],
           "bestFor": "Sofas and beds that need one warm accent",
           "tip": "Use two in taupe with one in cream or oat. Three soft neutrals look layered without breaking the calm.",
@@ -526,8 +526,8 @@
             "Warm oak-look grain matches the set"
           ],
           "cons": [
-            "The priciest piece in this guide",
-            "Board type not stated; likely engineered wood"
+            "The splurge of the set, and it hides a lot of clutter",
+            "Likely engineered wood; the board type isn't listed"
           ],
           "bestFor": "Small bedrooms that need hidden storage",
           "tip": "Keep only the lamp and one cup on top and everything else inside. A bare top is what makes the corner feel Japandi.",
@@ -622,8 +622,8 @@
             "Small enough for a condo shelf"
           ],
           "cons": [
-            "No brand or safety marks shown in the photo",
-            "Mood light only, too soft for reading"
+            "Generic brand; ask the seller about safety marks",
+            "A soft mood light rather than a reading lamp"
           ],
           "bestFor": "Consoles, shelves and gift-giving",
           "tip": "Use a low-heat LED bulb and place it where you can see the glow from the sofa. One capiz light is enough to anchor the look.",
@@ -676,8 +676,8 @@
             "Low price for a handwoven piece"
           ],
           "cons": [
-            "Small seller with limited stock",
-            "Exact size not in the API data"
+            "From a small local seller, so stock is limited",
+            "Check the size in the listing photos"
           ],
           "bestFor": "Breakfast tables and kitchen counters",
           "tip": "Line it with a cloth napkin for pandesal, and keep it out of the sink area so the fibres stay dry.",
@@ -702,7 +702,7 @@
           "slot": "The buri hamper",
           "label": "Best woven storage",
           "name": "Ilokana Handicrafts buri hamper with cloth lining",
-          "brand": "Ilokana Handicrafts (No Brand in API)",
+          "brand": "Ilokana Handicrafts",
           "verdict": "A chunky, hand-woven buri hamper with a lid and cloth lining from a named local maker. Laundry storage that looks like decor.",
           "summary": "Woven natural fibre is one of the clearest signs of Filipino design, and a lidded buri hamper puts it to daily use. The braided texture adds warmth to a plain bedroom, and the cloth lining keeps clothes from snagging on the weave.",
           "evidence": "guidance",
@@ -730,8 +730,8 @@
             "Hand-woven buri adds warm texture"
           ],
           "cons": [
-            "Few recent buyers; read reviews first",
-            "Which size the price covers isn't stated"
+            "Smaller local maker; read the reviews first",
+            "Check which size the price covers"
           ],
           "bestFor": "Bedrooms that need laundry storage on show",
           "tip": "Keep it off wet bathroom floors and open the lid now and then. Natural fibres last longer when they can breathe.",
@@ -756,7 +756,7 @@
           "slot": "The acacia piece",
           "label": "Best local wood",
           "name": "KAHOY round acacia wood tray",
-          "brand": "KAHOY (No Brand in API)",
+          "brand": "KAHOY",
           "verdict": "A round acacia tray with honey-to-caramel grain from a local woodcraft store, for serving, styling or corralling the coffee table.",
           "summary": "Hardwood is central to Filipino homes, and a solid wood tray is an easy, useful way to bring it into a modern room. Use it for merienda, a grazing spread for the barkada, or to group the capiz lamp and a small plant on the coffee table.",
           "evidence": "guidance",
@@ -779,8 +779,8 @@
             "Serving tray and coffee-table styling in one"
           ],
           "cons": [
-            "Few recent buyers; read reviews first",
-            "Hand-wash only; needs occasional oiling"
+            "Smaller local maker; read the reviews first",
+            "Hand-wash and oil now and then to keep it glowing"
           ],
           "bestFor": "Merienda, grazing boards and coffee tables",
           "tip": "Rub in a little food-safe mineral oil every few weeks to keep the grain rich and stop the wood from drying out.",
@@ -802,7 +802,7 @@
             "id": "1322734069",
             "name": "KAHOY 6-inch acacia wood plate",
             "label": "Small plate option",
-            "note": "The same maker's small acacia plate, for snacks, a soap bar or a key dish. Also has few recent buyers, so read the reviews first."
+            "note": "The same maker's small acacia plate, for snacks, a soap bar or a key dish. Read the reviews before you order."
           }
         }
       ]

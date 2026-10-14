@@ -156,7 +156,7 @@ ${body}
 <footer class="site-footer">
   <div class="wrap">
     <div class="top">
-      <div class="about"><b>Great Finds</b><p>Researched product finds for Filipino shoppers: tech, home and decor, beauty and seasonal picks, always with the pros and the cons.</p></div>
+      <div class="about"><b>Great Finds</b><p>Researched product finds for Filipino shoppers: tech, home and decor, beauty and seasonal picks, always with what we like and what to keep in mind.</p></div>
       <div class="foot-cols">
         <div><h4>Categories</h4><ul>${Object.entries(CATS).map(([k, c]) => `<li><a href="${r}category/${k}/">${esc(c.name)}</a></li>`).join('')}</ul></div>
         <div><h4>Latest guides</h4><ul>${guides.slice(0, 4).map(g => `<li><a href="${r}guides/${g.slug}.html">${esc(g.shortTitle)}</a></li>`).join('')}</ul></div>
@@ -221,9 +221,9 @@ function notesBlock(it, g, max = 3) {
   if (!list.length) return '';
   return `<div class="notes"><h4>${esc(title)}</h4><ul>${list.map(n => `<li>${esc(n.point)}${n.url ? ` <cite>(<a href="${esc(n.url)}" target="_blank" rel="noopener" title="${esc(n.source)}">${esc(shortSource(n.source))}</a>)</cite>` : ''}</li>`).join('')}</ul></div>`;
 }
-const prosCons = it => `<div class="pc" role="group" aria-label="Pros and cons">
-        <div class="pc-col pc-pros"><div class="pc-head"><i aria-hidden="true">+</i>Pros</div><ul>${it.pros.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
-        <div class="pc-col pc-cons"><div class="pc-head"><i aria-hidden="true">&minus;</i>Cons</div><ul>${it.cons.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
+const prosCons = it => `<div class="pc" role="group" aria-label="What we like and what to keep in mind">
+        <div class="pc-col pc-pros"><div class="pc-head"><i aria-hidden="true">+</i>Why we like it</div><ul>${it.pros.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
+        <div class="pc-col pc-cons"><div class="pc-head"><i aria-hidden="true">i</i>Keep in mind</div><ul>${it.cons.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
       </div>`;
 const factsBlock = (it, p) => {
   const rows = [...(it.facts || [])];
@@ -287,10 +287,11 @@ function pickCard(it, g, compact = false) {
       <div class="buyrow">${priceBlock(p)}${buyBtn(p)}</div>
     </article>`;
 }
-const altsRow = (items, slug) => {
-  const withAlt = items.filter(it => it.alt?.id);
-  if (!withAlt.length) return '';
-  return `<div class="alts" data-reveal><h4>Also worth a look</h4><div class="grid-2">${withAlt.map(it => altBlock({ label: `Instead of: ${it.slot}`, ...it.alt }, slug)).join('')}</div></div>`;
+// "Also worth a look": each pick's alternate, plus any section-level extras ({id, name, label, note}).
+const altsRow = (items, slug, extras = []) => {
+  const blocks = [...items.filter(it => it.alt?.id).map(it => ({ label: `Instead of: ${it.slot}`, ...it.alt })), ...extras];
+  if (!blocks.length) return '';
+  return `<div class="alts" data-reveal><h4>Also worth a look</h4><div class="grid-2${blocks.length % 2 ? ' span-last' : ''}">${blocks.map(a => altBlock(a, slug)).join('')}</div></div>`;
 };
 
 function glanceTable(items, g, title = 'The picks at a glance') {
@@ -456,7 +457,7 @@ function stylesGuide(g) {
     </div>
     <div class="list-head" data-reveal><h3>${esc(g.listTitle || 'The shopping list')}</h3>${s.shoppingList ? `<p>${esc(s.shoppingList)}</p>` : ''}</div>
     <div class="grid-${gridOf(s)}" data-stagger>${s.items.map(it => pickCard(it, g, compact(s))).join('\n')}</div>
-    ${altsRow(s.items, g.slug)}
+    ${altsRow(s.items, g.slug, s.extras)}
   </section>`).join('\n');
   const body = `${guideHead(g, r)}
 <section class="section flush-top">
@@ -531,7 +532,7 @@ function homePage() {
       <span class="kicker" data-reveal>Creative finds for Filipino homes</span>
       <h1><span class="line"><span>Good finds,</span></span><span class="line"><span>honestly</span></span><span class="line"><span>picked.</span></span></h1>
       ${squiggle()}
-      <p class="lede" data-reveal>We hunt for well-made, creative pieces in good materials, read the spec sheets and independent reviews, then share the finds that are worth your peso, with the pros <em>and</em> the cons.</p>
+      <p class="lede" data-reveal>We hunt for well-made, creative pieces in good materials, read the spec sheets and independent reviews, then share the finds that are worth your peso, with what we like <em>and</em> what to keep in mind.</p>
       <div class="actions" data-reveal>
         <a class="btn" href="guides/">Browse the guides ${ICON.arrow}</a>
         <a class="link-arrow" href="about.html">How we pick ${ICON.arrow}</a>
@@ -547,7 +548,7 @@ function homePage() {
 <section class="band" aria-label="What you can expect">
   <div class="wrap row" data-stagger>
     <div class="cell" data-reveal><span class="ico">${ICON.tag}</span><div><b>Real Lazada listings</b><span>Live products, prices dated</span></div></div>
-    <div class="cell" data-reveal><span class="ico">${ICON.scale}</span><div><b>Pros and cons</b><span>Always both sides</span></div></div>
+    <div class="cell" data-reveal><span class="ico">${ICON.scale}</span><div><b>The full picture</b><span>What we like and what to keep in mind</span></div></div>
     <div class="cell" data-reveal><span class="ico">${ICON.book}</span><div><b>Sources linked</b><span>Check the research yourself</span></div></div>
     <div class="cell" data-reveal><span class="ico">${ICON.peso}</span><div><b>Budget-friendly</b><span>Mostly under ₱5,000</span></div></div>
   </div>
@@ -580,7 +581,7 @@ function homePage() {
       <div class="box step" data-reveal><h3>Start with research</h3><p>We first work out what's worth buying from expert lists, design references and safety guidance, and set clear criteria.</p></div>
       <div class="box step" data-reveal><h3>Compare real listings</h3><p>Then we compare products on Lazada against those criteria: price, stock, seller and recent buyers.</p></div>
       <div class="box step" data-reveal><h3>Weed out the risky ones</h3><p>Odd prices, keyword-stuffed names, look-alike stores and recalled model numbers get dropped, even when they sell well.</p></div>
-      <div class="box step" data-reveal><h3>Write it straight</h3><p>Pros and cons, who it's for, and the sources behind every claim. We never say we tested something we didn't.</p></div>
+      <div class="box step" data-reveal><h3>Write it straight</h3><p>What we like, what to keep in mind, who it's for, and the sources behind every claim. We never say we tested something we didn't.</p></div>
     </div>
   </div>
 </section>
@@ -601,7 +602,7 @@ function homePage() {
     <a class="link-arrow" href="${PINTEREST}" target="_blank" rel="noopener">Follow on Pinterest ${ICON.arrow}</a>
   </div>
 </section>`;
-  return layout({ r, title: 'Great Finds | Researched product finds for Filipino shoppers', description: 'Great Finds shares researched product finds and buying guides for Filipino shoppers: tech, home and decor, beauty and seasonal picks, with honest pros, cons and sources.', canonical: '', body });
+  return layout({ r, title: 'Great Finds | Researched product finds for Filipino shoppers', description: 'Great Finds shares researched product finds and buying guides for Filipino shoppers: tech, home and decor, beauty and seasonal picks, with honest notes and sources.', canonical: '', body });
 }
 
 function guidesIndex() {
@@ -619,7 +620,7 @@ function guidesIndex() {
     <span class="kicker">All guides</span>
     <h1>Guides worth bookmarking</h1>
     ${squiggle()}
-    <p class="lede">Researched buying guides for Filipino shoppers, with real listings, honest pros and cons, and sources you can check, grouped by category.</p>
+    <p class="lede">Researched buying guides for Filipino shoppers, with real listings, honest notes on every pick, and sources you can check, grouped by category.</p>
   </div>
 </section>
 <section class="section" style="padding-top:var(--s6)">
@@ -649,7 +650,7 @@ function aboutPage() {
       <div class="box" data-reveal><h3>1. Research first</h3><p>Before looking at any product, we work out what belongs on the list from expert "best of" lists, design references for a style, or safety guidance, and write down the criteria.</p></div>
       <div class="box" data-reveal><h3>2. Compare real listings</h3><p>Then we compare products in Lazada's affiliate program against those criteria, using Lazada's own product data: price, stock, seller and recent buyers. We never copy or scrape Lazada's website.</p></div>
       <div class="box" data-reveal><h3>3. Drop the risky ones</h3><p>Odd prices, brand names stuffed into unrelated products, look-alike store names, photos that don't match the listing, and recalled model numbers are all reasons to drop a product.</p></div>
-      <div class="box" data-reveal><h3>4. Write it straight</h3><p>Every pick gets a verdict, pros and cons, who it suits and what to check before buying. Where the evidence is thin, we say so on the page.</p></div>
+      <div class="box" data-reveal><h3>4. Write it straight</h3><p>Every pick gets a verdict, what we like and what to keep in mind, who it suits and what to check before buying. Where the evidence is thin, we say so on the page.</p></div>
     </div>
 
     <h2 data-reveal>What we won't do</h2>

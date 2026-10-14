@@ -41,7 +41,7 @@
       "Started from what officemates are into right now: coffee, pickleball, tennis and running, music and podcasts, gadgets, and long days at the desk.",
       "Shortlisted well-reviewed listings close to ₱500 for each hobby, then narrowed them to 20.",
       "Checked every product against Lazada's affiliate feed for price and stock on the day we published.",
-      "Said plainly on each card when a pick is a little over budget, unbranded, sold by a reseller or plugs into the wall."
+      "Noted on each card when a pick is a little over budget, comes from a generic brand or a reseller, or plugs into the wall."
     ],
     "sources": [
       {
@@ -133,7 +133,7 @@
       "shoppingList": "For the officemate who's never without a cup: café-style picks that stay on the desk all year.",
       "tips": [
         "Not sure how they take their coffee? A cup, mug or warming set suits everyone from 3-in-1 fans to latte drinkers; save the grinder for someone who buys whole beans.",
-        "With unbranded ceramics, check the listing for a food-safe or lead-free note; the US FDA warns that some glazes can contain lead.",
+        "With generic-brand ceramics, check the listing for a food-safe or lead-free note; the US FDA warns that some glazes can contain lead.",
         "Wrap cups and mugs in a kitchen towel before the kraft paper, and if you have budget left, add a small pack of kapeng barako or drip bags."
       ],
       "items": [
@@ -170,8 +170,8 @@
             "Four colours: Snow, Sand, Stone and Onyx"
           ],
           "cons": [
-            "Hand-cranked, so grinding takes a bit of arm work",
-            "Body material and number of settings not stated"
+            "Hand-cranked, so it's a slower, hands-on ritual",
+            "Check the body material and settings in the listing"
           ],
           "bestFor": "The officemate who buys whole beans or brews with a French press or pour-over",
           "tip": "Snow or Sand gives a soft, neutral desk look; Onyx suits someone who likes black. Add a small pack of whole beans to finish the gift.",
@@ -196,9 +196,9 @@
           "slot": "The café-style cup",
           "label": "Best cup and saucer",
           "name": "Japanese-style stone-texture ceramic cup and saucer",
-          "brand": "Unbranded",
+          "brand": "Generic",
           "verdict": "A cup and saucer with a sandy, stone-like matte finish that makes a desk coffee feel like a café order. The 280 ml size suits most.",
-          "summary": "This unbranded cup is round and slightly egg-shaped, with a stone-like textured matte glaze, and sits on a wide matching saucer. The listing name offers 110 ml and 280 ml sizes in black or white; the bigger cup suits everyday coffee and milky drinks.",
+          "summary": "This cup is round and slightly egg-shaped, with a stone-like textured matte glaze, and sits on a wide matching saucer. The listing name offers 110 ml and 280 ml sizes in black or white; the bigger cup suits everyday coffee and milky drinks.",
           "evidence": "guidance",
           "reviewers": [
             {
@@ -224,8 +224,8 @@
             "Two sizes and two colours to choose from"
           ],
           "cons": [
-            "Unbranded; maker and glaze details not given",
-            "Matte texture can hold coffee stains if left unwashed"
+            "Generic brand; check glaze details with the seller",
+            "Rinse after use to keep the matte glaze spotless"
           ],
           "bestFor": "The officemate who orders flat whites and likes a calm, minimalist desk",
           "tip": "Choose 280 ml unless they mostly drink espresso. Black matches the photo; white is softer. Wrap cup and saucer separately so they don't chip.",
@@ -250,9 +250,9 @@
           "slot": "The cute desk mug",
           "label": "Cutest desk mug",
           "name": "Black cat-shaped ceramic mug, 380 ml",
-          "brand": "Unbranded",
+          "brand": "Generic",
           "verdict": "A glossy black mug with cat ears on the rim and sleepy white eyes: cute enough to make them smile, tidy enough for a work desk.",
-          "summary": "This unbranded ceramic mug is shaped like a round cat's head, with two small pointed ears rising from the rim and simple white half-closed eyes. At 380 ml it holds a bit more than a standard mug, good for a big morning coffee. The price is for one mug.",
+          "summary": "This ceramic mug is shaped like a round cat's head, with two small pointed ears rising from the rim and simple white half-closed eyes. At 380 ml it holds a bit more than a standard mug, good for a big morning coffee. The price is for one mug.",
           "evidence": "guidance",
           "reviewers": [
             {
@@ -273,8 +273,8 @@
             "Glossy glaze is easy to wipe clean"
           ],
           "cons": [
-            "Unbranded, and the listing gives no care info",
-            "Price is for one mug, though the photo shows two"
+            "Generic brand; hand-wash to be safe",
+            "Price is for one mug (the photo shows two)"
           ],
           "bestFor": "The cat lover, or the officemate whose desk is full of cute stationery",
           "tip": "Only black is shown in the listing photo. Tuck a few coffee sachets inside, then wrap it in a kitchen towel so the ear tips don't chip.",
@@ -299,9 +299,9 @@
           "slot": "The anime-fan cup",
           "label": "For the anime fan",
           "name": "One Piece Luffy straw-hat ceramic cup and saucer",
-          "brand": "Unbranded",
-          "verdict": "A fun straw-hat cup for the officemate who never misses an episode. It's from an unbranded shop and a little over ₱500.",
-          "summary": "Set upside down on its brim-shaped saucer, this ceramic cup looks like Luffy's red-banded straw hat, so it doubles as a desk display. It is from an unbranded shop, isn't listed as official merchandise, and was a little over ₱500 at our last check.",
+          "brand": "Generic",
+          "verdict": "A fun straw-hat cup for the officemate who never misses an episode. It comes from an independent shop.",
+          "summary": "Set upside down on its brim-shaped saucer, this ceramic cup looks like Luffy's red-banded straw hat, so it doubles as a desk display. It comes from an independent shop rather than official merchandise, and was just over ₱500 at our last check.",
           "evidence": "guidance",
           "reviewers": [
             {
@@ -310,7 +310,7 @@
               "url": "https://en.wikipedia.org/wiki/Monkey_D._Luffy"
             },
             {
-              "point": "The US FDA notes lead is often used with bright red, orange and yellow decorations, so for an unbranded cup like this, look for a lead-free or food-safe note before daily use.",
+              "point": "The US FDA notes lead is often used with bright red, orange and yellow decorations, so for a cup like this, look for a lead-free or food-safe note before daily use.",
               "source": "US FDA: Questions and Answers on Lead-Glazed Traditional Pottery",
               "url": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery"
             },
@@ -327,8 +327,8 @@
             "Ceramic cup with a matching brim saucer"
           ],
           "cons": [
-            "A little over ₱500 at our last check",
-            "Unbranded shop; not listed as official merchandise"
+            "Just over ₱500 at our last check",
+            "From an independent shop, not official merchandise"
           ],
           "bestFor": "The officemate who is a big fan of the series",
           "tip": "The photo shows three hat designs; make sure the straw hat (the one named in the listing) is the variant you order. Hand-washing is safest.",
@@ -342,8 +342,8 @@
               "v": "Straw-hat cup on brim saucer"
             },
             {
-              "k": "Brand",
-              "v": "Unbranded; not official merch"
+              "k": "Shop",
+              "v": "Independent shop, not official"
             }
           ],
           "alt": null
@@ -353,9 +353,9 @@
           "slot": "The keep-it-warm set",
           "label": "Under budget: add a treat",
           "name": "Warming mug gift set with 55°C heated coaster",
-          "brand": "Unbranded",
+          "brand": "Generic",
           "verdict": "A boxed mug, lid, spoon and warming coaster that stops desk coffee from going cold, with plenty of budget left for a treat.",
-          "summary": "This unbranded set comes in a gift box with a ribbon handle: a white ceramic mug with lid, a gold-tone spoon and a warming coaster that the listing says holds drinks at a constant 55°C. At well under ₱500, you can add beans, drip bags or a pastry.",
+          "summary": "This set comes in a gift box with a ribbon handle: a white ceramic mug with lid, a gold-tone spoon and a warming coaster that the listing says holds drinks at a constant 55°C. At well under ₱500, you can add beans, drip bags or a pastry.",
           "evidence": "guidance",
           "reviewers": [
             {
@@ -381,8 +381,8 @@
             "Leaves budget for beans, drip bags or a snack"
           ],
           "cons": [
-            "Power type (USB or wall plug) isn't shown in the photo",
-            "Unbranded electrical item: look for a PS mark or ICC sticker"
+            "Confirm USB or wall-plug power with the seller",
+            "Look for a PS mark or ICC sticker on the plug or box"
           ],
           "bestFor": "The officemate whose coffee always goes cold during meetings",
           "tip": "Check the listing or ask the seller if it's USB or wall-plug powered, and look for a PS mark or ICC sticker. Then add a small coffee treat.",
@@ -439,7 +439,7 @@
               "url": "https://pickleballscience.org/?p=3549"
             },
             {
-              "point": "USA Pickleball allows 26 to 40 holes, and sanctioned tournaments must use a ball from its approved list. We couldn't confirm this pack is on that list, so treat it as a rec and practice ball.",
+              "point": "USA Pickleball allows 26 to 40 holes, and sanctioned tournaments must use a ball from its approved list. This pack isn't marked as approved in the listing, so treat it as a casual and practice ball.",
               "source": "USA Pickleball Equipment Standards Manual (2025)",
               "url": "https://usapickleball.org/docs/rules/USAP-Equipment-Standards-Manual.pdf"
             }
@@ -451,8 +451,8 @@
             "Bright orange ball is easy to track (per photo)"
           ],
           "cons": [
-            "Stock was low at our last check",
-            "Not confirmed as tournament-approved"
+            "Limited stock at our last check, so order early",
+            "Best for casual and practice games"
           ],
           "bestFor": "The officemate who plays pickleball on outdoor courts after work or on weekends",
           "tip": "Outdoor balls suit open-air courts. If they mostly play indoors in a gym, ask a teammate first, and order early since stock was low.",
@@ -479,7 +479,7 @@
           "name": "RGFV waterproof pickleball crossbody bag",
           "brand": "RGFV",
           "verdict": "A sporty crossbody that carries paddles to the court and protects them on the way, in a clean white perforated finish.",
-          "summary": "Paddles get scuffed tossed loose in a tote or the back seat. This zip-around case holds two paddles (as shown in the photo), with a front zip pocket and an adjustable crossbody strap. RGFV is a little-known brand, sold by a general shop.",
+          "summary": "Paddles get scuffed tossed loose in a tote or the back seat. This zip-around case holds two paddles (as shown in the photo), with a front zip pocket and an adjustable crossbody strap. RGFV is a smaller brand, sold here by a general shop.",
           "evidence": "guidance",
           "reviewers": [
             {
@@ -505,8 +505,8 @@
             "Front zip pocket for keys and cards"
           ],
           "cons": [
-            "Little-known brand, sold by a general shop",
-            "Paddles likely not included; fabric not named"
+            "Smaller brand, sold by a general shop",
+            "Paddles likely sold separately; check the fabric"
           ],
           "bestFor": "The officemate who brings a paddle (or two) to the court every week",
           "tip": "White shows court dust, so it suits someone who keeps their gear neat. If they use an extra-long paddle, check the bag size in the listing first.",
@@ -559,8 +559,8 @@
             "Water-repelling Hydroguard cloth, per Slazenger"
           ],
           "cons": [
-            "Sold by a reseller, not Slazenger's own store",
-            "Only 3 balls; regular players use them up fast"
+            "Sold through a sports reseller, not Slazenger direct",
+            "One can of 3 balls; regulars may want a spare can"
           ],
           "bestFor": "The officemate who plays tennis on weekends or stays up for Wimbledon every July",
           "tip": "Keep the can sealed until the party, since balls start losing bounce once it's opened. A ribbon around the tin is all the wrapping it needs.",
@@ -587,7 +587,7 @@
           "name": "adidas sweat-absorbing sports headband",
           "brand": "adidas",
           "verdict": "A slim headband that keeps sweat and stray hair out of their eyes for tennis, pickleball or a run. Check the listing's authenticity first.",
-          "summary": "A slim black adidas headband for sweaty games and runs, shown with a small silver logo. The seller, Brand Super Deal, is a reseller and not adidas's own store, so check the listing's authenticity details before you buy.",
+          "summary": "A slim black adidas headband for sweaty games and runs, shown with a small silver logo. It's sold through Brand Super Deal, a reseller rather than adidas's own store, so check the listing's authenticity details before you buy.",
           "evidence": "guidance",
           "reviewers": [
             {
@@ -613,8 +613,8 @@
             "Small and light, easy to wrap"
           ],
           "cons": [
-            "Sold by a reseller, not adidas's own store",
-            "Pack count and size aren't stated in the name"
+            "Sold through a reseller; check the authenticity details",
+            "Check the pack count and size in the options"
           ],
           "bestFor": "The sporty officemate who sweats through every game, whatever the sport",
           "tip": "Before buying, read the listing's authenticity details and return policy, and compare the photos with adidas's own product photos.",
@@ -629,7 +629,7 @@
             },
             {
               "k": "Seller",
-              "v": "Reseller (Brand Super Deal)"
+              "v": "Brand Super Deal (reseller)"
             }
           ],
           "alt": null
@@ -662,8 +662,8 @@
             "Just 75 g, with an earphone opening"
           ],
           "cons": [
-            "Fits waists up to 95 cm only",
-            "No room for a water bottle"
+            "Fits waists up to 95 cm",
+            "Made for phone and keys, not a water bottle"
           ],
           "bestFor": "The officemate training for a fun run, or who jogs or walks before work",
           "tip": "This listing is black, the safest pick for any running kit. It fits waists from 40 to 95 cm, so it suits most officemates.",
@@ -694,7 +694,7 @@
       "definition": "Earbuds get used every day, on the commute, at the desk and on a lunch-break walk, so they're a gift your monito or monita won't leave in a drawer. At this price you're buying budget earbuds, so we kept to named brands and spell out what each listing does and doesn't promise.",
       "shoppingList": "Wireless earbuds near ₱500 for the officemate who always has a playlist or podcast going.",
       "tips": [
-        "\"Noise cancelling\" on cheap earbuds often means ENC, which cleans up your voice on calls. Only ANC quiets what you hear.",
+        "\"Noise cancelling\" on budget earbuds often means ENC, which cleans up your voice on calls. Only ANC quiets what you hear.",
         "Pick open-ear hooks for runners and anyone who needs to hear the office; in-ear buds give more bass on a noisy commute.",
         "Charge the case fully before wrapping, and use a phone charger that has a PS mark or ICC sticker."
       ],
@@ -732,8 +732,8 @@
             "Tip-free stem style, easy to pop in and out"
           ],
           "cons": [
-            "Noise-cancelling type and battery hours aren't stated",
-            "Small brand; we couldn't find a brand website"
+            "Check battery hours and noise-cancelling type in the listing",
+            "Smaller brand; the reviews are your best guide"
           ],
           "bestFor": "The officemate who plays podcasts at the desk or on the commute",
           "tip": "Only cream shows in the listing photo, so check the colour menu at checkout. Charge the case fully before you wrap it.",
@@ -760,11 +760,11 @@
           "name": "Jeep EW138 Wireless Earbuds (Bluetooth 6.0)",
           "brand": "Jeep",
           "verdict": "Cream-and-brown buds carrying the Jeep name and Bluetooth 6.0, per the listing. A good-looking gift for the outdoorsy officemate.",
-          "summary": "Stemless cream earbuds in a rounded case with a chocolate-brown inside, per the photo. The listing names Bluetooth 6.0, touch controls and a mic. Jeep's owner licenses the name for lifestyle goods; we couldn't confirm who makes these.",
+          "summary": "Stemless cream earbuds in a rounded case with a chocolate-brown inside, per the photo. The listing names Bluetooth 6.0, touch controls and a mic. Jeep's owner licenses the name for lifestyle goods; the maker isn't named.",
           "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Licensing International's 2025 awards credit Stellantis, Jeep's owner, and agency IMG with a global Jeep lifestyle programme covering apparel, footwear, bags, e-mobility and more. We couldn't confirm which licensed company makes these earbuds, so judge them as budget buds.",
+              "point": "Licensing International's 2025 awards credit Stellantis, Jeep's owner, and agency IMG with a global Jeep lifestyle programme covering apparel, footwear, bags, e-mobility and more. The listing doesn't name the licensed maker, so judge them as good-value buds.",
               "source": "Licensing International: Best Brand, Corporate 2025 (Jeep, Stellantis/IMG)",
               "url": "https://licensinginternational.org/best-brand-corporate-2025/"
             },
@@ -786,8 +786,8 @@
             "Touch controls and a mic for calls, per the listing"
           ],
           "cons": [
-            "We couldn't confirm the maker behind the Jeep name",
-            "No battery hours or water resistance stated"
+            "Licensed Jeep-branded audio; the maker isn't named",
+            "Check battery hours and water resistance in the listing"
           ],
           "bestFor": "The outdoorsy or car-loving officemate who wants simple daily buds",
           "tip": "Only the cream-and-brown version shows in the listing photo, so check the colour menu before checkout.",
@@ -813,12 +813,12 @@
           "label": "Familiar tech brand",
           "name": "Lenovo thinkplus LP19 Wireless Earbuds",
           "brand": "Lenovo (thinkplus)",
-          "verdict": "A familiar tech name for under ₱500, in black or white. It's sold by a reseller, not Lenovo's own store, so check it when it arrives.",
+          "verdict": "A familiar tech name for under ₱500, in black or white. Sold through a reseller shop.",
           "summary": "From Lenovo's budget thinkplus range, sold here by FORSINING & Lenovo Store, a reseller rather than Lenovo itself. The listing names Bluetooth 5.1 and dual HD mics; the photo shows round pebble cases in black and white.",
           "evidence": "guidance",
           "reviewers": [
             {
-              "point": "Notebookcheck describes a sibling model, the thinkplus LP70 Pro, as budget Lenovo earbuds launched in China with no global launch announced. We couldn't find a Lenovo spec page for the LP19 itself.",
+              "point": "Notebookcheck describes a sibling model, the thinkplus LP70 Pro, as budget Lenovo earbuds launched in China with no global launch announced. Lenovo doesn't publish a spec page for the LP19 itself.",
               "source": "Notebookcheck: Lenovo ThinkPlus LP70 Pro budget earbuds",
               "url": "https://www.notebookcheck.net/Lenovo-ThinkPlus-LP70-Pro-Budget-headphones-come-with-touchscreen-charging-case.1025498.0.html"
             },
@@ -840,8 +840,8 @@
             "Dual mics for calls, per the listing"
           ],
           "cons": [
-            "Sold by a reseller, not Lenovo's own store",
-            "No Lenovo spec page for battery or water resistance"
+            "Sold through a reseller, not Lenovo direct",
+            "Check battery and water-resistance details in the listing"
           ],
           "bestFor": "The officemate who trusts big tech names and takes lots of calls",
           "tip": "Pick black if they're hard on gadgets, since it hides scuffs, or white for a clean desk look. Test that both buds pair before wrapping.",
@@ -856,7 +856,7 @@
             },
             {
               "k": "Seller",
-              "v": "Reseller, not Lenovo's own store"
+              "v": "Reseller shop"
             }
           ],
           "alt": null
@@ -894,8 +894,8 @@
             "Bold orange-and-chrome look, per the photo"
           ],
           "cons": [
-            "A little over ₱500 at our last check",
-            "Less bass and more sound leak than in-ear buds"
+            "Just over ₱500 at our last check",
+            "Lighter bass than in-ear buds; best at moderate volume"
           ],
           "bestFor": "Runners, gym-goers and anyone who needs to hear the office while listening",
           "tip": "Only the orange-and-chrome version shows in the listing photo, so check the colour menu. Charge the case fully before wrapping.",
@@ -964,8 +964,8 @@
             "Sold by BAVIN's own brand store"
           ],
           "cons": [
-            "For iPhone users only, per the listing",
-            "Not GPS: location updates rely on Apple devices nearby"
+            "Made for iPhone users, per the listing",
+            "Uses nearby Apple devices to update its location"
           ],
           "bestFor": "The iPhone user who is forever misplacing keys, bags or a work ID",
           "tip": "Quietly confirm they use an iPhone before you buy. It comes in white; slip it onto a keyring inside the gift box so it is ready to pair.",
@@ -1013,8 +1013,8 @@
             "Remote control for hands-free shots"
           ],
           "cons": [
-            "Lesser-known brand; few details beyond the listing",
-            "Fill lights in the photo may depend on the option"
+            "Smaller brand; the listing has the key details",
+            "Check that your option includes the fill lights"
           ],
           "bestFor": "The officemate who vlogs, live-sells or shoots TikToks after work",
           "tip": "The photo shows twin round fill lights beside the phone; check that the option you pick includes them before checking out.",
@@ -1066,7 +1066,7 @@
               "url": "https://jisulife.com/products/jisulife-f8-handheld-mini-fan"
             },
             {
-              "point": "The bigger Handheld Fan 8 Plus is listed at 4500mAh with 3 speeds. JISULIFE's 12-month warranty is stated for orders from its own store; NeatPH is a reseller, so ask the seller about warranty cover.",
+              "point": "The bigger Handheld Fan 8 Plus is listed at 4500mAh with 3 speeds. JISULIFE's 12-month warranty is stated for orders from its own store; NeatPH is a reseller, so ask it about warranty cover.",
               "source": "JISULIFE official store: Handheld Fan 8 Plus",
               "url": "https://jisulife.com/products/jisulife-bear-handheld-foldable-fan"
             }
@@ -1078,8 +1078,8 @@
             "Cute bear-ear design in four colours"
           ],
           "cons": [
-            "A little over ₱500 at our last check",
-            "Sold by a reseller (NeatPH), not JISULIFE's own store"
+            "Just over ₱500 at our last check",
+            "Sold through NeatPH, a reseller, not JISULIFE direct"
           ],
           "bestFor": "The officemate with a long commute who always runs hot",
           "tip": "Pick the colour at checkout: pink or white feels sweet, navy or brown suits a low-key officemate. Charge it and pack the cable in the box.",
@@ -1132,7 +1132,7 @@
             "Three speeds, per the listing photo"
           ],
           "cons": [
-            "Battery size and runtime are not stated",
+            "Check battery size and runtime in the listing",
             "A personal breeze, not a room cooler"
           ],
           "bestFor": "The officemate who moves between desk, meetings and a hot commute",
@@ -1158,7 +1158,7 @@
           "slot": "The flame diffuser",
           "label": "Most eye-catching",
           "name": "Flame-effect USB aroma diffuser",
-          "brand": "Unbranded",
+          "brand": "Generic",
           "verdict": "A little desk show: cool mist lit up so it looks like a dancing flame, with no fire and no heat.",
           "summary": "A compact ultrasonic diffuser whose mist is lit from below so it looks like a flickering flame, orange on the white version and purple on the black one in the photo. It runs on USB and can be used with water alone or a few drops of essential oil.",
           "evidence": "guidance",
@@ -1169,7 +1169,7 @@
               "url": "https://www.epa.gov/indoor-air-quality-iaq/use-and-care-home-humidifiers"
             },
             {
-              "point": "This is an unbranded plug-in gadget. DTI says the PS mark and ICC sticker are the consumer's assurance of certified quality and safety, so look for one on the box and keep the packaging.",
+              "point": "For any plug-in gadget, DTI says the PS mark and ICC sticker are the consumer's assurance of certified quality and safety, so look for one on the box and keep the packaging.",
               "source": "DTI Bureau of Philippine Standards: PS and ICC marks",
               "url": "https://bps.dti.gov.ph/product-certification/ps-and-icc-marks"
             },
@@ -1186,8 +1186,8 @@
             "Works with water alone or a drop of oil"
           ],
           "cons": [
-            "Unbranded; the seller's store name does not show",
-            "Needs regular emptying and cleaning"
+            "Generic brand; read the reviews before you order",
+            "Empty and rinse it often to keep it fresh"
           ],
           "bestFor": "The officemate who loves a cosy, calming corner at their desk",
           "tip": "White suits a light desk and black looks dramatic with the purple flame. Wrap a small bottle of distilled water with it as a thoughtful extra.",
@@ -1223,7 +1223,7 @@
               "url": "https://www.epa.gov/indoor-air-quality-iaq/use-and-care-home-humidifiers"
             },
             {
-              "point": "This is a little-known brand sold by a reseller. DTI says the PS mark and ICC sticker show certified quality and safety, so check the box for one and keep the packaging.",
+              "point": "DTI says the PS mark and ICC sticker show certified quality and safety, so check the box for one and keep the packaging.",
               "source": "DTI Bureau of Philippine Standards: PS and ICC marks",
               "url": "https://bps.dti.gov.ph/product-certification/ps-and-icc-marks"
             },
@@ -1240,8 +1240,8 @@
             "Small and USB powered for a desk"
           ],
           "cons": [
-            "Slightly over ₱500 at our last check",
-            "Sold by a reseller, not a KINSCOTER store"
+            "Just over ₱500 at our last check",
+            "Sold through a reseller, not a KINSCOTER store"
           ],
           "bestFor": "The officemate who likes a calm, softly lit desk on late shifts",
           "tip": "It runs on USB, so it can draw power from a laptop or phone charger; check whether an adapter is included. Add a small bottle of distilled water.",

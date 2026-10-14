@@ -12,7 +12,8 @@ const OUT = path.join(ROOT, 'src', 'data', 'products.json');
 
 function idsOf(guide) {
   const items = guide.items || (guide.sections || []).flatMap(s => s.items);
-  return items.flatMap(it => [it.id, it.alt?.id]).filter(Boolean).map(String);
+  const extras = (guide.sections || []).flatMap(s => (s.extras || []).map(e => e.id));
+  return [...items.flatMap(it => [it.id, it.alt?.id]), ...extras].filter(Boolean).map(String);
 }
 
 const existing = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : {};
