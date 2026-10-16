@@ -13,11 +13,11 @@
   "title": "Find your home style: MUJI-inspired, Japandi and Modern Filipino finds",
   "shortTitle": "Shop by home style",
   "kicker": "Home & Decor · Style guide",
-  "dek": "Three calm, condo-friendly looks built from honest materials (glass, wood, stoneware, cotton and native fibres) as four-piece sets you can actually buy.",
-  "teaser": "Three condo-friendly looks, each a four-piece set in glass, wood, stoneware and native fibres.",
-  "description": "Four-piece sets for three home styles that suit Filipino condos, all in good materials (glass, wood, stoneware, cotton, capiz and native fibres): MUJI-inspired, Japandi and Modern Filipino.",
+  "dek": "Three calm, condo-friendly looks built from honest materials (glass, wood, stoneware, cotton and native fibres) as small sets you can actually buy.",
+  "teaser": "Three condo-friendly looks, each a small set in glass, wood, stoneware and native fibres.",
+  "description": "Small sets for three home styles that suit Filipino condos, all in good materials (glass, wood, stoneware, cotton, capiz and native fibres): MUJI-inspired, Japandi and Modern Filipino.",
   "published": "2026-10-12",
-  "updated": "2026-10-12",
+  "updated": "2026-10-16",
   "readMinutes": 10,
   "hero": {
     "img": "banner-home",
@@ -26,7 +26,7 @@
   },
   "intro": [
     "Your home doesn't need a renovation to feel like you. Most of a style comes down to a handful of choices: the colours you repeat, the materials you can touch, and how much you leave out.",
-    "For each of the three looks below, we read how design writers define it, picked the four pieces that do the most to create it in a small space, and only then searched for products that fit. Each set shares one palette, so the pieces look right together."
+    "For each of the three looks below, we read how design writers define it, picked the few pieces that do the most to create it in a small space, and only then searched for products that fit. Each set shares one palette, so the pieces look right together."
   ],
   "curation": {
     "title": "Define the look, then choose honest materials",
@@ -39,7 +39,7 @@
       "Chose four slots per style that create the look in a small space, with criteria for material, colour and size.",
       "Compared 2 to 4 Lazada listings per slot, favouring named brands, local makers and established stores.",
       "Checked every product photo to make sure the item really fits the look and matches its listing.",
-      "Kept each set to one palette so all four pieces work in a single room."
+      "Kept each set to one palette so all the pieces work in a single room."
     ],
     "sources": [
       {
@@ -94,7 +94,7 @@
         "Choose wood, cotton, linen and other organic textures, as designer Yoko Kloeden advises in Livingetc. Clear glass and matte stoneware keep the same quiet feel.",
         "Repeat one colour and material: one bedding shade, matching jars, one plate set. A full shelf then reads as one calm block."
       ],
-      "shoppingList": "Four calm basics in honest materials: plain cotton bedding, a ribbed glass storage jar with a bamboo lid, matte speckled stoneware for everyday meals, and a glass reed diffuser. White, oat, clear glass and a soft sage keep the set quiet.",
+      "shoppingList": "Three calm basics in honest materials: plain cotton bedding, a ribbed glass storage jar with a bamboo lid and a glass reed diffuser. White, oat, clear glass and a soft sage keep the set quiet.",
       "note": "MUJI is named here only as the inspiration. These aren't MUJI products, and Great Finds isn't affiliated with MUJI.",
       "items": [
         {
@@ -204,55 +204,6 @@
             "label": "Tall jar option",
             "note": "Simpler straight-sided jars from the same store, for a set of tall matching canisters for pasta, grains and nuts."
           }
-        },
-        {
-          "id": "3585247390",
-          "slot": "The plates",
-          "label": "Best everyday ceramic",
-          "name": "BILI.PH matte speckled stoneware plates and bowls",
-          "brand": "BILI.PH",
-          "verdict": "Matte, speckled stoneware with a neat raised rim, the quiet and useful kind of tableware this look is built on.",
-          "summary": "These plates have a soft, frosted glaze flecked with tiny dark specks, so they feel handmade without being fussy. Plates and bowls are in the same listing, so you can build one simple matching set. Popular with recent buyers.",
-          "evidence": "guidance",
-          "reviewers": [
-            {
-              "point": "Stoneware is fired at about 1,100-1,300 °C to be impervious to water, and its uses include tableware.",
-              "source": "Wikipedia: Stoneware",
-              "url": "https://en.wikipedia.org/wiki/Stoneware"
-            },
-            {
-              "point": "Common-sense care: matte glazes can show cutlery marks. Hand-wash or use a gentle cycle, and check the listing before using a microwave or oven.",
-              "source": "",
-              "url": ""
-            }
-          ],
-          "reviewersTitle": "Good to know",
-          "pros": [
-            "Stoneware with a matte, lightly speckled glaze",
-            "Plates and bowls in one listing",
-            "Raised rim keeps sauces on the plate"
-          ],
-          "cons": [
-            "Sold through a reseller shop",
-            "Check the listing for microwave and dishwasher use"
-          ],
-          "bestFor": "A first matching dinnerware set for a condo",
-          "tip": "Start with two plate sizes and one bowl in a single colour. A small matching set looks calmer than a big mixed one.",
-          "facts": [
-            {
-              "k": "Material",
-              "v": "Stoneware (per listing name)"
-            },
-            {
-              "k": "Glaze",
-              "v": "Matte 'sesame' speckle (per name)"
-            },
-            {
-              "k": "Pieces",
-              "v": "Plates and bowls (per listing name)"
-            }
-          ],
-          "alt": null
         },
         {
           "id": "4689275643",
@@ -587,7 +538,7 @@
         "Keep the base neutral (white, beige, taupe) so the woven textures and the capiz glow stand out.",
         "In a humid condo, give woven pieces air. Don't push baskets flat against walls or leave damp laundry in them."
       ],
-      "shoppingList": "One local material per piece: capiz for light, rattan and abaca for the table, buri for storage and acacia for warm wood. Honey, tan and pearl tones against white walls make them work together.",
+      "shoppingList": "One local material per piece: capiz for light, rattan and abaca for the table and buri for storage. Honey, tan and pearl tones against white walls make them work together.",
       "items": [
         {
           "id": "3581736538",
@@ -750,60 +701,6 @@
             }
           ],
           "alt": null
-        },
-        {
-          "id": "935964540",
-          "slot": "The acacia piece",
-          "label": "Best local wood",
-          "name": "KAHOY round acacia wood tray",
-          "brand": "KAHOY",
-          "verdict": "A round acacia tray with honey-to-caramel grain from a local woodcraft store, for serving, styling or corralling the coffee table.",
-          "summary": "Hardwood is central to Filipino homes, and a solid wood tray is an easy, useful way to bring it into a modern room. Use it for merienda, a grazing spread for the barkada, or to group the capiz lamp and a small plant on the coffee table.",
-          "evidence": "guidance",
-          "reviewers": [
-            {
-              "point": "Designers modernising Filipino homes use natural materials like narra wood, capiz shells and abaca fibres, mixed with contemporary finishes.",
-              "source": "Tatler Asia (Celine Dabao, 2025)",
-              "url": "https://www.tatlerasia.com/homes/architecture-design/hurray-design-modernising-filipino-homes"
-            },
-            {
-              "point": "Common-sense care: hand-wash and dry right away, never soak it or use the dishwasher, and rub in a little food-safe mineral oil now and then.",
-              "source": "",
-              "url": ""
-            }
-          ],
-          "reviewersTitle": "Good to know",
-          "pros": [
-            "Solid acacia with warm, visible grain",
-            "Sold by a local woodcraft store",
-            "Serving tray and coffee-table styling in one"
-          ],
-          "cons": [
-            "Smaller local maker; read the reviews first",
-            "Hand-wash and oil now and then to keep it glowing"
-          ],
-          "bestFor": "Merienda, grazing boards and coffee tables",
-          "tip": "Rub in a little food-safe mineral oil every few weeks to keep the grain rich and stop the wood from drying out.",
-          "facts": [
-            {
-              "k": "Material",
-              "v": "Acacia wood (per listing name)"
-            },
-            {
-              "k": "Shape",
-              "v": "Round, low rim (per listing photo)"
-            },
-            {
-              "k": "Uses",
-              "v": "Serving or wine tray (per name)"
-            }
-          ],
-          "alt": {
-            "id": "1322734069",
-            "name": "KAHOY 6-inch acacia wood plate",
-            "label": "Small plate option",
-            "note": "The same maker's small acacia plate, for snacks, a soap bar or a key dish. Read the reviews before you order."
-          }
         }
       ]
     }
