@@ -8,6 +8,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = path.join(ROOT, 'site');
 const BASE_URL = 'https://greatfinds.space/';
 const PINTEREST = 'https://www.pinterest.com/samsanclaria2295/';
+const FACEBOOK = 'https://www.facebook.com/1364644780065569';
 const EMAIL = 'samsanclaria2295@gmail.com';
 
 const readJSON = p => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
@@ -45,6 +46,7 @@ const ICON = {
   plus: '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v12M2 8h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
   star: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z"/></svg>',
   pinterest: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.64 19.31c-.09-.79-.17-2 .03-2.86l1.17-4.97s-.3-.6-.3-1.48c0-1.39.81-2.43 1.81-2.43.85 0 1.27.64 1.27 1.41 0 .86-.55 2.14-.83 3.33-.24 1 .5 1.81 1.48 1.81 1.78 0 3.14-1.870 3.14-4.58 0-2.39-1.72-4.07-4.18-4.07-2.85 0-4.52 2.14-4.52 4.35 0 .86.33 1.78.74 2.28.08.1.09.19.07.29l-.28 1.13c-.04.18-.15.22-.33.13-1.25-.58-2.03-2.41-2.03-3.880 0-3.16 2.3-6.06 6.62-6.06 3.48 0 6.18 2.48 6.18 5.79 0 3.45-2.18 6.23-5.2 6.23-1.02 0-1.97-.53-2.3-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62A10 10 0 1 0 12 2z"/></svg>',
+  facebook: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8z"/></svg>',
   mail: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
   tag: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7.5" cy="8.5" r="1.6" fill="currentColor"/></svg>',
   scale: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5 21h14M4 7h16M7 7l-3 7a3 3 0 0 0 6 0L7 7zm10 0-3 7a3 3 0 0 0 6 0l-3-7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>',
@@ -102,7 +104,7 @@ function mobileMenu(r) {
     ${cats}
     <a href="${r}guides/">All guides</a>
     <a href="${r}about.html">How we pick</a>
-    <div class="group"><a href="${PINTEREST}" target="_blank" rel="noopener">Pinterest</a><a href="mailto:${EMAIL}">Contact</a></div>
+    <div class="group"><a href="${PINTEREST}" target="_blank" rel="noopener">Pinterest</a><a href="${FACEBOOK}" target="_blank" rel="noopener">Facebook</a><a href="mailto:${EMAIL}">Contact</a></div>
   </nav>`;
 }
 
@@ -144,7 +146,8 @@ function layout({ r = '', title, description, canonical, og = 'og-home.jpg', act
     <nav class="nav right" aria-label="Site">
       <a class="nav-link" href="${r}guides/"${cur('guides')}>All guides</a>
       <a class="nav-link" href="${r}about.html"${cur('about')}>How we pick</a>
-      <a class="nav-link pin" href="${PINTEREST}" target="_blank" rel="noopener">${ICON.pinterest}Pinterest</a>
+      <a class="nav-link pin" href="${PINTEREST}" target="_blank" rel="noopener">${ICON.pinterest}<span>Pinterest</span></a>
+      <a class="nav-link pin" href="${FACEBOOK}" target="_blank" rel="noopener">${ICON.facebook}<span>Facebook</span></a>
     </nav>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span><span></span></button>
   </div>
@@ -164,6 +167,7 @@ ${body}
       </div>
       <div class="socials">
         <a href="${PINTEREST}" target="_blank" rel="noopener" aria-label="Great Finds on Pinterest">${ICON.pinterest}</a>
+        <a href="${FACEBOOK}" target="_blank" rel="noopener" aria-label="Great Finds on Facebook">${ICON.facebook}</a>
         <a href="mailto:${EMAIL}" aria-label="Email Great Finds">${ICON.mail}</a>
       </div>
     </div>
@@ -506,7 +510,7 @@ function categoryPage(key) {
 </section>
 <section class="section" style="padding-top:var(--s6)">
   <div class="wrap">
-    ${gs.length ? topicBlocks : `<div class="empty" data-reveal><h3>Our first ${esc(c.short.toLowerCase())} guides are on the way</h3><p>We only publish a guide once we've found products we're comfortable recommending. Follow along on <a href="${PINTEREST}" target="_blank" rel="noopener">Pinterest</a> to see them first, or browse <a href="${r}guides/">all guides</a> in the meantime.</p></div>`}
+    ${gs.length ? topicBlocks : `<div class="empty" data-reveal><h3>Our first ${esc(c.short.toLowerCase())} guides are on the way</h3><p>We only publish a guide once we've found products we're comfortable recommending. Follow along on <a href="${PINTEREST}" target="_blank" rel="noopener">Pinterest</a> or <a href="${FACEBOOK}" target="_blank" rel="noopener">Facebook</a> to see them first, or browse <a href="${r}guides/">all guides</a> in the meantime.</p></div>`}
   </div>
 </section>
 <section class="section tint">
@@ -597,9 +601,9 @@ function homePage() {
   <div class="t-img">${img(r, 'everyday', 'AI sample render of a sunlit condo kitchen counter with a rattan tray holding a phone on a stand, a cup of coffee and a small plant', '(max-width: 920px) 100vw, 45vw')}<span class="ai-chip">AI sample render</span></div>
   <div class="t-follow" data-reveal>
     <div class="badge">${ring('Good finds · Good finds · Good finds · ', 'ring-follow')}<span class="center">${ICON.tag}</span></div>
-    <p style="max-width:18em">New finds and room ideas, pinned as we publish them.</p>
-    <span class="handle">pinterest.com/samsanclaria2295</span>
+    <p style="max-width:18em">New finds, room ideas and Reels, shared as we publish them.</p>
     <a class="link-arrow" href="${PINTEREST}" target="_blank" rel="noopener">Follow on Pinterest ${ICON.arrow}</a>
+    <a class="link-arrow" href="${FACEBOOK}" target="_blank" rel="noopener">Follow on Facebook ${ICON.arrow}</a>
   </div>
 </section>`;
   return layout({ r, title: 'Great Finds | Researched product finds for Filipino shoppers', description: 'Great Finds shares researched product finds and buying guides for Filipino shoppers: tech, home and decor, beauty and seasonal picks, with honest notes and sources.', canonical: '', body });
