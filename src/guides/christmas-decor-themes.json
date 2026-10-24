@@ -23,7 +23,7 @@
   "teaser": "Gold, champagne, red and green, white, candy or Filipino: four pieces for each theme.",
   "description": "Christmas decor theme ideas for Filipino homes, each with four products: gold, champagne and blush, red and green, white Christmas, candy and colourful, and Filipino capiz and parols.",
   "published": "2026-10-12",
-  "updated": "2026-10-12",
+  "updated": "2026-10-25",
   "readMinutes": 12,
   "hero": {
     "img": "banner-themes",
@@ -320,70 +320,11 @@
         "Dusty rose"
       ],
       "tips": [
-        "Let the tree carry the pink and keep ornaments in rose gold and champagne, so the corner reads soft, not candy.",
+        "Use blush in one or two big touches, like a pink tree skirt or ribbon, and keep ornaments in rose gold and champagne, so the corner reads soft, not candy.",
         "Mix shiny, matte and glitter balls of one colour for depth without adding more colours.",
         "Add one natural texture, like a handwoven runner, so the pastels feel lived-in."
       ],
       "items": [
-        {
-          "id": "4150582400",
-          "slot": "Slim pink flocked tree",
-          "label": "Best blush tree",
-          "name": "Great-King Pink Flocked Slim Pencil Christmas Tree",
-          "brand": "Great-King",
-          "verdict": "A narrow pink pencil tree dusted with white flocking: tall enough to feel grand, slim enough for a condo corner.",
-          "summary": "A pencil tree takes about the floor space of a side table, and small-room advice favours a taller, slimmer tree that draws the eye up. Pink branches with white snowy tips give the blush look on their own, so the ornaments can stay simple.",
-          "evidence": "guidance",
-          "reviewers": [
-            {
-              "point": "Designer Marie Flanigan, quoted by Livingetc, suggests a taller, slimmer tree that draws the eye upward without crowding the floor, placed in a corner or near a window.",
-              "source": "Livingetc: How Can I Fit a Christmas Tree in a Small Living Room?",
-              "url": "https://www.livingetc.com/advice/how-to-fit-a-christmas-tree-in-a-small-living-room"
-            },
-            {
-              "point": "Homes & Gardens suggests going all out with a pink faux Christmas tree for a bright scheme, and a decorating expert pairs blush pink with gold for a softer look.",
-              "source": "Homes & Gardens: Christmas color schemes, 9 seasonal palettes (Zara Stacey, updated 29 Oct 2024)",
-              "url": "https://www.homesandgardens.com/interior-design/christmas-color-schemes"
-            },
-            {
-              "point": "Keep the tree at least 3 feet (about 1 m) from heat sources and make sure it doesn't block an exit.",
-              "source": "U.S. Fire Administration: Holiday fire safety",
-              "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/holiday/"
-            }
-          ],
-          "reviewersTitle": "Good to know",
-          "pros": [
-            "Slim shape saves floor space in a condo",
-            "Pink and snow-white built in, so few trims needed",
-            "From Great-King's own store, a known tree brand"
-          ],
-          "cons": [
-            "A floor-standing size, made for a corner",
-            "Fluff gently; a little flocking may fall at first"
-          ],
-          "bestFor": "A blush corner with a real tree that still leaves room to walk",
-          "tip": "Fluff every branch tip outward before decorating, and keep it about 1 m from lamps, the stove and other heat sources.",
-          "facts": [
-            {
-              "k": "Shape",
-              "v": "Slim pencil (per photo)"
-            },
-            {
-              "k": "Colour",
-              "v": "Pink with white flocking (title)"
-            },
-            {
-              "k": "Heights",
-              "v": "Several; check sizes on listing"
-            }
-          ],
-          "alt": {
-            "id": "4141944755",
-            "name": "Wisher Pink Pine Christmas Tree (4-7 ft)",
-            "label": "Fuller pink tree",
-            "note": "From about ₱577 for the smallest size. A fuller, classic-shaped pink pine on a metal stand, with no flocking. Needs more floor space than the pencil tree."
-          }
-        },
         {
           "id": "3481423410",
           "slot": "Rose-gold ornament set",
@@ -391,7 +332,7 @@
           "name": "JVL 20-piece Rose Gold Christmas Ball Set",
           "brand": "No Brand",
           "verdict": "Twenty rose-gold balls in three finishes, enough to dress a slim tree in one colour.",
-          "summary": "One colour in shiny, matte and glitter finishes is the easiest way to make a tree look styled, and rose gold bridges the pink tree and the champagne accents. Twenty pieces cover a slim tree, with a few left for a bowl or the side table.",
+          "summary": "One colour in shiny, matte and glitter finishes is the easiest way to make a tree look styled, and rose gold bridges blush pink and the champagne accents. Twenty pieces cover a slim tree, with a few left for a bowl or the side table.",
           "evidence": "guidance",
           "reviewers": [
             {

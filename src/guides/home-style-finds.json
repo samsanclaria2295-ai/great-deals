@@ -17,7 +17,7 @@
   "teaser": "Three condo-friendly looks, each a small set in glass, wood, stoneware and native fibres.",
   "description": "Small sets for three home styles that suit Filipino condos, all in good materials (glass, wood, stoneware, cotton, capiz and native fibres): MUJI-inspired, Japandi and Modern Filipino.",
   "published": "2026-10-12",
-  "updated": "2026-10-16",
+  "updated": "2026-10-25",
   "readMinutes": 10,
   "hero": {
     "img": "banner-home",
@@ -145,65 +145,6 @@
             }
           ],
           "alt": null
-        },
-        {
-          "id": "3085952323",
-          "slot": "The kitchen jar",
-          "label": "Most creative",
-          "name": "LOCAUPIN ribbed glass jar with bamboo lid and ring handle",
-          "brand": "LOCAUPIN",
-          "verdict": "A fluted glass jar with a bamboo lid and a small ring pull. Everyday storage that looks good enough to leave on the counter.",
-          "summary": "Clear glass lets you see what you have, and the ribbed body and warm bamboo lid make coffee, tea, oats or snacks look tidy on an open shelf. It comes from LOCAUPIN's own store and is popular with recent buyers. Two or three in a row look best.",
-          "evidence": "guidance",
-          "reviewers": [
-            {
-              "point": "Borosilicate glass has a very low coefficient of thermal expansion, which makes it more resistant to thermal shock than other common glass.",
-              "source": "Wikipedia: Borosilicate glass",
-              "url": "https://en.wikipedia.org/wiki/Borosilicate_glass"
-            },
-            {
-              "point": "The look is about living well with less, and the designers Livingetc spoke to say storage should be subtle, seamless and tidy.",
-              "source": "Livingetc (Lilith Hudson, 2025)",
-              "url": "https://www.livingetc.com/ideas/muji-style-living-room"
-            },
-            {
-              "point": "Common-sense care: hand-wash the bamboo lid and dry it fully. Don't soak it or put it in the dishwasher.",
-              "source": "",
-              "url": ""
-            }
-          ],
-          "reviewersTitle": "Good to know",
-          "pros": [
-            "Glass and bamboo, nothing plastic-looking",
-            "Ribbed body and ring pull give it character",
-            "Brand's own store, steady recent sales"
-          ],
-          "cons": [
-            "Check the capacity options in the listing",
-            "Hand-wash and dry the bamboo lid to keep it nice"
-          ],
-          "bestFor": "Open kitchen shelves and coffee corners",
-          "tip": "Decant only what you use daily, like coffee, oats or sugar, and keep the jars in one row. Matching jars look calmer than mixed packaging.",
-          "facts": [
-            {
-              "k": "Body",
-              "v": "Ribbed clear glass (per listing photo)"
-            },
-            {
-              "k": "Lid",
-              "v": "Bamboo, metal ring pull (per name)"
-            },
-            {
-              "k": "Use",
-              "v": "Airtight dry-food storage (per name)"
-            }
-          ],
-          "alt": {
-            "id": "1370950827",
-            "name": "LOCAUPIN bamboo-lid glass canister (straight cylinder)",
-            "label": "Tall jar option",
-            "note": "Simpler straight-sided jars from the same store, for a set of tall matching canisters for pasta, grains and nuts."
-          }
         },
         {
           "id": "4689275643",
