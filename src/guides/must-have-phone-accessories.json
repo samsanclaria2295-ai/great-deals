@@ -19,7 +19,7 @@
   "teaser": "Twelve clever picks: robot chargers, fold-flat stands, creative cases and a macro lens.",
   "description": "Creative phone accessories worth buying in the Philippines: clever stands and holders, creative cases, design-forward chargers and power banks, and fun extras like a macro lens, a camera grip and trackers.",
   "published": "2026-10-12",
-  "updated": "2026-10-12",
+  "updated": "2026-10-29",
   "readMinutes": 10,
   "hero": {
     "img": "banner-phone",
@@ -759,12 +759,7 @@
               "v": "Keys, wallet, luggage"
             }
           ],
-          "alt": {
-            "id": "15582196925",
-            "name": "UGREEN Finder Pro (Apple and Android)",
-            "label": "For Android users",
-            "note": "A USB-C rechargeable UGREEN tag that works with Apple Find My or Android's Find Hub, per the listing, sold by JG Superstore Pro."
-          }
+          "alt": null
         }
       ]
     }

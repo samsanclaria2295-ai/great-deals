@@ -20,11 +20,11 @@
   "seoTitle": "Christmas Door Wreath Ideas Philippines 2026: Wreaths, Swags and Garlands",
   "shortTitle": "Door wreaths and garlands",
   "kicker": "Seasonal · Christmas 2026",
-  "dek": "6 hand-picked wreaths, swags and garlands with pinecones, berries and soft lights, so your front door says Merry Christmas before anyone knocks.",
+  "dek": "5 hand-picked wreaths and garlands with pinecones, berries and soft lights, so your front door says Merry Christmas before anyone knocks.",
   "teaser": "Pinecone wreaths, pre-lit swags and garlands that make a condo door feel like Christmas.",
-  "description": "Christmas door wreath and garland ideas for Filipino condos and homes: pinecone and berry wreaths, wreaths with lights, a pre-lit teardrop door swag and a long pine garland, with prices and tips for hanging them without nails.",
+  "description": "Christmas door wreath and garland ideas for Filipino condos and homes: pinecone and berry wreaths, wreaths with lights, a long pine garland, with prices and tips for hanging them without nails.",
   "published": "2026-10-16",
-  "updated": "2026-10-16",
+  "updated": "2026-10-29",
   "readMinutes": 7,
   "hero": {
     "img": "banner-xm-wreaths",
@@ -33,7 +33,7 @@
   },
   "intro": [
     "Your front door is the first bit of Christmas your guests see, and in a condo it might be the only spot outside your unit you can dress up. A wreath or swag on the door sets the mood before anyone even steps into the sala. Many Pinoy homes start decorating as the -ber months roll in, and late October to November is a good time to shop, with Lazada's 11.11 sale coming up and plenty of time left for delivery before December parties and Noche Buena.",
-    "We split the picks into two looks. Door wreaths are the classic round ring, from a natural pinecone-and-berry style to full, bow-topped wreaths with a \"Merry Christmas\" sign and lights. Door swags and garlands are the longer shapes: a teardrop swag for the door or a stair rail, and a long frosted garland you can drape around the door frame. Check each listing for size and how the lights are powered before you add to cart."
+    "We split the picks into two looks. Door wreaths are the classic round ring, from a natural pinecone-and-berry style to full, bow-topped wreaths with a \"Merry Christmas\" sign and lights. The garland is the longer shape: a frosted pine rope you can drape around the door frame or along a stair rail. Check each listing for size and how the lights are powered before you add to cart."
   ],
   "curation": {
     "title": "Hand-picked for a fuller, real-looking door",
@@ -323,67 +323,18 @@
     },
     {
       "id": "swags",
-      "name": "Door swags and garlands",
+      "name": "Door garlands",
       "short": "Swags & garlands",
       "img": "xm-swags",
       "alt": "AI sample render of a townhouse front door framed by a thick pine garland with warm lights and a teardrop swag of pinecones and berries, with potted mini pines",
       "definition": "Swags and garlands are the longer cousins of the wreath. A teardrop swag hangs top-down on a door or rail like a bouquet, while a garland is a long rope of pine you drape around the door frame, a console or a stair rail. Pair either one with a wreath for a fuller, layered entrance.",
-      "shoppingList": "A teardrop swag and a long frosted garland for the door, frame or stair rail.",
+      "shoppingList": "A long frosted pine garland for the door frame or stair rail.",
       "tips": [
         "Drape a garland around the door frame with removable hooks, then hang a wreath or swag in the centre for a layered look.",
         "Check that a garland won't block the door's swing, the peephole or the door number.",
         "If the lights use batteries, keep spares handy and take them out when you pack the decor away."
       ],
       "items": [
-        {
-          "id": "5220171482",
-          "slot": "Cordless prelit teardrop swag",
-          "label": "Best door swag",
-          "name": "Cordless Prelit Christmas Teardrop Swag for Doors and Stairs",
-          "brand": "Independent shop",
-          "verdict": "A lush teardrop swag with a big red bow, berries and pinecones, prelit and cordless so there's no wire across the door.",
-          "summary": "Per the listing photo, this swag is a long teardrop of frosted pine and silvery leaves with a large red velvet-look bow, red berry clusters, pinecones and silver baubles, with warm lights tucked in. The listing name says it's cordless and prelit, and the photo shows it hung on a stair banister. It's an elegant change from the usual round wreath.",
-          "evidence": "guidance",
-          "reviewers": [
-            {
-              "point": "Cordless lights usually run on batteries; store spares in a cool, dry place and remove them when packing the swag away.",
-              "source": "Energizer: Battery care",
-              "url": "https://energizer.com/about-batteries/battery-care/"
-            },
-            {
-              "point": "Keep the swag away from candles and heat, and switch the lights off at bedtime.",
-              "source": "NFPA: Winter Holiday Safety tip sheet",
-              "url": "https://content.nfpa.org/-/media/project/storefront/catalog/files/safety-tip-sheets/winterholidaysafetytips.pdf?rev=e33c6d4fbc9547acb2c4e43a29f590cc"
-            }
-          ],
-          "reviewersTitle": "Good to know",
-          "pros": [
-            "Cordless and prelit, per the listing name",
-            "Big red bow, berries and pinecones, per the photo",
-            "Works on a door, wall or stair rail"
-          ],
-          "cons": [
-            "Battery type and length aren't stated; check the listing",
-            "Lights run on batteries, so keep spares handy"
-          ],
-          "bestFor": "Condo owners who want an elegant, lit door with no cord to manage",
-          "tip": "Hang it from the top with a sturdy over-the-door hook so the teardrop shape falls straight, then fluff the pine tips.",
-          "facts": [
-            {
-              "k": "Shape",
-              "v": "Teardrop swag (per photo)"
-            },
-            {
-              "k": "Lights",
-              "v": "Prelit, cordless (per name)"
-            },
-            {
-              "k": "Length",
-              "v": "Check the listing"
-            }
-          ],
-          "alt": null
-        },
         {
           "id": "4538551777",
           "slot": "Long frosted pine garland",
